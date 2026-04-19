@@ -17,7 +17,7 @@ An interactive data visualization of 849 Chinese universities retrieved from Wik
 - **Primary:** [Wikidata](https://www.wikidata.org) — universities (`Q3918`) located in China (`Q148`), retrieved via SPARQL. License: **CC0**.
 - **Secondary:** Manually compiled province → macro-region classification table, based on the National Bureau of Statistics of China. License: **CC0**.
 
-The dataset of 849 unique universities is smaller than official Ministry of Education counts (~2,820 HEIs) because Wikidata skews toward well-known institutions and the query excludes vocational colleges. See the notebook and website for a full discussion of limitations.
+The dataset of 849 unique universities is smaller than official Ministry of Education counts (~1300 HEIs) because Wikidata skews toward well-known institutions and the query excludes vocational colleges. See the notebook and website for a full discussion of limitations.
 
 ## Repository Structure
 
