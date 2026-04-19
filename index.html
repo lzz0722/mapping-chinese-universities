@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chinese University Expansion · Data Visualization</title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1408;
+    --paper: #f5f0e8;
+    --cream: #ede8da;
+    --red: #c0392b;
+    --gold: #b8860b;
+    --blue: #2c5f8a;
+    --muted: #7a6e5e;
+    --border: #c8bfa8;
+    --highlight: #e8c547;
+    --clr-east: #c0392b;
+    --clr-north: #2c5f8a;
+    --clr-central: #b8860b;
+    --clr-south: #27ae60;
+    --clr-northeast: #8e44ad;
+    --clr-southwest: #e67e22;
+    --clr-northwest: #16a085;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Lora', Georgia, serif;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  header {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 4rem 2rem 3rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: repeating-linear-gradient(
+      45deg, transparent, transparent 40px,
+      rgba(255,255,255,0.02) 40px, rgba(255,255,255,0.02) 41px
+    );
+  }
+  header .eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--highlight);
+    margin-bottom: 1.2rem;
+    opacity: 0.9;
+    position: relative;
+  }
+  header h1 {
+    font-family: 'Lora', serif;
+    font-size: clamp(1.9rem, 4.5vw, 3.1rem);
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 0.65rem;
+    position: relative;
+  }
+  header .subtitle {
+    font-style: italic;
+    font-size: 1.05rem;
+    color: #c8bfa8;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  .meta-bar {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--highlight);
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 1.5rem;
+    position: relative;
+  }
+  .meta-bar span { opacity: 0.8; }
+  .meta-bar strong { opacity: 1; color: white; }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  section {
+    padding: 4rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+    margin-bottom: 1.6rem;
+  }
+  .rq-num {
+    font-family: 'Space Mono', monospace;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--highlight);
+    background: var(--ink);
+    width: 3.2rem;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 3px;
+    line-height: 1;
+  }
+  .section-title {
+    font-family: 'Lora', serif;
+    font-size: clamp(1.2rem, 2.6vw, 1.7rem);
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--ink);
+    padding-top: 0.35rem;
+  }
+  .section-desc {
+    font-size: 0.95rem;
+    color: var(--muted);
+    max-width: 700px;
+    margin-bottom: 1.8rem;
+    font-style: italic;
+  }
+
+  .chart-wrap {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1.2rem;
+    box-shadow: 2px 4px 12px rgba(0,0,0,0.06);
+  }
+
+  .insight {
+    margin-top: 1.2rem;
+    padding: 1rem 1.4rem;
+    background: var(--cream);
+    border-left: 3px solid var(--red);
+    font-size: 0.9rem;
+    color: var(--ink);
+    line-height: 1.75;
+  }
+  .insight strong { color: var(--red); }
+  .insight .cause {
+    margin-top: 0.65rem;
+    padding-top: 0.65rem;
+    border-top: 1px dashed var(--border);
+    font-size: 0.855rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+  .insight .cause b { color: var(--ink); font-style: normal; }
+
+  .limitations {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 3.5rem 0;
+  }
+  .lim-title {
+    font-family: 'Lora', serif;
+    font-size: 1.55rem;
+    font-weight: 600;
+    color: var(--paper);
+    margin-bottom: 0.3rem;
+    text-align: center;           /* 标题居中 */
+  }
+  .lim-subtitle {
+    font-size: 0.85rem;
+    color: #9a8e7e;
+    font-style: italic;
+    margin-bottom: 2rem;
+    text-align: center;           /* 副标题居中 */
+  }
+  .lim-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 强制3列 */
+    gap: 1.5rem;
+    max-width: 900px;                       /* 限制最大宽度使卡片居中更美观 */
+    margin: 0 auto;                         /* 水平居中 */
+  }
+  .lim-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 1.2rem 1.4rem;
+    border-radius: 3px;
+  }
+  .lim-card h4 {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--highlight);
+    margin-bottom: 0.6rem;
+  }
+  .lim-card p { font-size: 0.85rem; color: #c8bfa8; line-height: 1.65; }
+
+  footer {
+    background: var(--cream);
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+    border-top: 1px solid var(--border);
+  }
+
+  .ornament {
+    text-align: center;
+    color: var(--border);
+    font-size: 1.1rem;
+    letter-spacing: 0.6em;
+    margin: 0.4rem 0 1.6rem;
+  }
+
+  .map-note {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .intro-section {
+    padding: 3.5rem 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .intro-text {
+    max-width: 700px;
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: #3a3025;
+  }
+  .intro-text em { color: var(--red); font-style: normal; font-weight: 600; }
+
+  .stat-row {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .stat-box {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 1rem 1.6rem;
+    border-radius: 2px;
+    min-width: 128px;
+    text-align: center;
+  }
+  .stat-box .num {
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--highlight);
+    line-height: 1;
+  }
+  .stat-box .label {
+    font-size: 0.71rem;
+    color: #c8bfa8;
+    margin-top: 0.35rem;
+    line-height: 1.4;
+  }
+
+  /* RQ2 dual layout */
+  .rq2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+  .rq2-grid .chart-wrap { min-height: 500px; }
+
+  /* RQ4 leaflet map */
+  #rq4-map {
+    height: 520px;
+    border-radius: 3px;
+    z-index: 1;
+  }
+  .leaflet-container { background: #dce8f5; }
+
+  /* region legend shared */
+  .region-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.4rem;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+  }
+  .region-legend span {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .region-legend .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    display: inline-block;
+  }
+
+  /* Transition text between sections */
+  .transition-text {
+    font-size: 0.88rem;
+    color: var(--muted);
+    font-style: italic;
+    text-align: center;
+    padding: 1.8rem 2rem 0;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 800px) {
+    .rq2-grid { grid-template-columns: 1fr; }
+    .section-header { flex-direction: column; gap: 0.5rem; }
+    .meta-bar { gap: 1rem; }
+    .lim-grid { grid-template-columns: 1fr; }  /* 移动端恢复单列 */
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="eyebrow">Information Visualization · University of Bologna · 2025</p>
+  <h1>The Spatial Expansion of Chinese Higher Education</h1>
+  <p class="subtitle">A data-driven portrait of 849 universities, from 1879 to the present</p>
+  <div class="meta-bar">
+    <span><strong>849</strong> universities</span>
+    <span><strong>32</strong> provincial-level divisions (data excludes Taiwan Province and Macao SAR)</span>
+    <span><strong>7</strong> macro-regions</span>
+    <span>Source: <strong>Wikidata</strong></span>
+    <span><strong>4</strong> Research Questions</span>
+  </div>
+</header>
+
+<div class="container">
+  <div class="intro-section">
+    <p class="intro-text">
+      The development of China's university system has been shaped by distinct historical phases, including political transitions, institutional reforms, and economic expansion. 
+      From a handful of colonial-era institutions in the 1880s, the system grew into a network spanning every corner of a continent-sized country. 
+      This project uses Wikidata records to trace four dimensions of that story: temporal rhythm, provincial inequality, regional sequencing, and geographic drift.
+    </p>
+    <div class="stat-row">
+      <div class="stat-box"><div class="num">849</div><div class="label">unique universities<br>after deduplication</div></div>
+      <div class="stat-box"><div class="num">1879</div><div class="label">earliest institution<br>in dataset</div></div>
+      <div class="stat-box"><div class="num">1958</div><div class="label">peak founding year<br>(61 universities)</div></div>
+      <div class="stat-box"><div class="num">63%</div><div class="label">have valid<br>GPS coordinates</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- RQ1 -->
+<section>
+  <div class="container">
+    <div class="section-header">
+      <div class="rq-num">1</div>
+      <h2 class="section-title">When did China build its universities?</h2>
+    </div>
+    <p class="section-desc">Annual count of newly founded universities (bars) overlaid with cumulative total (line). Four political inflection points are annotated. The x-axis begins at 1895 — only 3 institutions predate this.</p>
+    <div class="ornament">· · ·</div>
+    <div class="chart-wrap">
+      <div id="rq1-chart" style="height:420px;"></div>
+    </div>
+    <div class="insight">
+      <strong>Key finding:</strong> University founding in China is not gradual — it arrives in <strong>four distinct surges</strong>, each triggered by a political event. The 1950s alone account for 213 new institutions (25% of the entire dataset), dwarfing every other period.
+      <div class="cause"><b>Why these surges?</b> Each wave reflects a distinct political logic: 1952 was about socialist transformation of education; 1958 about mass mobilization under the Great Leap Forward; 1978 about recouping lost human capital after a decade of closures; and 1999 about absorbing labor-market pressure from a growing youth population while stimulating domestic demand through education spending.</div>
+    </div>
+  </div>
+</section>
+
+<p class="transition-text">The surges above were not distributed evenly across the country. Which regions benefited most — and which were left behind?</p>
+
+<!-- RQ2 -->
+<section>
+  <div class="container">
+    <div class="section-header">
+      <div class="rq-num">2</div>
+      <h2 class="section-title">Which provinces dominate, and which are left behind?</h2>
+    </div>
+    <p class="section-desc">Left: a bubble map showing university counts per province (bubble size proportional to number of universities). Right: macro-region totals with province breakdown. The East alone holds more institutions than the Northwest, Southwest, and Northeast combined.</p>
+    <div class="ornament">· · ·</div>
+    <!-- Shared region legend -->
+    <div class="region-legend">
+      <span><i class="dot" style="background:var(--clr-east)"></i>East</span>
+      <span><i class="dot" style="background:var(--clr-north)"></i>North</span>
+      <span><i class="dot" style="background:var(--clr-central)"></i>Central</span>
+      <span><i class="dot" style="background:var(--clr-south)"></i>South</span>
+      <span><i class="dot" style="background:var(--clr-northeast)"></i>Northeast</span>
+      <span><i class="dot" style="background:var(--clr-southwest)"></i>Southwest</span>
+      <span><i class="dot" style="background:var(--clr-northwest)"></i>Northwest</span>
+    </div>
+    <div class="rq2-grid">
+      <div class="chart-wrap">
+        <div id="rq2-map" style="height:520px;"></div>
+      </div>
+      <div class="chart-wrap">
+        <div id="rq2-chart" style="height:520px;"></div>
+      </div>
+    </div>
+    <div class="insight">
+      <strong>Key finding:</strong> The top 4 provinces — Jiangsu (50), Guangdong (48), Beijing (40), Liaoning (38) — together hold more universities than the entire Southwest and Northwest combined (114 total). Tibet Autonomous Region has just <strong>1</strong>. The East macro-region alone accounts for 192 universities (23% of the dataset).
+      <div class="cause"><b>Why such concentration?</b> Coastal provinces accumulated compounding advantages: earlier exposure to Western educational models during the late Qing era, higher population density, stronger fiscal capacity, and proximity to foreign-funded missionary colleges. Beijing's prominence reflects deliberate concentration of elite national universities in the political capital. Liaoning's high count is partly rooted in early industrialization under Japanese colonial rule (1932–45), but was further reinforced by post-1949 investments in heavy industry and higher education.</div>
+    </div>
+  </div>
+</section>
+
+<p class="transition-text">These provincial gaps didn't emerge all at once. The next chart reveals when each region received its universities — and which arrived late to the race.</p>
+
+<!-- RQ3 (修改部分) -->
+<section>
+  <div class="container">
+    <div class="section-header">
+      <div class="rq-num">3</div>
+      <h2 class="section-title">When did the imbalance start? A regional timeline</h2>
+    </div>
+    <p class="section-desc">
+      If the East has more universities today, did it always? This heatmap reveals <strong>when each region's stock of universities was actually built</strong>. 
+      Color intensity shows what share of a region's total universities were founded in each decade. 
+      <br><br>
+      <span style="color: var(--red);">▶ Pattern:</span> Coastal regions show a slow, organic trickle over 100 years. 
+      <span style="color: var(--blue);">▶ Pattern:</span> Interior regions show a sudden, massive spike concentrated almost entirely in the 1950s.
+    </p>
+    <div class="ornament">· · ·</div>
+    <div class="chart-wrap">
+      <div id="rq3-chart" style="height:360px;"></div>
+    </div>
+    <div class="insight">
+      <strong>Key finding:</strong> The normalized view reveals a clear <strong>coastal-to-interior gradient</strong>. The East shows sustained activity from the 1900s, with no single decade exceeding 20% — a sign of organic, diversified growth. In contrast, the Northwest and Southwest are almost entirely blank until 1950, when a single decade accounts for over 40% of their total — a signature of <strong>top-down, planned-economy redistribution</strong>.
+      <div class="cause">
+        <b>Regional patterns:</b> The Northeast's early activity (1940s) reflects Japanese colonial infrastructure. Central China's 1950s surge was partly driven by the deliberate relocation of coastal institutions inland — a Cold War strategy to disperse assets away from the coastline. The Southwest only approached parity after the <i>xibu da kaifa</i> (Western Development) campaign in the 2000s. The consistent early shading in East and South, decade after decade, illustrates that regional inequality in higher education was durable — and largely structural.<br><br>
+        <b style="color: var(--red);">Connecting back to RQ2:</b> The dominance of Jiangsu and Guangdong is not just a matter of having "more" universities; it is a result of <strong>a century-long, uninterrupted accumulation</strong>. In contrast, the Southwest's relatively low count today is a direct consequence of having virtually zero higher education infrastructure before 1950. The 1950s construction spree was a sprint from a standing start — and the gap was never fully closed.
+      </div>
+    </div>
+  </div>
+</section>
+
+<p class="transition-text">If the balance of university founding shifted over time, did the geographic center of gravity shift too? The final map traces this movement across 150 years.</p>
+
+<!-- RQ4 -->
+<section>
+  <div class="container">
+    <div class="section-header">
+      <div class="rq-num">4</div>
+      <h2 class="section-title">Did China's educational center of gravity shift?</h2>
+    </div>
+    <p class="section-desc">Mean geographic center of universities founded in each decade, plotted as a trajectory on an interactive map. Circle size reflects the number of universities with valid GPS coordinates in that decade. The trajectory is confined to a surprisingly small region — the middle and lower Yangtze basin.</p>
+    <div class="ornament">· · ·</div>
+    <div class="chart-wrap" style="padding:0; overflow:hidden;">
+      <div id="rq4-map"></div>
+    </div>
+    <p class="map-note">Circle size = universities with valid coordinates · Color gradient: blue (1870s) → red (2020s) · Dotted line = trajectory · Scroll to zoom</p>
+    <div class="insight">
+      <strong>Key finding:</strong> The mean center began near Shanghai in the 1870s (based on a single university with coordinates; the trajectory becomes more stable after 1900), drifted inland and northward through the Republican period (1900s–1940s), then moved <strong>steadily southward</strong> from the 1950s through the 2000s — a 50-year drift of roughly 5° latitude. From 2010 onward, the center shifts noticeably eastward, suggesting a partial reversal toward the Yangtze Delta.
+      <div class="cause"><b>Why these movements?</b> The northward drift in the 1940s reflects wartime relocation of coastal universities to inland Shaanxi and Sichuan. The sustained southward shift after 1950 was driven by forced inland redistribution of Shanghai and Nanjing institutions, new construction in Yunnan, Guizhou, and Guangxi, and the overall 1950s expansion into lower-latitude provinces. The post-2010 eastward rebound likely reflects newer private and applied universities in Zhejiang and Jiangsu. <em>Caution: this trajectory is based on the 63% of universities with valid GPS coordinates — see limitations below. The 1870s point is a single observation and should be interpreted with caution.</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- LIMITATIONS (修改网格布局为3x2，标题居中) -->
+<div class="limitations">
+  <div class="container">
+    <p class="lim-title">Limitations &amp; Data Quality</p>
+    <p class="lim-subtitle">Six known issues that affect interpretation of the findings above</p>
+    <div class="lim-grid">
+      <div class="lim-card">
+        <h4>Coverage Gap</h4>
+        <p>849 records represent roughly <strong>65%</strong> of China's ~1,300 bachelor-degree-granting institutions. The dataset is biased toward historically prominent or internationally visible universities, underrepresenting newer regional colleges and vocational schools.</p>
+      </div>
+      <div class="lim-card">
+        <h4>Missing Coordinates</h4>
+        <p>Only <strong>~63%</strong> of records include valid GPS coordinates. Inner Mongolia (11%), Shanxi (43%), and Henan (50%) are most affected, introducing systematic bias into the RQ4 mean-center trajectory.</p>
+      </div>
+      <div class="lim-card">
+        <h4>Founding Year Gaps</h4>
+        <p>Some records lack an <code>inceptionYear</code>; others record reorganization dates rather than true founding years. Post-2010 data is sparse — recent institutions are likely under-documented in Wikidata.</p>
+      </div>
+      <div class="lim-card">
+        <h4>Geographic Coverage</h4>
+        <p>This dataset covers mainland China and Hong Kong SAR. Universities in Taiwan Province and Macao SAR are not included due to data unavailability in the Wikidata query. The map base layer does not imply any political boundary claims.</p>
+      </div>
+      <div class="lim-card">
+        <h4>Definition Scope</h4>
+        <p>The SPARQL query targets Wikidata class Q3918 ("university"), which includes military academies, party schools, and research institutes that may not qualify as conventional higher education institutions.</p>
+      </div>
+      <div class="lim-card">
+        <h4>Temporal Recency</h4>
+        <p>Data reflects Wikidata's state at query time (2025). The apparent drop-off after 2010 should <strong>not</strong> be interpreted as a real slowdown — it reflects documentation lag, not declining institutional growth.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Data source: Wikidata (SPARQL) · Cleaned dataset: 849 universities · Visualization: Plotly.js &amp; Leaflet.js ·
+  Project by Zizhe · Information Visualization, University of Bologna · 2025
+</footer>
+
+<script>
+// ══════════════════════════════════════════════════════════════
+// SHARED DATA
+// ══════════════════════════════════════════════════════════════
+const regionColors = {
+  "East":"#c0392b","North":"#2c5f8a","Central":"#b8860b","South":"#27ae60",
+  "Northeast":"#8e44ad","Southwest":"#e67e22","Northwest":"#16a085"
+};
+
+const regionOrder = ["East","North","Central","South","Northeast","Southwest","Northwest"];
+
+const yearData = {"1879":1,"1881":1,"1887":1,"1888":1,"1891":1,"1894":1,"1895":4,"1896":3,"1897":2,"1898":4,"1900":2,"1901":4,"1902":17,"1903":5,"1904":1,"1905":5,"1906":8,"1907":6,"1908":1,"1909":7,"1911":4,"1912":9,"1913":4,"1915":3,"1917":2,"1919":3,"1920":5,"1921":4,"1922":2,"1923":5,"1924":4,"1925":1,"1926":3,"1927":4,"1928":4,"1929":2,"1931":4,"1932":2,"1933":2,"1934":5,"1935":1,"1936":2,"1937":4,"1938":8,"1939":1,"1940":4,"1941":8,"1942":2,"1944":1,"1945":4,"1946":12,"1947":6,"1948":12,"1949":24,"1950":20,"1951":34,"1952":46,"1953":17,"1954":13,"1955":8,"1956":26,"1957":3,"1958":61,"1959":9,"1960":13,"1961":2,"1962":2,"1963":2,"1964":5,"1965":5,"1970":4,"1971":3,"1972":2,"1973":3,"1974":4,"1975":2,"1976":3,"1977":6,"1978":24,"1979":5,"1980":5,"1981":7,"1983":10,"1984":14,"1985":11,"1986":2,"1987":3,"1988":1,"1989":2,"1991":3,"1992":7,"1993":2,"1994":4,"1995":7,"1996":3,"1997":5,"1998":5,"1999":8,"2000":15,"2001":6,"2002":12,"2003":10,"2004":6,"2005":3,"2006":6,"2007":2,"2009":2,"2010":1,"2011":1,"2012":2,"2013":1,"2014":1,"2015":2,"2016":3,"2017":1,"2018":1,"2019":1,"2022":1,"2024":4,"2025":4};
+
+const provinceData = [
+  {p:"Jiangsu",c:50,r:"East"},{p:"Shandong",c:36,r:"East"},{p:"Zhejiang",c:35,r:"East"},
+  {p:"Fujian",c:21,r:"East"},{p:"Jiangxi",c:21,r:"East"},{p:"Anhui",c:21,r:"East"},{p:"Shanghai",c:8,r:"East"},
+  {p:"Beijing",c:40,r:"North"},{p:"Hebei",c:27,r:"North"},{p:"Shanxi",c:14,r:"North"},
+  {p:"Inner Mongolia",c:9,r:"North"},{p:"Tianjin",c:4,r:"North"},
+  {p:"Hubei",c:32,r:"Central"},{p:"Henan",c:30,r:"Central"},{p:"Hunan",c:29,r:"Central"},
+  {p:"Guangdong",c:48,r:"South"},{p:"Hong Kong",c:12,r:"South"},{p:"Guangxi",c:10,r:"South"},{p:"Hainan",c:5,r:"South"},
+  {p:"Liaoning",c:38,r:"Northeast"},{p:"Heilongjiang",c:18,r:"Northeast"},{p:"Jilin",c:18,r:"Northeast"},
+  {p:"Sichuan",c:31,r:"Southwest"},{p:"Yunnan",c:16,r:"Southwest"},{p:"Guizhou",c:8,r:"Southwest"},
+  {p:"Chongqing",c:3,r:"Southwest"},{p:"Tibet Autonomous Region",c:1,r:"Southwest"},
+  {p:"Shaanxi",c:31,r:"Northwest"},{p:"Gansu",c:10,r:"Northwest"},{p:"Xinjiang",c:9,r:"Northwest"},
+  {p:"Qinghai",c:3,r:"Northwest"},{p:"Ningxia",c:2,r:"Northwest"}
+];
+
+const heatmapRaw = [
+  [1870,"Shanghai",1],[1880,"Jiangsu",2],[1890,"Anhui",1],[1890,"Hebei",2],[1890,"Hubei",2],[1890,"Shaanxi",1],[1890,"Shandong",1],[1890,"Sichuan",1],[1890,"Zhejiang",2],
+  [1900,"Chongqing",2],[1900,"Fujian",1],[1900,"Gansu",2],[1900,"Guangdong",2],[1900,"Guizhou",1],[1900,"Hebei",3],[1900,"Henan",3],[1900,"Hong Kong",1],[1900,"Hubei",2],[1900,"Hunan",2],[1900,"Jiangsu",12],[1900,"Jiangxi",3],[1900,"Jilin",1],[1900,"Liaoning",2],[1900,"Shaanxi",1],[1900,"Shandong",2],[1900,"Shanghai",2],[1900,"Shanxi",3],[1900,"Sichuan",1],[1900,"Zhejiang",1],
+  [1910,"Beijing",1],[1910,"Gansu",1],[1910,"Guangdong",1],[1910,"Henan",2],[1910,"Hong Kong",1],[1910,"Hubei",1],[1910,"Hunan",1],[1910,"Jiangsu",4],[1910,"Liaoning",1],[1910,"Shaanxi",1],[1910,"Sichuan",1],[1910,"Zhejiang",1],
+  [1920,"Anhui",3],[1920,"Beijing",1],[1920,"Fujian",1],[1920,"Guangdong",4],[1920,"Guangxi",1],[1920,"Hebei",2],[1920,"Heilongjiang",3],[1920,"Henan",2],[1920,"Hubei",4],[1920,"Hunan",1],[1920,"Jiangsu",4],[1920,"Liaoning",5],[1920,"Shaanxi",2],[1920,"Shandong",2],[1920,"Shanghai",2],[1920,"Sichuan",1],[1920,"Yunnan",1],[1920,"Zhejiang",3],
+  [1930,"Beijing",7],[1930,"Fujian",2],[1930,"Guangdong",4],[1930,"Guangxi",2],[1930,"Hebei",2],[1930,"Hubei",3],[1930,"Hunan",3],[1930,"Jiangsu",4],[1930,"Jiangxi",2],[1930,"Liaoning",2],[1930,"Shaanxi",2],[1930,"Shandong",3],[1930,"Shanghai",1],[1930,"Sichuan",2],[1930,"Zhejiang",2],
+  [1940,"Beijing",8],[1940,"Fujian",3],[1940,"Guangdong",7],[1940,"Guangxi",3],[1940,"Guizhou",1],[1940,"Hebei",1],[1940,"Heilongjiang",3],[1940,"Hubei",3],[1940,"Hunan",3],[1940,"Jiangsu",2],[1940,"Jilin",5],[1940,"Liaoning",11],[1940,"Shaanxi",5],[1940,"Shandong",1],[1940,"Shanghai",2],[1940,"Sichuan",5],[1940,"Yunnan",3],[1940,"Zhejiang",3],[1940,"Chongqing",1],
+  [1950,"Anhui",5],[1950,"Beijing",16],[1950,"Chongqing",1],[1950,"Fujian",3],[1950,"Gansu",4],[1950,"Guangdong",11],[1950,"Guangxi",4],[1950,"Guizhou",3],[1950,"Hainan",3],[1950,"Hebei",7],[1950,"Heilongjiang",10],[1950,"Henan",8],[1950,"Hong Kong",3],[1950,"Hubei",10],[1950,"Hunan",9],[1950,"Inner Mongolia",5],[1950,"Jiangsu",10],[1950,"Jiangxi",5],[1950,"Jilin",8],[1950,"Liaoning",13],[1950,"Ningxia",1],[1950,"Qinghai",2],[1950,"Shaanxi",8],[1950,"Shandong",8],[1950,"Shanghai",2],[1950,"Shanxi",6],[1950,"Sichuan",10],[1950,"Tianjin",2],[1950,"Xinjiang",4],[1950,"Yunnan",7],[1950,"Zhejiang",6],
+  [1960,"Anhui",3],[1960,"Beijing",3],[1960,"Gansu",2],[1960,"Guangdong",4],[1960,"Guizhou",1],[1960,"Hebei",4],[1960,"Hubei",3],[1960,"Hunan",2],[1960,"Jiangsu",1],[1960,"Jilin",2],[1960,"Liaoning",3],[1960,"Shaanxi",2],[1960,"Shandong",3],[1960,"Sichuan",5],[1960,"Yunnan",2],[1960,"Xinjiang",1],
+  [1970,"Guangdong",4],[1970,"Hebei",3],[1970,"Hubei",2],[1970,"Hunan",3],[1970,"Jiangsu",4],[1970,"Liaoning",2],[1970,"Shaanxi",2],[1970,"Shandong",4],[1970,"Sichuan",2],[1970,"Yunnan",1],[1970,"Zhejiang",3],[1970,"Fujian",1],[1970,"Guangxi",1],[1970,"Henan",2],[1970,"Inner Mongolia",1],[1970,"Shanxi",2],[1970,"Tianjin",1],
+  [1980,"Anhui",2],[1980,"Beijing",3],[1980,"Guangdong",5],[1980,"Guangxi",1],[1980,"Hebei",4],[1980,"Heilongjiang",1],[1980,"Henan",4],[1980,"Hubei",3],[1980,"Hunan",3],[1980,"Jiangsu",5],[1980,"Jilin",2],[1980,"Liaoning",2],[1980,"Shaanxi",3],[1980,"Shandong",4],[1980,"Shanxi",3],[1980,"Sichuan",3],[1980,"Tianjin",1],[1980,"Zhejiang",3],[1980,"Ningxia",1],[1980,"Fujian",2],[1980,"Inner Mongolia",2],[1980,"Tibet Autonomous Region",1],[1980,"Yunnan",1],
+  [1990,"Anhui",3],[1990,"Beijing",2],[1990,"Fujian",4],[1990,"Guangdong",8],[1990,"Henan",4],[1990,"Hubei",4],[1990,"Hunan",4],[1990,"Jiangsu",7],[1990,"Jilin",2],[1990,"Liaoning",4],[1990,"Shaanxi",2],[1990,"Shandong",5],[1990,"Sichuan",3],[1990,"Zhejiang",7],[1990,"Guangxi",1],[1990,"Hebei",2],[1990,"Jiangxi",3],[1990,"Yunnan",1],
+  [2000,"Anhui",5],[2000,"Beijing",5],[2000,"Fujian",5],[2000,"Guangdong",10],[2000,"Guizhou",2],[2000,"Hainan",2],[2000,"Hebei",4],[2000,"Heilongjiang",2],[2000,"Henan",4],[2000,"Hong Kong",4],[2000,"Hubei",5],[2000,"Hunan",4],[2000,"Inner Mongolia",1],[2000,"Jiangsu",9],[2000,"Jiangxi",7],[2000,"Jilin",1],[2000,"Liaoning",4],[2000,"Shandong",5],[2000,"Shanghai",1],[2000,"Shanxi",2],[2000,"Sichuan",5],[2000,"Xinjiang",3],[2000,"Yunnan",1],[2000,"Zhejiang",8],[2000,"Gansu",2],[2000,"Guangxi",1],[2000,"Shaanxi",2],
+  [2010,"Anhui",1],[2010,"Guangdong",2],[2010,"Hong Kong",1],[2010,"Jiangsu",3],[2010,"Shandong",2],[2010,"Zhejiang",3],[2010,"Fujian",1],[2010,"Heilongjiang",2],[2010,"Jilin",1],[2010,"Liaoning",1],[2010,"Henan",2],[2010,"Sichuan",1],[2010,"Yunnan",1],[2010,"Shaanxi",1],[2010,"Xinjiang",1],
+  [2020,"Guangdong",2],[2020,"Jiangsu",1],[2020,"Zhejiang",1],[2020,"Shandong",1],[2020,"Anhui",1],[2020,"Fujian",1],[2020,"Henan",2],[2020,"Liaoning",1]
+];
+
+const meanCenter = [
+  {decade:1870,lon:121.41315,lat:31.22786,n:1},
+  {decade:1890,lon:115.65,lat:34.36,n:14},
+  {decade:1900,lon:115.53,lat:32.66,n:45},
+  {decade:1910,lon:115.95,lat:33.56,n:18},
+  {decade:1920,lon:114.39,lat:33.25,n:26},
+  {decade:1930,lon:113.92,lat:30.99,n:21},
+  {decade:1940,lon:116.46,lat:36.43,n:52},
+  {decade:1950,lon:114.62,lat:33.86,n:163},
+  {decade:1960,lon:114.69,lat:32.04,n:15},
+  {decade:1970,lon:112.44,lat:32.18,n:36},
+  {decade:1980,lon:115.52,lat:31.59,n:39},
+  {decade:1990,lon:114.77,lat:29.20,n:31},
+  {decade:2000,lon:114.14,lat:28.32,n:34},
+  {decade:2010,lon:119.34,lat:29.48,n:9},
+  {decade:2020,lon:116.19,lat:28.46,n:4}
+];
+
+// Province-to-region mapping
+const prov2region = {};
+provinceData.forEach(d => { prov2region[d.p] = d.r; });
+
+// ══════════════════════════════════════════════════════════════
+// RQ1 — Area chart with annotations (x starts at 1895)
+// ══════════════════════════════════════════════════════════════
+(function() {
+  const years = Object.keys(yearData).map(Number).sort((a,b)=>a-b).filter(y=>y>=1895);
+  const counts = years.map(y => yearData[y]||0);
+  let cum=3; // 3 universities before 1895
+  const cumCounts = counts.map(c=>{cum+=c;return cum;});
+
+  const anns = [
+    {x:1952,y:46,text:"1952 · Departmental<br>Restructuring",ax:0,ay:-75},
+    {x:1958,y:61,text:"1958 · Great Leap<br>Forward",ax:50,ay:-55},
+    {x:1977,y:6,text:"1977 · Resumption of<br>National Exams",ax:-40,ay:-55},
+    {x:1999,y:8,text:"1999 · Enrollment<br>Expansion",ax:40,ay:-60},
+  ].map(a=>({
+    x:a.x,y:a.y,xref:'x',yref:'y',text:a.text,showarrow:true,
+    arrowhead:2,arrowcolor:'#c0392b',arrowsize:1,arrowwidth:1.5,
+    ax:a.ax,ay:a.ay,
+    font:{size:9.5,color:'#c0392b',family:'Space Mono, monospace'},
+    bgcolor:'rgba(255,255,255,0.92)',bordercolor:'#c0392b',borderwidth:1,borderpad:3
+  }));
+
+  // Add era shading bands (only two: pre-1949 and post-1949 minimal, removed 1966-1976)
+  const shapes = [
+    {type:'rect',xref:'x',yref:'paper',x0:1949,x1:1952,y0:0,y1:1,fillcolor:'rgba(192,57,43,0.02)',line:{width:0}},
+    {type:'rect',xref:'x',yref:'paper',x0:1999,x1:2010,y0:0,y1:1,fillcolor:'rgba(44,95,138,0.04)',line:{width:0}},
+  ];
+
+  Plotly.newPlot('rq1-chart',[
+    {x:years,y:counts,type:'bar',name:'Founded per year',
+     marker:{color:'rgba(192,57,43,0.5)',line:{color:'rgba(192,57,43,0.75)',width:0.5}},
+     hovertemplate:'%{x}: <b>%{y}</b> universities<extra></extra>'},
+    {x:years,y:cumCounts,type:'scatter',name:'Cumulative total',yaxis:'y2',mode:'lines',
+     line:{color:'#2c5f8a',width:2.5,shape:'spline'},
+     hovertemplate:'%{x}: <b>%{y}</b> total<extra></extra>'}
+  ],{
+    paper_bgcolor:'white',plot_bgcolor:'white',
+    font:{family:'Lora, Georgia, serif',size:11,color:'#1a1408'},
+    annotations:anns, shapes:shapes,
+    xaxis:{title:'Year',tickfont:{size:10},gridcolor:'#f0ebe0',range:[1893,2028],dtick:10},
+    yaxis:{title:'New universities founded',gridcolor:'#f0ebe0',zeroline:false},
+    yaxis2:{title:'Cumulative total',overlaying:'y',side:'right',showgrid:false,zeroline:false,
+      titlefont:{color:'#2c5f8a'},tickfont:{color:'#2c5f8a'}},
+    legend:{x:0.01,y:0.98,bgcolor:'rgba(255,255,255,0.85)',bordercolor:'#ddd',borderwidth:1,font:{size:10}},
+    margin:{t:30,b:50,l:60,r:65},hovermode:'x unified'
+  },{responsive:true,displayModeBar:false});
+})();
+
+// ══════════════════════════════════════════════════════════════
+// RQ2 — Bubble map (left) + Stacked bar by macro-region (right)
+// ══════════════════════════════════════════════════════════════
+(function() {
+  // ---- Right: Stacked horizontal bar by macro-region ----
+  const regionTotals = {};
+  regionOrder.forEach(r => { regionTotals[r] = 0; });
+  provinceData.forEach(d => { regionTotals[d.r] += d.c; });
+
+  // Build grouped bars: each region is one bar, provinces stacked
+  const traces = [];
+  // For each region, sort provinces by count descending and stack
+  regionOrder.forEach(r => {
+    const provs = provinceData.filter(d=>d.r===r).sort((a,b)=>b.c-a.c);
+    provs.forEach((prov, i) => {
+      traces.push({
+        y: [r + ' (' + regionTotals[r] + ')'],
+        x: [prov.c],
+        type: 'bar',
+        orientation: 'h',
+        name: prov.p,
+        marker: {
+          color: regionColors[r],
+          opacity: 1 - i*0.1,
+          line: {color:'white',width:0.5}
+        },
+        text: [prov.p + ': ' + prov.c],
+        textposition: prov.c >= 14 ? 'inside' : 'none',
+        textfont: {size:9, family:'Space Mono, monospace', color:'white'},
+        hovertemplate: '<b>' + prov.p + '</b>: %{x} universities<extra>' + r + '</extra>',
+        showlegend: false,
+      });
+    });
+  });
+
+  const yOrder = regionOrder.map(r => r + ' (' + regionTotals[r] + ')').reverse();
+
+  Plotly.newPlot('rq2-chart', traces, {
+    paper_bgcolor:'white', plot_bgcolor:'white',
+    font:{family:'Lora, Georgia, serif',size:10,color:'#1a1408'},
+    barmode:'stack',
+    xaxis:{title:'Number of universities',gridcolor:'#f0ebe0',zeroline:false},
+    yaxis:{tickfont:{size:10.5,family:'Space Mono, monospace'},automargin:true,categoryorder:'array',categoryarray:yOrder},
+    margin:{t:15,b:50,l:130,r:20},bargap:0.35,
+  },{responsive:true,displayModeBar:false});
+
+  // ---- Left: Plotly bubble map (proportional symbols) ----
+  const provCentroids = {
+    "Jiangsu":[119.0,33.0],"Shandong":[117.5,36.5],"Zhejiang":[120.1,29.2],
+    "Fujian":[118.3,26.0],"Jiangxi":[115.8,27.6],"Anhui":[117.2,31.8],
+    "Shanghai":[121.5,31.2],"Beijing":[116.4,40.0],"Hebei":[115.5,38.5],
+    "Shanxi":[112.5,37.5],"Inner Mongolia":[112.0,42.0],"Tianjin":[117.2,39.1],
+    "Hubei":[114.3,30.6],"Henan":[113.6,34.0],"Hunan":[112.0,27.6],
+    "Guangdong":[113.3,23.1],"Hong Kong":[114.2,22.3],"Guangxi":[108.3,23.7],
+    "Hainan":[109.5,19.2],"Liaoning":[123.4,41.8],"Heilongjiang":[127.0,47.0],
+    "Jilin":[126.5,43.8],"Sichuan":[104.0,30.6],"Yunnan":[102.7,25.0],
+    "Guizhou":[106.7,26.6],"Chongqing":[106.5,29.6],"Tibet Autonomous Region":[91.0,30.0],
+    "Shaanxi":[108.9,34.3],"Gansu":[103.8,36.1],"Xinjiang":[87.6,43.8],
+    "Qinghai":[96.8,36.6],"Ningxia":[106.2,37.5]
+  };
+
+  const lons=[], lats=[], sizes=[], colors=[], texts=[], hovers=[];
+  provinceData.forEach(d => {
+    const c = provCentroids[d.p];
+    if(!c) return;
+    lons.push(c[0]); lats.push(c[1]);
+    sizes.push(Math.max(8, Math.sqrt(d.c)*5.5));
+    colors.push(regionColors[d.r]);
+    texts.push(d.c > 15 ? d.p : '');
+    hovers.push('<b>'+d.p+'</b><br>'+d.c+' universities<br>Region: '+d.r);
+  });
+
+  Plotly.newPlot('rq2-map',[{
+    type:'scattergeo',mode:'markers+text',
+    lon:lons,lat:lats,
+    marker:{size:sizes,color:colors,opacity:0.78,line:{color:'white',width:1}},
+    text:texts,textposition:'top center',
+    textfont:{size:8,family:'Space Mono, monospace',color:'#1a1408'},
+    hovertemplate:hovers.map(h=>h+'<extra></extra>'),
+    showlegend:false,
+  }],{
+    paper_bgcolor:'white',
+    geo:{
+      scope:'asia',projection:{type:'mercator'},
+      center:{lon:107,lat:33},
+      lonaxis:{range:[76,136]},lataxis:{range:[16,52]},
+      showland:true,landcolor:'#f0ebe0',showocean:true,oceancolor:'#dce8f5',
+      showcountries:true,countrycolor:'#c8bfa8',showcoastlines:true,coastlinecolor:'#9a8e7e',
+      showrivers:true,rivercolor:'#d4e4f0',bgcolor:'white',
+      showframe:false,
+    },
+    margin:{t:5,b:5,l:0,r:0},
+  },{responsive:true,displayModeBar:false});
+})();
+
+// ══════════════════════════════════════════════════════════════
+// RQ3 — Normalized heatmap by MACRO-REGION (with optimized Y-axis order)
+// ══════════════════════════════════════════════════════════════
+(function() {
+  const decades = [1870,1880,1890,1900,1910,1920,1930,1940,1950,1960,1970,1980,1990,2000,2010,2020];
+
+  // Aggregate heatmapRaw by region × decade
+  const regionDecade = {};
+  regionOrder.forEach(r => {
+    regionDecade[r] = {};
+    decades.forEach(d => { regionDecade[r][d] = 0; });
+  });
+  heatmapRaw.forEach(([dec,prov,cnt]) => {
+    const r = prov2region[prov];
+    if(r && regionDecade[r]) regionDecade[r][dec] = (regionDecade[r][dec]||0) + cnt;
+  });
+
+  // Region totals for normalization
+  const regionTotals = {};
+  regionOrder.forEach(r => {
+    regionTotals[r] = Object.values(regionDecade[r]).reduce((a,b)=>a+b,0);
+  });
+
+  // Calculate the first decade with any university for each region (for sorting)
+  const regionFirstDecade = {};
+  regionOrder.forEach(r => {
+    for (let d of decades) {
+      if (regionDecade[r][d] > 0) {
+        regionFirstDecade[r] = d;
+        break;
+      }
+    }
+  });
+
+  // Sort regions by first decade (ascending), then by total count (desc) as tie-breaker
+  const sortedRegions = regionOrder.slice().sort((a, b) => {
+    const firstA = regionFirstDecade[a] || 9999;
+    const firstB = regionFirstDecade[b] || 9999;
+    if (firstA !== firstB) return firstA - firstB;
+    return regionTotals[b] - regionTotals[a];
+  });
+
+  // Build normalized z matrix (percentages) and raw z for hover, using sorted order
+  const yLabels = sortedRegions.map(r => r + ' (n=' + regionTotals[r] + ')');
+  const zNorm = sortedRegions.map(r =>
+    decades.map(d => regionTotals[r]>0 ? Math.round(regionDecade[r][d]/regionTotals[r]*1000)/10 : 0)
+  );
+  const zRaw = sortedRegions.map(r => decades.map(d => regionDecade[r][d]));
+
+  // Custom hover text
+  const hoverText = sortedRegions.map((r,ri) =>
+    decades.map((d,di) => '<b>'+r+'</b> · '+d+'s<br>'+zRaw[ri][di]+' universities ('+zNorm[ri][di]+'%)')
+  );
+
+  // Vertical lines for historical events (adjusting for 1977 resumption)
+  const shapes = [
+    {type:'line',xref:'x',yref:'paper',x0:'1950',x1:'1950',y0:-0.05,y1:1.05,line:{color:'#c0392b',width:1.5,dash:'dot'}},
+    {type:'line',xref:'x',yref:'paper',x0:'1940',x1:'1940',y0:-0.05,y1:1.05,line:{color:'#8e44ad',width:1,dash:'dot'}},
+    {type:'line',xref:'x',yref:'paper',x0:'2000',x1:'2000',y0:-0.05,y1:1.05,line:{color:'#2c5f8a',width:1,dash:'dot'}},
+    {type:'line',xref:'x',yref:'paper',x0:'1977',x1:'1977',y0:-0.05,y1:1.05,line:{color:'#27ae60',width:1,dash:'dot'}},
+  ];
+  const anns3 = [
+    {x:'1950',y:1.08,xref:'x',yref:'paper',text:'1950s PRC<br>build-out',showarrow:false,
+     font:{size:8,color:'#c0392b',family:'Space Mono'},xanchor:'center'},
+    {x:'1940',y:1.08,xref:'x',yref:'paper',text:'Wartime<br>relocation',showarrow:false,
+     font:{size:8,color:'#8e44ad',family:'Space Mono'},xanchor:'center'},
+    {x:'2000',y:1.08,xref:'x',yref:'paper',text:'Expansion<br>era',showarrow:false,
+     font:{size:8,color:'#2c5f8a',family:'Space Mono'},xanchor:'center'},
+    {x:'1977',y:1.08,xref:'x',yref:'paper',text:'Resumption of<br>national exams',showarrow:false,
+     font:{size:8,color:'#27ae60',family:'Space Mono'},xanchor:'center'},
+  ];
+
+  Plotly.newPlot('rq3-chart',[{
+    z: zNorm,
+    x: decades.map(String),
+    y: yLabels,
+    type:'heatmap',
+    colorscale:[
+      [0,'#f5f0e8'],[0.05,'#fde8c8'],[0.15,'#f5a62a'],[0.4,'#c0392b'],[1.0,'#5a0000']
+    ],
+    zmin: 0, zmax: 50,
+    showscale:true,
+    colorbar:{title:{text:'% of region total',font:{size:10}},tickfont:{size:9},len:0.7,thickness:12,y:0.45,
+      ticksuffix:'%'},
+    text: hoverText,
+    hovertemplate:'%{text}<extra></extra>',
+    xgap:2, ygap:3,
+  }],{
+    paper_bgcolor:'white',plot_bgcolor:'white',
+    font:{family:'Lora, Georgia, serif',size:10,color:'#1a1408'},
+    xaxis:{title:'Decade',tickfont:{size:10},tickangle:0,side:'bottom'},
+    yaxis:{tickfont:{size:10.5,family:'Space Mono, monospace'},automargin:true},
+    shapes:shapes,
+    annotations:anns3,
+    margin:{t:50,b:55,l:150,r:80}
+  },{responsive:true,displayModeBar:false});
+})();
+
+// ══════════════════════════════════════════════════════════════
+// RQ4 — Leaflet interactive map with mean-center trajectory
+// ══════════════════════════════════════════════════════════════
+(function() {
+  // Color interpolation: blue(1870) → purple(mid) → red(2020)
+  function decadeColor(decade) {
+    const t = (decade-1870)/(2020-1870);
+    // blue → purple → red-orange
+    const r = Math.round(44 + t*190);
+    const g = Math.round(95 - t*60);
+    const b = Math.round(138 - t*105);
+    return 'rgb('+r+','+g+','+b+')';
+  }
+
+  const map = L.map('rq4-map', {
+    center: [31.5, 116],
+    zoom: 6,
+    scrollWheelZoom: true,
+    zoomControl: true,
+  });
+
+  // Use a clean, muted tile layer
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 12,
+    minZoom: 4,
+  }).addTo(map);
+
+  // Draw trajectory polyline
+  const coords = meanCenter.map(d => [d.lat, d.lon]);
+  L.polyline(coords, {
+    color: '#b8860b',
+    weight: 2.5,
+    opacity: 0.7,
+    dashArray: '8 6',
+  }).addTo(map);
+
+  // Draw circles at each mean center
+  meanCenter.forEach((d, i) => {
+    const radius = Math.max(4000, Math.sqrt(d.n) * 3200);
+    const color = decadeColor(d.decade);
+    const circle = L.circleMarker([d.lat, d.lon], {
+      radius: Math.max(6, Math.sqrt(d.n)*1.8),
+      fillColor: color,
+      color: '#fff',
+      weight: 2,
+      fillOpacity: 0.85,
+    }).addTo(map);
+
+    circle.bindTooltip(
+      '<div style="font-family:Space Mono,monospace;font-size:11px;line-height:1.5">' +
+      '<b>' + d.decade + 's</b><br>' +
+      d.lon.toFixed(2) + '°E, ' + d.lat.toFixed(2) + '°N<br>' +
+      d.n + ' universities (w/ coords)</div>',
+      {direction:'top',offset:[0,-8]}
+    );
+
+    // Decade label
+    if(d.n >= 10 || i===0 || i===meanCenter.length-1) {
+      L.marker([d.lat, d.lon], {
+        icon: L.divIcon({
+          className: '',
+          html: '<div style="font-family:Space Mono,monospace;font-size:10px;color:'+color+';font-weight:700;text-shadow:1px 1px 2px white,-1px -1px 2px white,1px -1px 2px white,-1px 1px 2px white;white-space:nowrap;">'+d.decade+'</div>',
+          iconAnchor: [-8, 14],
+        })
+      }).addTo(map);
+    }
+  });
+
+  // Mark start and end
+  L.marker([meanCenter[0].lat, meanCenter[0].lon], {
+    icon: L.divIcon({
+      className:'',
+      html:'<div style="font-family:Space Mono,monospace;font-size:9px;color:#27ae60;font-weight:700;background:rgba(255,255,255,0.85);padding:1px 5px;border:1px solid #27ae60;border-radius:2px;white-space:nowrap">START (1870s)</div>',
+      iconAnchor:[-10,24]
+    })
+  }).addTo(map);
+
+  const last = meanCenter[meanCenter.length-1];
+  L.marker([last.lat, last.lon], {
+    icon: L.divIcon({
+      className:'',
+      html:'<div style="font-family:Space Mono,monospace;font-size:9px;color:#c0392b;font-weight:700;background:rgba(255,255,255,0.85);padding:1px 5px;border:1px solid #c0392b;border-radius:2px;white-space:nowrap">END (2020s)</div>',
+      iconAnchor:[-10,-6]
+    })
+  }).addTo(map);
+
+  // Fit bounds with padding
+  const bounds = L.latLngBounds(coords);
+  map.fitBounds(bounds.pad(0.4));
+})();
+</script>
+</body>
+</html>

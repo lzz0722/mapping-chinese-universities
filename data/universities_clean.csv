@@ -1,0 +1,850 @@
+univ,name,univLabel_en,univLabel_zh,inceptionYear,decade,longitude,latitude,province,macro_region
+http://www.wikidata.org/entity/Q100998778,Taizhou University,Taizhou University,,,,,,,
+http://www.wikidata.org/entity/Q1018771,Dalian Naval Academy,Dalian Naval Academy,中国人民解放军海军大连舰艇学院,1949.0,1940,121.66288889,38.8785,Liaoning,Northeast
+http://www.wikidata.org/entity/Q1022929,Hubei University,Hubei University,湖北大学,1931.0,1930,114.3175,30.5605,Hubei,Central
+http://www.wikidata.org/entity/Q10267326,Shandong University of Technology,Shandong University of Technology,山东工业大学,1949.0,1940,,,,
+http://www.wikidata.org/entity/Q1027478,Dalian University of Foreign Languages,Dalian University of Foreign Languages,大连外国语大学,1964.0,1960,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q10379501,College of Military Culture at the PLA National Defense University,College of Military Culture at the PLA National Defense University,中国人民解放军国防大学军事文化学院,1960.0,1960,116.325,39.9559,,
+http://www.wikidata.org/entity/Q1039400,Beijing University of Chinese Medicine,Beijing University of Chinese Medicine,北京中医药大学,1956.0,1950,116.42213,39.96985,Beijing,North
+http://www.wikidata.org/entity/Q1041978,North University of China,North University of China,中北大学,1941.0,1940,,,Shanxi,North
+http://www.wikidata.org/entity/Q10557501,郑州工业大学,,郑州工业大学,,,,,,
+http://www.wikidata.org/entity/Q10567152,黃埔海軍學校,,黃埔海軍學校,1887.0,1880,,,Jiangsu,East
+http://www.wikidata.org/entity/Q1058956,Heilongjiang University,Heilongjiang University,黑龙江大学,1941.0,1940,126.616944444,45.706944444,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q106474418,Jiangxi Institute of Fashion Technology,Jiangxi Institute of Fashion Technology,江西服装学院,,,,,Jiangxi,East
+http://www.wikidata.org/entity/Q1073795,Chinesisch-Deutsches Hochschulkolleg,Chinesisch-Deutsches Hochschulkolleg,,1998.0,1990,,,,
+http://www.wikidata.org/entity/Q1074015,Ocean University of China,Ocean University of China,中国海洋大学,1924.0,1920,120.3325,36.065,,
+http://www.wikidata.org/entity/Q1074084,China University of Mining and Technology,China University of Mining and Technology,中国矿业大学,1909.0,1900,116.349722,39.996667,Jiangsu,East
+http://www.wikidata.org/entity/Q1074097,China University of Geosciences,China University of Geosciences,中国地质大学,1952.0,1950,,,Hubei,Central
+http://www.wikidata.org/entity/Q1074103,University of Science and Technology of China,University of Science and Technology of China,中国科学技术大学,1958.0,1950,117.258888888,31.841666666,Anhui,East
+http://www.wikidata.org/entity/Q1074117,Renmin University of China,Renmin University of China,中国人民大学,1937.0,1930,116.317777777,39.970277777,,
+http://www.wikidata.org/entity/Q1074308,Dalian Minzu University,Dalian Minzu University,大连民族大学,1997.0,1990,121.771389,39.046389,Liaoning,Northeast
+http://www.wikidata.org/entity/Q1074363,Dalian Ocean University,Dalian Ocean University,大连海洋大学,1952.0,1950,,,,
+http://www.wikidata.org/entity/Q1075625,University of Nottingham Ningbo,University of Nottingham Ningbo,宁波诺丁汉大学,2004.0,2000,121.5592,29.8022,Zhejiang,East
+http://www.wikidata.org/entity/Q10867642,University of Michigan–Shanghai Jiao Tong Univeristy Joint Institute,University of Michigan–Shanghai Jiao Tong Univeristy Joint Institute,上海交通大学密西根学院,2006.0,2000,,,Shanghai,East
+http://www.wikidata.org/entity/Q10867958,Shanghai Customs College,Shanghai Customs College,上海海关学院,1953.0,1950,121.577805,31.167818,,
+http://www.wikidata.org/entity/Q10869592,Northeast Forestry University,Northeast Forestry University,东北林业大学,1952.0,1950,126.64028,45.72389,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q10870909,Dongguan University of Technology,Dongguan University of Technology,东莞理工学院,1992.0,1990,113.770712,23.053196,Guangdong,South
+http://www.wikidata.org/entity/Q10872553,Central South University of Forestry and Technology,Central South University of Forestry and Technology,中南林业科技大学,1958.0,1950,112.991924,28.13921,Hunan,Central
+http://www.wikidata.org/entity/Q10872926,China Fire and Rescue College,China Fire and Rescue College,中国人民武装警察部队黄金技术学校,1985.0,1980,,,,
+http://www.wikidata.org/entity/Q10872931,PLA Information Engineering University,PLA Information Engineering University,中国人民解放军信息工程大学,1999.0,1990,113.567879,34.815376,Henan,Central
+http://www.wikidata.org/entity/Q10872935,Army Military Transportation University,Army Military Transportation University,中国人民解放军军事交通学院,1973.0,1970,117.25664,39.132326,,
+http://www.wikidata.org/entity/Q10872936,PLA Academy of Military Medical Sciences,PLA Academy of Military Medical Sciences,中国人民解放军军事科学院军事医学研究院,1951.0,1950,116.26325,39.899078,Beijing,North
+http://www.wikidata.org/entity/Q10872954,PLA Army Academy of Artillery and Air Defense,PLA Army Academy of Artillery and Air Defense,中国人民解放军南京炮兵学院,1947.0,1940,117.237859,31.841888,,
+http://www.wikidata.org/entity/Q10872957,Army Infantry College of PLA,Army Infantry College of PLA,中国人民解放军南昌陆军学院,1955.0,1950,115.78023,28.673454,,
+http://www.wikidata.org/entity/Q10872964,PLA Academy of National Defense Information,PLA Academy of National Defense Information,中国人民解放军信息支援部队工程大学,1948.0,1940,,,,
+http://www.wikidata.org/entity/Q10872983,中国人民解放军成都军区昆明民族干部学院,,中国人民解放军成都军区昆明民族干部学院,1949.0,1940,,,,
+http://www.wikidata.org/entity/Q10872997,PLA Naval University of Engineering,PLA Naval University of Engineering,中国人民解放军海军工程大学,1949.0,1940,,,Hubei,Central
+http://www.wikidata.org/entity/Q10872999,中国人民解放军海军指挥学院,,中国人民解放军海军指挥学院,1952.0,1950,,,,
+http://www.wikidata.org/entity/Q10873002,PLA Naval Submarine Academy,PLA Naval Submarine Academy,中国人民解放军海军潜艇学院,1973.0,1970,120.36022222,36.13433333,,
+http://www.wikidata.org/entity/Q10873009,PLA Naval Aviation University,PLA Naval Aviation University,中国人民解放军海军航空兵学院,1951.0,1950,121.419672,37.532309,,
+http://www.wikidata.org/entity/Q10873012,People's Liberation Army Naval Academy,People's Liberation Army Naval Academy,中国人民解放军海军士官学校,1986.0,1980,,,Anhui,East
+http://www.wikidata.org/entity/Q10873016,PLA Army University,PLA Army University,中国人民解放军陆军兵种大学,2025.0,2020,117.2373432,31.8388795,Anhui,East
+http://www.wikidata.org/entity/Q10873019,PLA Army Engineering University,PLA Army Engineering University,中国人民解放军陆军工程大学,1999.0,1990,,,Jiangsu,East
+http://www.wikidata.org/entity/Q10873024,"Joint Operations College, National Defense University","Joint Operations College, National Defense University",中国人民解放军国防大学联合作战学院,,,,,,
+http://www.wikidata.org/entity/Q10873025,PLAAF Service Academy,PLAAF Service Academy,中国人民解放军空军勤务学院,1954.0,1950,,,,
+http://www.wikidata.org/entity/Q10873029,Air Force Communication NCO Academy,Air Force Communication NCO Academy,中国人民解放军空军大连通信士官学校,1986.0,1980,121.738,39.0664,Liaoning,Northeast
+http://www.wikidata.org/entity/Q10873032,Air Force Engineering University,Air Force Engineering University,中国人民解放军空军工程大学,1999.0,1990,109.036171,34.273779,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q10873034,PLAAF Command College,PLAAF Command College,中国人民解放军空军指挥学院,1958.0,1950,116.278519,39.968061,Beijing,North
+http://www.wikidata.org/entity/Q10873057,PLA Air Force Aviation University,PLA Air Force Aviation University,中国人民解放军空军航空大学,1946.0,1940,125.32342,43.84293,Jilin,Northeast
+http://www.wikidata.org/entity/Q10873058,Changsha Aeronautical Vacational and Technical College,Changsha Aeronautical Vacational and Technical College,长沙航空职业技术学院,1973.0,1970,113.044,28.1426,,
+http://www.wikidata.org/entity/Q10873092,PLARF University of Engineering,PLARF University of Engineering,中国人民解放军第二炮兵工程大学,1951.0,1950,,,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q10873093,PLARF Command College,PLARF Command College,中国人民解放军第二炮兵指挥学院,1977.0,1970,,,Hubei,Central
+http://www.wikidata.org/entity/Q10873109,Space Engineering University,Space Engineering University,中国人民解放军战略支援部队航天工程大学,1978.0,1970,116.65844167,40.35554722,Beijing,North
+http://www.wikidata.org/entity/Q10873110,PLA Army Armored Forces Academy,PLA Army Armored Forces Academy,中国人民解放军装甲兵学院,1950.0,1950,,,,
+http://www.wikidata.org/entity/Q10873121,PLA Army Academy of Border and Coastal Defense,PLA Army Academy of Border and Coastal Defense,中国人民解放军边海防学院,2017.0,2010,,,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q10873125,Chongqing Communication Institute,Chongqing Communication Institute,中国人民解放军重庆通信学院,1955.0,1950,106.241,29.9986,,
+http://www.wikidata.org/entity/Q10873133,PLA Army Aviation Academy,PLA Army Aviation Academy,中国人民解放军陆军航空兵学院,1999.0,1990,116.6475,39.835,Beijing,North
+http://www.wikidata.org/entity/Q10875050,Central Institute for Correctional Police,Central Institute for Correctional Police,中央司法警官学院,1956.0,1950,,,Hebei,North
+http://www.wikidata.org/entity/Q10875787,Sino-French University,Sino-French University,中法大学,1920.0,1920,116.40056,39.92689,Beijing,North
+http://www.wikidata.org/entity/Q10877861,Hangchow University,Hangchow University,之江大学,,,120.123055555,30.1925,,
+http://www.wikidata.org/entity/Q10878372,Leshan Normal University,Leshan Normal University,乐山师范学院,1978.0,1970,,,Sichuan,Southwest
+http://www.wikidata.org/entity/Q10882234,Wuyi University,Wuyi University,五邑大学,1985.0,1980,113.081161111,22.601622222,Guangdong,South
+http://www.wikidata.org/entity/Q10884585,Zhongkai University of Agriculture and Engineering,Zhongkai University of Agriculture and Engineering,仲恺农业工程学院,1927.0,1920,113.276283,23.109625,Guangdong,South
+http://www.wikidata.org/entity/Q10893606,Lanzhou Jiaotong University,Lanzhou Jiaotong University,兰州交通大学,1958.0,1950,103.7243,36.1054,Gansu,Northwest
+http://www.wikidata.org/entity/Q10894049,Xingyi Normal University for Nationalities,Xingyi Normal University for Nationalities,兴义民族师范学院,,,,,,
+http://www.wikidata.org/entity/Q10894785,Inner Mongolia Normal University,Inner Mongolia Normal University,内蒙古师范大学,1952.0,1950,,,Inner Mongolia,North
+http://www.wikidata.org/entity/Q10902068,Geely University of China,Geely University of China,吉利学院,2000.0,2000,104.423,30.4925,Fujian,East
+http://www.wikidata.org/entity/Q10902145,Beijing City University,Beijing City University,北京城市学院,1984.0,1980,116.2523,40.0903,,
+http://www.wikidata.org/entity/Q10902198,Beijing Major Seminary,Beijing Major Seminary,北京天主教神哲学院,1981.0,1980,116.3296,40.01887,Beijing,North
+http://www.wikidata.org/entity/Q10902302,"Beijing Normal University,  Zhuhai","Beijing Normal University,  Zhuhai",北京师范大学珠海分校,2002.0,2000,,,,
+http://www.wikidata.org/entity/Q10902330,Beijing Institute of Fashion Technology,Beijing Institute of Fashion Technology,北京服装学院,1959.0,1950,116.42474,39.97272,Beijing,North
+http://www.wikidata.org/entity/Q10902560,Beihua University,Beihua University,北华大学,1906.0,1900,,,Jilin,Northeast
+http://www.wikidata.org/entity/Q10903058,North Minzu University,North Minzu University,北方民族大学,1984.0,1980,106.112016,38.498403,Ningxia,Northwest
+http://www.wikidata.org/entity/Q10903231,Peiyang University,Peiyang University,北洋大学,1895.0,1890,117.171900982,39.177593658,,
+http://www.wikidata.org/entity/Q10905361,Huazhong Institute of Technology,Huazhong Institute of Technology,华中工学院,1952.0,1950,,,Hubei,Central
+http://www.wikidata.org/entity/Q10905364,Huazhong University of Construction,Huazhong University of Construction,华中建设大学,,,,,,
+http://www.wikidata.org/entity/Q10905371,Huazhong University of Science and Technology,Huazhong University of Science and Technology,华中理工大学,,,,,,
+http://www.wikidata.org/entity/Q10905381,Wuchang Shouyi University,Wuchang Shouyi University,武昌首义学院,2000.0,2000,114.30022,30.49009,Hubei,Central
+http://www.wikidata.org/entity/Q10905490,North China University of Water Resources and Electric Power,North China University of Water Resources and Electric Power,华北水利水电大学,1951.0,1950,113.7945049,34.7813236,Henan,Central
+http://www.wikidata.org/entity/Q10905504,North China Institute of Science and Technology,North China Institute of Science and Technology,华北科技学院,1984.0,1980,116.79699378,39.95654818,Hebei,North
+http://www.wikidata.org/entity/Q10905543,Hwa Nan College,Hwa Nan College,华南女子大学,1907.0,1900,119.302414,26.042347,,
+http://www.wikidata.org/entity/Q10905579,South China Associated University (Private),South China Associated University (Private),华南联合大学,1952.0,1950,,,,
+http://www.wikidata.org/entity/Q10906639,Nanjing University of Chinese Medicine,Nanjing University of Chinese Medicine,南京中医药大学,1954.0,1950,118.94,32.1053,Jiangsu,East
+http://www.wikidata.org/entity/Q10906658,Nanjing College of Information and Technology,Nanjing College of Information and Technology,南京信息职业技术学院,1953.0,1950,,,Jiangsu,East
+http://www.wikidata.org/entity/Q10906757,Nanjing Audit University,Nanjing Audit University,南京审计大学,1983.0,1980,,,Jiangsu,East
+http://www.wikidata.org/entity/Q10906760,Nanjing Tech University,Nanjing Tech University,南京工业大学,1902.0,1900,118.771964,32.078711,Jiangsu,East
+http://www.wikidata.org/entity/Q10906861,Nanjing Police University,Nanjing Police University,南京警察学院,1941.0,1940,118.823532,32.081595,Jiangsu,East
+http://www.wikidata.org/entity/Q10908066,Jiangxi University of Water Resources and Electric Power,Jiangxi University of Water Resources and Electric Power,江西水利电力大学,1958.0,1950,115.881649574,28.701652956,Jiangxi,East
+http://www.wikidata.org/entity/Q10917222,Jilin University of Technology,Jilin University of Technology,吉林工业大学,1954.0,1950,125.301,43.88,,
+http://www.wikidata.org/entity/Q10917240,Jilin Jianzhu University,Jilin Jianzhu University,吉林建筑大学,,,,,Jilin,Northeast
+http://www.wikidata.org/entity/Q10917451,Jishou University,Jishou University,吉首大学,1958.0,1950,109.721872,28.287414,,
+http://www.wikidata.org/entity/Q10921986,Harbin Medical University,Harbin Medical University,哈尔滨医科大学,1926.0,1920,,,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q10924764,Sichuan Agricultural University,Sichuan Agricultural University,四川农业大学,1906.0,1900,103.860555555,30.706944444,Sichuan,Southwest
+http://www.wikidata.org/entity/Q10924832,Sichuan University of Arts and Science,Sichuan University of Arts and Science,四川文理学院,,,107.470277777,31.235277777,Sichuan,Southwest
+http://www.wikidata.org/entity/Q109258514,Great Bay University,Great Bay University,大湾区大学,2025.0,2020,113.851329,22.895748,Guangdong,South
+http://www.wikidata.org/entity/Q109260019,City University of Hong Kong (Dongguan),City University of Hong Kong (Dongguan),香港城市大學（東莞）,2024.0,2020,,,Guangdong,South
+http://www.wikidata.org/entity/Q10926161,National Chung-Cheng University,National Chung-Cheng University,国立南昌大学,1940.0,1940,,,Jiangxi,East
+http://www.wikidata.org/entity/Q10930950,Tarim University,Tarim University,塔里木大学,1958.0,1950,81.29527778,40.54,Xinjiang,Northwest
+http://www.wikidata.org/entity/Q10934160,Utopia University,Utopia University,大同大学,1912.0,1910,,,,
+http://www.wikidata.org/entity/Q10934701,The Great China University,The Great China University,大夏大学,1924.0,1920,,,,
+http://www.wikidata.org/entity/Q109348750,Jiaxing Nanhu University,Jiaxing Nanhu University,嘉兴南湖学院,,,,,Zhejiang,East
+http://www.wikidata.org/entity/Q109348752,Gannan University of Science and Technology,Gannan University of Science and Technology,赣南科技学院,2001.0,2000,,,Jiangxi,East
+http://www.wikidata.org/entity/Q10940196,Tianjin Normal University,Tianjin Normal University,天津師範大學,1958.0,1950,,,,
+http://www.wikidata.org/entity/Q10940246,Peiyang Naval Academy,Peiyang Naval Academy,天津水师学堂,1881.0,1880,,,,
+http://www.wikidata.org/entity/Q10941044,Taiyuan Institute of Technology,Taiyuan Institute of Technology,太原工业学院,1954.0,1950,,,Shanxi,North
+http://www.wikidata.org/entity/Q109413368,Gandong College,Gandong College,赣东学院,,,,,Jiangxi,East
+http://www.wikidata.org/entity/Q10946795,Anhui Jianzhu University,Anhui Jianzhu University,安徽建筑大学,1958.0,1950,117.22368,31.74404,Anhui,East
+http://www.wikidata.org/entity/Q10947284,Anyang Institute of Technology,Anyang Institute of Technology,安阳工学院,1983.0,1980,,,Henan,Central
+http://www.wikidata.org/entity/Q10947285,Anyang Normal University,Anyang Normal University,安阳师范学院,1908.0,1900,,,Henan,Central
+http://www.wikidata.org/entity/Q10952263,Suzhou University,Suzhou University,宿州学院,1949.0,1940,117.079333333,33.631083333,,
+http://www.wikidata.org/entity/Q110109946,"Hangzhou Campus, University of International Relations","Hangzhou Campus, University of International Relations",国际关系学院杭州校区,,,120.150540765,30.315360603,Zhejiang,East
+http://www.wikidata.org/entity/Q110140441,Shandong Institute of Advanced Technology,Shandong Institute of Advanced Technology,山东高等技术研究院,2019.0,2010,,,Shandong,East
+http://www.wikidata.org/entity/Q11043886,Shandong University of Traditional Chinese Medicine,Shandong University of Traditional Chinese Medicine,山东中医药大学,1958.0,1950,117.040305555,36.65015,Shandong,East
+http://www.wikidata.org/entity/Q11061696,Guangdong Polytechnic Normal University,Guangdong Polytechnic Normal University,广东技术师范大学,1957.0,1950,113.285,23.10055556,Guangdong,South
+http://www.wikidata.org/entity/Q11062018,Guangzhou Medical University,Guangzhou Medical University,广州医科大学,1958.0,1950,130.363,46.7865,Guangdong,South
+http://www.wikidata.org/entity/Q11062423,Guilin University,Guilin University,桂林学院,2001.0,2000,110.274666666,25.098722222,Guangxi,South
+http://www.wikidata.org/entity/Q11064744,Xiangqin University,Xiangqin University,廣東省立勷勤大學,1934.0,1930,,,Guangdong,South
+http://www.wikidata.org/entity/Q11071539,Deutsch-Chinesische Hochschule,Deutsch-Chinesische Hochschule,德华大学,,,120.30549,36.05892,Shandong,East
+http://www.wikidata.org/entity/Q11073383,Huizhou University,Huizhou University,惠州学院,1921.0,1920,,,,
+http://www.wikidata.org/entity/Q11074301,Huaihua University,Huaihua University,怀化学院,1958.0,1950,110.023,27.5762,Hunan,Central
+http://www.wikidata.org/entity/Q11074629,Chengdu Neusoft University,Chengdu Neusoft University,成都东软学院,2003.0,2000,103.59675,30.88882,Sichuan,Southwest
+http://www.wikidata.org/entity/Q11074630,Chengdu University of TCM,Chengdu University of TCM,成都中医药大学,1956.0,1950,,,Sichuan,Southwest
+http://www.wikidata.org/entity/Q11074647,Chengdu University,Chengdu University,成都大学,1978.0,1970,104.188,30.6495,Sichuan,Southwest
+http://www.wikidata.org/entity/Q11074658,"Chengdu Normal University, CDNU","Chengdu Normal University, CDNU",成都师范学院,1955.0,1950,103.820575,30.676218,Sichuan,Southwest
+http://www.wikidata.org/entity/Q11074673,四川传媒学院,,四川传媒学院,1997.0,1990,103.98292,30.82609,Sichuan,Southwest
+http://www.wikidata.org/entity/Q11078782,Panzhihua University,Panzhihua University,攀枝花学院,1983.0,1980,,,Sichuan,Southwest
+http://www.wikidata.org/entity/Q1107944,Southwestern University of Finance and Economics,Southwestern University of Finance and Economics,西南财经大学,1925.0,1920,104.017126,30.664854,Sichuan,Southwest
+http://www.wikidata.org/entity/Q1108042,Tianjin Foreign Studies University,Tianjin Foreign Studies University,天津外国语大学,1964.0,1960,117.203055555,39.106944444,,
+http://www.wikidata.org/entity/Q1108197,Wuhan University,Wuhan University,武汉大学,1926.0,1920,114.361111111,30.540833333,Hubei,Central
+http://www.wikidata.org/entity/Q11083651,Xinjiang Normal University,Xinjiang Normal University,新疆师范大学,1978.0,1970,87.59007,43.83165,Xinjiang,Northwest
+http://www.wikidata.org/entity/Q11090044,Jingdezhen Ceramic University,Jingdezhen Ceramic University,景德镇陶瓷大学,1909.0,1900,,,Jiangxi,East
+http://www.wikidata.org/entity/Q11102606,Hangzhou Dianzi University,Hangzhou Dianzi University,杭州电子科技大学,1956.0,1950,,,Zhejiang,East
+http://www.wikidata.org/entity/Q11124694,Wuhan Institute of Hydraulic and Electric Engineering,Wuhan Institute of Hydraulic and Electric Engineering,武汉水利电力大学,1954.0,1950,,,,
+http://www.wikidata.org/entity/Q11124697,Wuhan Technical University of Surveying and Mapping,Wuhan Technical University of Surveying and Mapping,武汉测绘科技大学,1956.0,1950,,,,
+http://www.wikidata.org/entity/Q11124722,Wuhan Textile University,Wuhan Textile University,武汉纺织大学,1958.0,1950,114.393333333,30.488055555,Hubei,Central
+http://www.wikidata.org/entity/Q11133148,Hankou University,Hankou University,汉口学院,2000.0,2000,114.31122,30.4187,Jiangxi,East
+http://www.wikidata.org/entity/Q11134930,Jiangsu University of Technology,Jiangsu University of Technology,江苏理工学院,1984.0,1980,119.913055555,31.753333333,Jiangsu,East
+http://www.wikidata.org/entity/Q11135052,Jiangsu University of Science and Technology,Jiangsu University of Science and Technology,江苏科技大学,1933.0,1930,,,Jiangsu,East
+http://www.wikidata.org/entity/Q11135170,Jiangxi University of Traditional Chinese Medicine,Jiangxi University of Traditional Chinese Medicine,江西中医药大学,1959.0,1950,115.7456,28.6775,Jiangxi,East
+http://www.wikidata.org/entity/Q11135190,Jiangxi Agricultural University,Jiangxi Agricultural University,江西农业大学,1905.0,1900,115.833963231,28.762988229,Jiangxi,East
+http://www.wikidata.org/entity/Q11138888,Shenyang Sport University,Shenyang Sport University,沈阳体育学院,,,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q11141318,Hebei Normal University,Hebei Normal University,河北师范大学,1902.0,1900,114.305277777,37.595277777,Hebei,North
+http://www.wikidata.org/entity/Q11141382,Hebei University of Economics and Business,Hebei University of Economics and Business,河北经贸大学,1953.0,1950,,,,
+http://www.wikidata.org/entity/Q11141537,Henan Normal University,Henan Normal University,河南师范大学,1923.0,1920,113.9159103,35.326848793,Henan,Central
+http://www.wikidata.org/entity/Q11141690,Henan Institute of Science and Technology,Henan Institute of Science and Technology,河南科技学院,,,,,Henan,Central
+http://www.wikidata.org/entity/Q11141717,Henan Police College,Henan Police College,河南警察学院,1949.0,1940,,,,
+http://www.wikidata.org/entity/Q11144969,Shandong First Medical University,Shandong First Medical University,山东第一医科大学,1891.0,1890,116.86144,36.67943,Shandong,East
+http://www.wikidata.org/entity/Q11144979,Taishan University,Taishan University,泰山学院,2002.0,2000,117.035498,36.222933,Shandong,East
+http://www.wikidata.org/entity/Q11148222,Jining Medical University,Jining Medical University,济宁医学院,,,116.59693,35.39557,Shandong,East
+http://www.wikidata.org/entity/Q11148503,Communication University of Zhejiang,Communication University of Zhejiang,浙江传媒学院,1978.0,1970,,,Zhejiang,East
+http://www.wikidata.org/entity/Q11148518,Zhejiang Agricultural University,Zhejiang Agricultural University,浙江农业大学,1952.0,1950,120.19164,30.27292,,
+http://www.wikidata.org/entity/Q11148738,Zhejiang Normal University,Zhejiang Normal University,浙江师范大学,1956.0,1950,119.641,29.1373,Zhejiang,East
+http://www.wikidata.org/entity/Q11148892,Zhejiang Conservatory of Music,Zhejiang Conservatory of Music,浙江音乐学院,2016.0,2010,,,Zhejiang,East
+http://www.wikidata.org/entity/Q11152732,Jiangsu Ocean University,Jiangsu Ocean University,江苏海洋大学,1985.0,1980,119.220046,34.60752,Jiangsu,East
+http://www.wikidata.org/entity/Q11172979,Ludong University,Ludong University,鲁东大学,,,121.358532,37.517159019,Shandong,East
+http://www.wikidata.org/entity/Q11174571,Hunan University of Technology and Business,Hunan University of Technology and Business,湖南工商大学,1949.0,1940,112.919,28.227,Hunan,Central
+http://www.wikidata.org/entity/Q11177091,Huanggang Normal University,Huanggang Normal University,黄冈师范学院,1905.0,1900,,,Hubei,Central
+http://www.wikidata.org/entity/Q11177393,Huangshan University,Huangshan University,黄山学院,1978.0,1970,,,Anhui,East
+http://www.wikidata.org/entity/Q11179769,Heilongjiang Bayi Agricultural University,Heilongjiang Bayi Agricultural University,黑龙江八一农垦大学,,,,,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q11179808,Heilongjiang University of Science and Technology,Heilongjiang University of Science and Technology,黑龙江科技大学,1947.0,1940,126.65237,45.82055,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q11180290,Qilu University of Technology,Qilu University of Technology,齐鲁工业大学,1948.0,1940,,,Shandong,East
+http://www.wikidata.org/entity/Q112676960,Guangzhou Institute of Science and Technology,Guangzhou Institute of Science and Technology,广州理工学院,,,,,Guangdong,South
+http://www.wikidata.org/entity/Q112811223,Open University of Henan,Open University of Henan,河南开放大学,,,,,Henan,Central
+http://www.wikidata.org/entity/Q113558730,University of Health and Rehabilitation Sciences,University of Health and Rehabilitation Sciences,康复大学,2024.0,2020,120.17369,36.21942,Shandong,East
+http://www.wikidata.org/entity/Q113578472,Zhongfa Aviation University,Zhongfa Aviation University,中法航空大学,,,,,Zhejiang,East
+http://www.wikidata.org/entity/Q11370417,Jiujiang University,Jiujiang University,九江学院,1901.0,1900,116.005213501,29.676848614,Jiangxi,East
+http://www.wikidata.org/entity/Q114368512,泉州大学,,泉州大学,,,,,,
+http://www.wikidata.org/entity/Q1144682,Beijing Foreign Studies University,Beijing Foreign Studies University,北京外国语大学,1941.0,1940,116.304166666,39.954166666,Beijing,North
+http://www.wikidata.org/entity/Q114957556,Fuyao University of Science and Technology,Fuyao University of Science and Technology,福建福耀科技大学,2025.0,2020,,,Fujian,East
+http://www.wikidata.org/entity/Q115203157,中国人民解放军陆军边海防学院昆明校区,,中国人民解放军陆军边海防学院昆明校区,,,102.789698,24.997333,Yunnan,Southwest
+http://www.wikidata.org/entity/Q1153539,Xiamen University,Xiamen University,厦门大学,1921.0,1920,118.09,24.44,Fujian,East
+http://www.wikidata.org/entity/Q116090662,Zhongfa Aviation University,Zhongfa Aviation University,中法航空大学,,,,,Zhejiang,East
+http://www.wikidata.org/entity/Q11627597,Xi'an University of Technology,Xi'an University of Technology,西安理工大学,1949.0,1940,108.995,34.25333333,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q11642649,Liaoning University of Traditional Chinese Medicine,Liaoning University of Traditional Chinese Medicine,辽宁中医药大学,1958.0,1950,123.4315494,41.8316228,Liaoning,Northeast
+http://www.wikidata.org/entity/Q11653025,Changchun University of Chinese Medicine,Changchun University of Chinese Medicine,长春中医药大学,,,125.420196,43.829779,Jilin,Northeast
+http://www.wikidata.org/entity/Q117322835,Jingju Temple,Jingju Temple,,,,,,,
+http://www.wikidata.org/entity/Q117406370,"Eastern Institute of Technology, Ningbo","Eastern Institute of Technology, Ningbo",宁波东方理工大学,2025.0,2020,,,Zhejiang,East
+http://www.wikidata.org/entity/Q117474583,Jingzhou Normal College,Jingzhou Normal College,荆州师范学院,,,,,Hubei,Central
+http://www.wikidata.org/entity/Q1187271,Hong Kong Polytechnic University,Hong Kong Polytechnic University,香港理工大學,1937.0,1930,114.18,22.305,,
+http://www.wikidata.org/entity/Q118998668,Harvard Medical School of China,Harvard Medical School of China,,,,,,,
+http://www.wikidata.org/entity/Q121243541,Hebei Academy of Agriculture and Forestry Sciences,Hebei Academy of Agriculture and Forestry Sciences,河北省农林科学院,,,,,Hebei,North
+http://www.wikidata.org/entity/Q123034620,Shenzhen Ocean University,Shenzhen Ocean University,深圳海洋大学,,,,,Guangdong,South
+http://www.wikidata.org/entity/Q126371462,Shenzhen University of Advanced Technology,Shenzhen University of Advanced Technology,深圳理工大学,2024.0,2020,,,Guangdong,South
+http://www.wikidata.org/entity/Q126389764,Henan Sport University,Henan Sport University,河南体育学院,2024.0,2020,,,Henan,Central
+http://www.wikidata.org/entity/Q126960101,Army Special Operations Academy,Army Special Operations Academy,中国人民解放军陆军特种作战学院,,,110.282548,25.243538,,
+http://www.wikidata.org/entity/Q128123086,PLARF NCO School,PLARF NCO School,中国人民解放军火箭军士官学校,1970.0,1970,,,Shandong,East
+http://www.wikidata.org/entity/Q129077719,Beijing Institute of Mathematical Sciences and Applications,Beijing Institute of Mathematical Sciences and Applications,,,,,,,
+http://www.wikidata.org/entity/Q130640081,,,,,,118.601084,35.738653,Shandong,East
+http://www.wikidata.org/entity/Q130640114,,,,,,117.965191,35.276633,Shandong,East
+http://www.wikidata.org/entity/Q1322553,Tibet University,Tibet University,西藏大学,1985.0,1980,91.1786007,29.645352,Tibet Autonomous Region,Southwest
+http://www.wikidata.org/entity/Q1323075,Southwest University of Political Science and Law,Southwest University of Political Science and Law,西南政法大学,1950.0,1950,106.589722222,29.665,,
+http://www.wikidata.org/entity/Q1333303,Hong Kong University of Science and Technology,Hong Kong University of Science and Technology,香港科技大學,1991.0,1990,114.263,22.3375,,
+http://www.wikidata.org/entity/Q1343386,Shanghai University,Shanghai University,上海大学,1994.0,1990,121.388888888,31.316666666,,
+http://www.wikidata.org/entity/Q1351114,Hubei Institute of Fine Arts,Hubei Institute of Fine Arts,湖北美术学院,1920.0,1920,114.422079,30.395900491,Hubei,Central
+http://www.wikidata.org/entity/Q13527910,Yangtze University,Yangtze University,长江大学,2003.0,2000,,,Hubei,Central
+http://www.wikidata.org/entity/Q13562485,Xi'an Jiaotong-Liverpool University,Xi'an Jiaotong-Liverpool University,西交利物浦大学,2006.0,2000,120.7381,31.2748,Jiangsu,East
+http://www.wikidata.org/entity/Q136126269,Central Academy for Ethnic Cadres,Central Academy for Ethnic Cadres,,1983.0,1980,,,,
+http://www.wikidata.org/entity/Q13632376,Civil Aviation Flight University of China,Civil Aviation Flight University of China,中国民用航空飞行学院,1956.0,1950,104.25,30.98333333,Sichuan,Southwest
+http://www.wikidata.org/entity/Q1363559,Northeastern University,Northeastern University,东北大学,1923.0,1920,123.416388888,41.761666666,Liaoning,Northeast
+http://www.wikidata.org/entity/Q13651860,Nanjing University of Finance and Economics,Nanjing University of Finance and Economics,南京财经大学,2003.0,2000,118.75457222,32.08803333,Jiangsu,East
+http://www.wikidata.org/entity/Q13652966,New York University Shanghai,New York University Shanghai,上海纽约大学,2012.0,2010,121.476978064,31.150804907,Shanghai,East
+http://www.wikidata.org/entity/Q136773590,PLA Naval Command Academy,PLA Naval Command Academy,,,,,,,
+http://www.wikidata.org/entity/Q137006,Guangxi Normal University,Guangxi Normal University,广西师范大学,1932.0,1930,,,,
+http://www.wikidata.org/entity/Q137060854,University of China Academy of Chinese Medical Sciences,University of China Academy of Chinese Medical Sciences,中国中医科学院大学,,,,,Jiangsu,East
+http://www.wikidata.org/entity/Q137222909,PLA Information Support Force Engineering University,PLA Information Support Force Engineering University,中国人民解放军信息支援部队工程大学,,,,,,
+http://www.wikidata.org/entity/Q137222912,PLA Ground Force Service Academy,PLA Ground Force Service Academy,,,,,,,
+http://www.wikidata.org/entity/Q137222919,PLA Joint Logistics Support Force Engineering University,PLA Joint Logistics Support Force Engineering University,,,,,,,
+http://www.wikidata.org/entity/Q138182,Beijing Film Academy,Beijing Film Academy,北京电影学院,1928.0,1920,116.3532808,39.9717416,,
+http://www.wikidata.org/entity/Q1389327,Shanxi Agricultural University,Shanxi Agricultural University,山西农业大学,1907.0,1900,112.57527778,37.42388889,Shanxi,North
+http://www.wikidata.org/entity/Q1391751,Duke Kunshan University,Duke Kunshan University,昆山杜克大学,2012.0,2010,120.89332222,31.41768611,Jiangsu,East
+http://www.wikidata.org/entity/Q1397589,Central China Normal University,Central China Normal University,华中师范大学,1903.0,1900,114.369487,30.522385,Hubei,Central
+http://www.wikidata.org/entity/Q1432030,Jilin University,Jilin University,吉林大学,1946.0,1940,125.301111111,43.88,Jilin,Northeast
+http://www.wikidata.org/entity/Q14478494,University of Science and Technology Liaoning,University of Science and Technology Liaoning,遼寧科技大學,1948.0,1940,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q1455176,Shanghai International Studies University,Shanghai International Studies University,上海外国语大学,1949.0,1940,121.482911,31.277157,,
+http://www.wikidata.org/entity/Q1477368,Dalian University of Technology,Dalian University of Technology,大连理工大学,1949.0,1940,121.534,38.8744,Liaoning,Northeast
+http://www.wikidata.org/entity/Q1477812,Nanjing Normal University,Nanjing Normal University,南京师范大学,1902.0,1900,118.764519444,32.056002777,Jiangsu,East
+http://www.wikidata.org/entity/Q1510516,University of Science and Technology Beijing,University of Science and Technology Beijing,北京科技大学,1952.0,1950,116.357096,39.990249,Beijing,North
+http://www.wikidata.org/entity/Q1519208,Shanghai Institute of Technology,Shanghai Institute of Technology,上海应用技术学院,2001.0,2000,,,,
+http://www.wikidata.org/entity/Q1540301,Hong Kong Metropolitan University,Hong Kong Metropolitan University,香港都會大學,1989.0,1980,114.18,22.3162,,
+http://www.wikidata.org/entity/Q1541161,Lingnan University,Lingnan University,嶺南大學,1999.0,1990,113.983,22.41,Hong Kong,South
+http://www.wikidata.org/entity/Q1552757,Guangxi University,Guangxi University,广西大学,1928.0,1920,108.284511111,22.839033333,Guangxi,South
+http://www.wikidata.org/entity/Q15568,University of Hong Kong,University of Hong Kong,香港大學,1911.0,1910,114.137777777,22.284166666,Hong Kong,South
+http://www.wikidata.org/entity/Q15570,The Chinese University of Hong Kong,The Chinese University of Hong Kong,香港中文大學,1963.0,1960,114.206791666,22.419722222,Hong Kong,South
+http://www.wikidata.org/entity/Q1563050,University of Macau,University of Macau,澳門大學,1981.0,1980,113.545757,22.13033,,
+http://www.wikidata.org/entity/Q15662456,Macao Polytechnic University,Macao Polytechnic University,澳門理工大學,1991.0,1990,113.552,22.1935,,
+http://www.wikidata.org/entity/Q15692487,Hunan City University,Hunan City University,湖南城市學院,1970.0,1970,112.388,28.5444,Hunan,Central
+http://www.wikidata.org/entity/Q15699103,Shaoyang University,Shaoyang University,邵陽學院,1958.0,1950,111.436,27.2035,Hunan,Central
+http://www.wikidata.org/entity/Q15703466,China University of Petroleum (East China),China University of Petroleum (East China),中国石油大学（华东）,1953.0,1950,120.17026,35.94227,Shandong,East
+http://www.wikidata.org/entity/Q15889779,Mianyang Teachers' College,Mianyang Teachers' College,绵阳师范学院,,,,,Sichuan,Southwest
+http://www.wikidata.org/entity/Q15896121,Hong Kong Police College,Hong Kong Police College,香港警察學院,2006.0,2000,114.17156,22.247361,Hong Kong,South
+http://www.wikidata.org/entity/Q1589630,Capital University of Economics and Business,Capital University of Economics and Business,首都经济贸易大学,1956.0,1950,116.310594,39.841257,Beijing,North
+http://www.wikidata.org/entity/Q15899144,China University of Petroleum,China University of Petroleum,中国石油大学,1953.0,1950,116.242,40.217,,
+http://www.wikidata.org/entity/Q15901311,Tongren University,Tongren University,铜仁学院,,,,,,
+http://www.wikidata.org/entity/Q15902203,Shaanxi University of Technology,Shaanxi University of Technology,陕西理工大学,2001.0,2000,,,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q15902369,Chongqing University of Science and Technology,Chongqing University of Science and Technology,重庆科技大学,1951.0,1950,106.329278,29.6022,,
+http://www.wikidata.org/entity/Q15903527,Hubei University of Economics,Hubei University of Economics,湖北经济学院,2002.0,2000,114.365072,30.571801,Hubei,Central
+http://www.wikidata.org/entity/Q15904170,Hebei GEO University,Hebei GEO University,河北地质大学,1953.0,1950,114.553814,38.025448,Hebei,North
+http://www.wikidata.org/entity/Q15904201,Taiyuan University of Technology,Taiyuan University of Technology,太原工业大学,1902.0,1900,112.522915,37.859964,,
+http://www.wikidata.org/entity/Q15905216,Southwest China Normal University,Southwest China Normal University,西南师范大学,,,,,,
+http://www.wikidata.org/entity/Q15907786,Shanxi Mining Institute,Shanxi Mining Institute,山西矿业学院,1958.0,1950,112.523131,37.854453,,
+http://www.wikidata.org/entity/Q15908954,Wuchang Chunghua University,Wuchang Chunghua University,私立武昌中华大学,1912.0,1910,,,Hubei,Central
+http://www.wikidata.org/entity/Q15910651,Hunan University of Technology,Hunan University of Technology,湖南工业大学,1979.0,1970,113.127,27.8248,Hunan,Central
+http://www.wikidata.org/entity/Q15912040,Private Canton University,Private Canton University,私立廣州大學,1927.0,1920,,,Guangdong,South
+http://www.wikidata.org/entity/Q15913567,Chongqing University of Technology,Chongqing University of Technology,重庆理工大学,1940.0,1940,106.52638889,29.45527778,,
+http://www.wikidata.org/entity/Q15914809,Railway Police College,Railway Police College,郑州警察学院,1950.0,1950,,,Henan,Central
+http://www.wikidata.org/entity/Q15915004,Hunan International Economics University,Hunan International Economics University,湖南涉外经济学院,1997.0,1990,112.951,28.2022,Hunan,Central
+http://www.wikidata.org/entity/Q15915466,Weinan Normal University,Weinan Normal University,渭南师范学院,1923.0,1920,,,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q15915486,Shandong University Weihai Campus,Shandong University Weihai Campus,山东大学威海校区,1984.0,1980,122.05491,37.53049,,
+http://www.wikidata.org/entity/Q15916735,Hunan Vocational Institute of Technology,Hunan Vocational Institute of Technology,湖南理工职业技术学院,1979.0,1970,112.921364,27.836325,Hunan,Central
+http://www.wikidata.org/entity/Q15917097,Shandong College of Arts,Shandong College of Arts,山东艺术学院,1958.0,1950,,,Shandong,East
+http://www.wikidata.org/entity/Q15919886,Shanxi Finance & Taxation College,Shanxi Finance & Taxation College,山西省财政税务专科学校,1963.0,1960,,,,
+http://www.wikidata.org/entity/Q15919938,Southwest University of Science and Technology,Southwest University of Science and Technology,西南科技大学,1952.0,1950,104.727751111,31.482894444,Sichuan,Southwest
+http://www.wikidata.org/entity/Q15920925,National Northwestern College of Engineering,National Northwestern College of Engineering,国立西北工学院,,,,,,
+http://www.wikidata.org/entity/Q15926339,Shanxi Institute of Technology,Shanxi Institute of Technology,山西工程技术学院,1984.0,1980,,,Shanxi,North
+http://www.wikidata.org/entity/Q15927225,Xi’an International University,Xi’an International University,西安外事学院,1992.0,1990,108.86883,34.23381,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q15928689,UOW College Hong Kong,UOW College Hong Kong,香港伍伦贡学院,1989.0,1980,,,Hong Kong,South
+http://www.wikidata.org/entity/Q15930295,"University of Electronic Science and Technology of China, Zhongshan Institute","University of Electronic Science and Technology of China, Zhongshan Institute",电子科技大学中山学院,1995.0,1990,113.385161,22.529435,Guangdong,South
+http://www.wikidata.org/entity/Q15931204,北京农业机械化学院,,北京农业机械化学院,1952.0,1950,116.356436,40.001427,,
+http://www.wikidata.org/entity/Q15931471,Norman Bethune University of Medical Science,Norman Bethune University of Medical Science,白求恩医科大学,,,,,,
+http://www.wikidata.org/entity/Q15932879,Xi'an University,Xi'an University,西安文理学院,2003.0,2000,108.906718,34.216328,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q15934902,"The Chinese University of Hong Kong, Shenzhen","The Chinese University of Hong Kong, Shenzhen",香港中文大學（深圳）,2014.0,2010,114.208,22.69,Guangdong,South
+http://www.wikidata.org/entity/Q15935155,Suzhou City University,Suzhou City University,苏州城市学院,1998.0,1990,120.58255,31.21879,Jiangsu,East
+http://www.wikidata.org/entity/Q15938742,Hebei University of Science and Technology,Hebei University of Science and Technology,河北科技大学,1996.0,1990,,,Hebei,North
+http://www.wikidata.org/entity/Q15941682,Heze University,Heze University,菏泽学院,1949.0,1940,,,Shandong,East
+http://www.wikidata.org/entity/Q15942570,Capital University of Physical Education and Sports,Capital University of Physical Education and Sports,首都体育学院,1956.0,1950,116.342313888,39.966944444,Beijing,North
+http://www.wikidata.org/entity/Q15942737,Private Jiangnan University,Private Jiangnan University,私立江南大學,,,,,,
+http://www.wikidata.org/entity/Q15944731,西安医科大学,,西安医科大学,1956.0,1950,,,,
+http://www.wikidata.org/entity/Q15953222,Hengyang Normal University,Hengyang Normal University,衡阳师范学院,1904.0,1900,112.678,26.8804,Hunan,Central
+http://www.wikidata.org/entity/Q15953966,Xuchang University,Xuchang University,许昌学院,1959.0,1950,,,Henan,Central
+http://www.wikidata.org/entity/Q15956328,Hunan University of Science and Engineering,Hunan University of Science and Engineering,湖南科技学院,1941.0,1940,111.61,26.2294,Fujian,East
+http://www.wikidata.org/entity/Q15964716,Ankang University,Ankang University,安康学院,,,,,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q15965526,Hunan Women's University,Hunan Women's University,湖南女子学院,1985.0,1980,113.009,28.1163,Hunan,Central
+http://www.wikidata.org/entity/Q1604022,Beijing Normal University,Beijing Normal University,北京师范大学,1902.0,1900,116.3625,39.957222222,,
+http://www.wikidata.org/entity/Q1622094,Dali University,Dali University,大理大学,1978.0,1970,100.15333333,25.67416667,Yunnan,Southwest
+http://www.wikidata.org/entity/Q1622134,Hebei North University,Hebei North University,河北北方学院,2003.0,2000,114.872502744,40.769751449,Hebei,North
+http://www.wikidata.org/entity/Q1622235,Zhejiang University of Science and Technology,Zhejiang University of Science and Technology,浙江科技大学,1980.0,1980,,,Zhejiang,East
+http://www.wikidata.org/entity/Q16259561,Sanya University,Sanya University,三亚学院,2004.0,2000,,,Hainan,South
+http://www.wikidata.org/entity/Q16259712,Zhejiang International Studies University,Zhejiang International Studies University,浙江外国语学院,1987.0,1980,120.029,30.222,Zhejiang,East
+http://www.wikidata.org/entity/Q1639978,Soochow University,Soochow University,苏州大学,1900.0,1900,120.63555556,31.31083333,Jiangsu,East
+http://www.wikidata.org/entity/Q16499874,Shangrao Normal University,Shangrao Normal University,上饶师范学院,1958.0,1950,,,,
+http://www.wikidata.org/entity/Q1674548,Beijing University of Technology,Beijing University of Technology,北京工业大学,1960.0,1960,116.4775,39.87111111,Beijing,North
+http://www.wikidata.org/entity/Q16866504,Guangxi University of Finance and Economics,Guangxi University of Finance and Economics,广西财经学院,2004.0,2000,108.176047222,22.831330555,Guangxi,South
+http://www.wikidata.org/entity/Q16923590,Brandon Learning Centre,Brandon Learning Centre,,2006.0,2000,114.18180556,22.27713889,,
+http://www.wikidata.org/entity/Q16924579,Hebei Finance University,Hebei Finance University,河北金融学院,1952.0,1950,115.500133,38.920005,Hebei,North
+http://www.wikidata.org/entity/Q16924810,Les Roches Jin Jiang International Hotel Management College,Les Roches Jin Jiang International Hotel Management College,,2004.0,2000,,,,
+http://www.wikidata.org/entity/Q16926382,Canton Law School (Private),Canton Law School (Private),私立广州法学院,1929.0,1920,,,Guangdong,South
+http://www.wikidata.org/entity/Q16947,Tongji University,Tongji University,同济大学,1907.0,1900,121.506631944,31.2827,,
+http://www.wikidata.org/entity/Q16952,Peking University,Peking University,北京大学,1898.0,1890,116.305277777,39.989722222,,
+http://www.wikidata.org/entity/Q16955,Tsinghua University,Tsinghua University,清华大学,1911.0,1910,116.326666666,40.0,,
+http://www.wikidata.org/entity/Q17013222,Shanghai Polytechnic University,Shanghai Polytechnic University,上海第二工业大学,1960.0,1960,,,,
+http://www.wikidata.org/entity/Q17014198,University of the Chinese People's Police Officers,University of the Chinese People's Police Officers,中国人民警官大学,1978.0,1970,,,,
+http://www.wikidata.org/entity/Q17014396,"China University of Mining and Technology, Beijing","China University of Mining and Technology, Beijing",中国矿业大学（北京）,,,116.3435,39.9978,Beijing,North
+http://www.wikidata.org/entity/Q17024910,Shandong Management University,Shandong Management University,山东管理学院,1938.0,1930,,,Shandong,East
+http://www.wikidata.org/entity/Q17024978,Lingnan Normal University,Lingnan Normal University,岭南师范学院,1991.0,1990,110.351,21.2746,Guangdong,South
+http://www.wikidata.org/entity/Q17030460,Changchun University of Technology,Changchun University of Technology,长春工业大学,1952.0,1950,125.285808,43.831863,,
+http://www.wikidata.org/entity/Q17030469,Changchun Institute of Technology,Changchun Institute of Technology,长春工程学院,1951.0,1950,125.281496,43.851575,Jilin,Northeast
+http://www.wikidata.org/entity/Q17030781,Hubei University of Science and Technology,Hubei University of Science and Technology,湖北科技学院,1965.0,1960,,,Hubei,Central
+http://www.wikidata.org/entity/Q17031931,Institute of Disaster Prevention,Institute of Disaster Prevention,防灾科技学院,1975.0,1970,116.800344,39.952156,Hebei,North
+http://www.wikidata.org/entity/Q17033009,Weifang University,Weifang University,潍坊学院,1951.0,1950,,,Shandong,East
+http://www.wikidata.org/entity/Q17038820,湖北建筑工业学院,,湖北建筑工业学院,,,,,,
+http://www.wikidata.org/entity/Q17059964,Guizhou Education University,Guizhou Education University,贵州师范学院,,,,,,
+http://www.wikidata.org/entity/Q17066828,Suzhou Art&Design Technology Institute,Suzhou Art&Design Technology Institute,苏州工艺美术职业技术学院,,,,,Jiangsu,East
+http://www.wikidata.org/entity/Q1711196,Huazhong University of Science and Technology,Huazhong University of Science and Technology,华中科技大学,1953.0,1950,114.41,30.51,Hubei,Central
+http://www.wikidata.org/entity/Q17164058,Shenzhen City Polytechnic,Shenzhen City Polytechnic,深圳城市职业学院,,,,,Guangdong,South
+http://www.wikidata.org/entity/Q17499545,Beijing Agricultural University,Beijing Agricultural University,北京农业大学,1949.0,1940,116.281614303,40.026836368,,
+http://www.wikidata.org/entity/Q17499546,Northwest Agricultural University,Northwest Agricultural University,西北农业大学,,,,,,
+http://www.wikidata.org/entity/Q17499649,Changchun University of Science and Technology,Changchun University of Science and Technology,长春科技大学,1951.0,1950,125.299836111,43.880402777,Jilin,Northeast
+http://www.wikidata.org/entity/Q17499695,Xi'an University of Finance and Economics,Xi'an University of Finance and Economics,西安财经大学,,,108.938578,34.115546,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q1760244,Yenching University,Yenching University,燕京大學,1919.0,1910,116.305277777,39.989722222,,
+http://www.wikidata.org/entity/Q1765168,Communication University of China,Communication University of China,中国传媒大学,1954.0,1950,116.550162,39.909106,Beijing,North
+http://www.wikidata.org/entity/Q178972,Sun Yat-sen University,Sun Yat-sen University,中山大学,1924.0,1920,113.292713888,23.098277777,Guangdong,South
+http://www.wikidata.org/entity/Q1804773,Nanjing Agricultural University,Nanjing Agricultural University,南京农业大学,1902.0,1900,118.83667222,32.03196389,Jiangsu,East
+http://www.wikidata.org/entity/Q18119211,Gannan Normal University,Gannan Normal University,赣南师范大学,1958.0,1950,114.888216,25.790644,Jiangxi,East
+http://www.wikidata.org/entity/Q18119361,Longdong University,Longdong University,陇东学院,1978.0,1970,107.667483,35.736274,Liaoning,Northeast
+http://www.wikidata.org/entity/Q18384391,Central South University of Technology,Central South University of Technology,中南工業大學,1952.0,1950,,,Hunan,Central
+http://www.wikidata.org/entity/Q18654088,Hubei University of Medicine,Hubei University of Medicine,湖北医药学院,1965.0,1960,,,Hubei,Central
+http://www.wikidata.org/entity/Q190336,Minzu University of China,Minzu University of China,中央民族大学,1951.0,1950,116.3175,39.948333333,Beijing,North
+http://www.wikidata.org/entity/Q1945756,Shenzhen University,Shenzhen University,深圳大学,1983.0,1980,113.933684,22.539256,Guangdong,South
+http://www.wikidata.org/entity/Q19594981,Soochow University,Soochow University,东吴大学,1900.0,1900,120.63706,31.30439,Jiangsu,East
+http://www.wikidata.org/entity/Q19646147,HKBU Department of Communication Studies,HKBU Department of Communication Studies,,,,114.182,22.3389,,
+http://www.wikidata.org/entity/Q197543,Zhejiang University,Zhejiang University,浙江大学,1897.0,1890,120.120833333,30.263611111,Zhejiang,East
+http://www.wikidata.org/entity/Q19841130,Zhejiang Wanli University,Zhejiang Wanli University,浙江万里学院,1999.0,1990,121.567337,29.819014,Zhejiang,East
+http://www.wikidata.org/entity/Q19852174,Sichuan Tourism University,Sichuan Tourism University,四川旅游学院,1985.0,1980,104.277586,30.583234,Sichuan,Southwest
+http://www.wikidata.org/entity/Q19852435,Shandong Agriculture And Engineering University,Shandong Agriculture And Engineering University,山东农业工程学院,1971.0,1970,,,,
+http://www.wikidata.org/entity/Q19853748,Guizhou University of Commerce,Guizhou University of Commerce,贵州商学院,1947.0,1940,106.628025,26.726949,Guizhou,Southwest
+http://www.wikidata.org/entity/Q19855981,Hexi University,Hexi University,河西学院,1941.0,1940,100.444591,38.944371,Gansu,Northwest
+http://www.wikidata.org/entity/Q19856085,Gansu Medical College,Gansu Medical College,甘肃医学院,2003.0,2000,,,Gansu,Northwest
+http://www.wikidata.org/entity/Q2031560,Tianjin University,Tianjin University,天津大學,1895.0,1890,117.174922524,39.11030191,,
+http://www.wikidata.org/entity/Q2034790,East China Normal University,East China Normal University,华东师范大学,1951.0,1950,121.4,31.228055555,,
+http://www.wikidata.org/entity/Q2040973,Anhui University of Technology,Anhui University of Technology,安徽工业大学,1958.0,1950,,,Anhui,East
+http://www.wikidata.org/entity/Q20688250,Southwest Medical University,Southwest Medical University,西南医科大学,1951.0,1950,,,Sichuan,Southwest
+http://www.wikidata.org/entity/Q20743752,Baoji University of Arts and Sciences,Baoji University of Arts and Sciences,宝鸡文理学院,1958.0,1950,,,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q20954823,Jiangsu Polytechnic University,Jiangsu Polytechnic University,江苏理工大学,,,,,Jiangsu,East
+http://www.wikidata.org/entity/Q21017906,"Holy Rosary Church, Yibin","Holy Rosary Church, Yibin",玄義玫瑰堂,,,,,Sichuan,Southwest
+http://www.wikidata.org/entity/Q2120270,Northwest Normal University,Northwest Normal University,西北师范大学,1902.0,1900,103.73599,36.100753,Gansu,Northwest
+http://www.wikidata.org/entity/Q2120272,Yunnan Normal University,Yunnan Normal University,云南师范大学,1938.0,1930,102.69757,25.05577,Yunnan,Southwest
+http://www.wikidata.org/entity/Q22079915,Guangdong Technion-Israel Institute of Technology,Guangdong Technion-Israel Institute of Technology,广东以色列理工学院,2015.0,2010,,,Guangdong,South
+http://www.wikidata.org/entity/Q22100490,Chengdu Technological University,Chengdu Technological University,成都工业学院,1913.0,1910,103.8852,30.7896,Sichuan,Southwest
+http://www.wikidata.org/entity/Q22100917,"Chongqing College of Humanities, Science and Technology","Chongqing College of Humanities, Science and Technology",重庆人文科技学院,2000.0,2000,,,,
+http://www.wikidata.org/entity/Q22101066,Tianjin Sino-German University of Applied Sciences,Tianjin Sino-German University of Applied Sciences,天津中德应用技术大学,1984.0,1980,117.379892,39.010909,Tianjin,North
+http://www.wikidata.org/entity/Q22101558,Inner Mongolia University for Nationalities,Inner Mongolia University for Nationalities,内蒙古民族大学,,,,,Inner Mongolia,North
+http://www.wikidata.org/entity/Q2281517,Sichuan University,Sichuan University,四川大学,1896.0,1890,104.086377,30.634471,Sichuan,Southwest
+http://www.wikidata.org/entity/Q2299797,Beihang University,Beihang University,北京航空航天大学,1952.0,1950,116.340833333,39.98,,
+http://www.wikidata.org/entity/Q23006203,Jiangnan Social University,Jiangnan Social University,江南社会学院,1984.0,1980,120.683333333,31.2325,,
+http://www.wikidata.org/entity/Q23101,Beijing Institute of Technology,Beijing Institute of Technology,北京理工大学,1940.0,1940,116.308333333,39.957777777,Beijing,North
+http://www.wikidata.org/entity/Q23102,Harbin Engineering University,Harbin Engineering University,哈尔滨工程大学,1953.0,1950,126.675,45.77222222,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q23110,Nanjing University of Aeronautics and Astronautics,Nanjing University of Aeronautics and Astronautics,南京航空航天大学,1952.0,1950,118.813808333,32.036005555,Jiangsu,East
+http://www.wikidata.org/entity/Q233300,Beijing International Studies University,Beijing International Studies University,北京第二外国语学院,1964.0,1960,116.557699,39.909286,Beijing,North
+http://www.wikidata.org/entity/Q2399342,Qingdao University of Technology,Qingdao University of Technology,青岛理工大学,1953.0,1950,120.021,36.05,Shandong,East
+http://www.wikidata.org/entity/Q2431406,Xizang Minzu University,Xizang Minzu University,西藏民族大学,1958.0,1950,108.728177777,34.349583333,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q24836559,Chern Institute of Mathematics,Chern Institute of Mathematics,南开大学陈省身数学研究所,1985.0,1980,117.16336,39.10011,Tianjin,North
+http://www.wikidata.org/entity/Q24841520,National Qingdao University,National Qingdao University,国立青岛大学,,,,,Shandong,East
+http://www.wikidata.org/entity/Q2492836,University of International Relations,University of International Relations,国际关系学院,1949.0,1940,116.2801,40.0021,Beijing,North
+http://www.wikidata.org/entity/Q2492920,China Foreign Affairs University,China Foreign Affairs University,外交学院,1955.0,1950,116.339124,39.925223,,
+http://www.wikidata.org/entity/Q2496116,Northwest University,Northwest University,西北大学,1902.0,1900,108.874581,34.144994,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q2496210,Beijing University of Chemical Technology,Beijing University of Chemical Technology,北京化工大学,1958.0,1950,116.415277777,39.968888888,,
+http://www.wikidata.org/entity/Q25105500,Guilin University of Aerospace Technology,Guilin University of Aerospace Technology,桂林航天工业学院,1979.0,1970,110.371083333,25.283805555,,
+http://www.wikidata.org/entity/Q254204,Nankai University,Nankai University,南开大学,1919.0,1910,117.164722222,39.101111111,,
+http://www.wikidata.org/entity/Q257655,China Agricultural University,China Agricultural University,中国农业大学,1905.0,1900,116.352777777,40.0025,,
+http://www.wikidata.org/entity/Q2578027,Shihezi University,Shihezi University,石河子大学,1949.0,1940,86.055213888,44.305280555,Xinjiang,Northwest
+http://www.wikidata.org/entity/Q263932,Zhejiang Chinese Medical University,Zhejiang Chinese Medical University,浙江中医药大学,1953.0,1950,120.149639,30.17275,Zhejiang,East
+http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,East China University of Science and Technology,华东理工大学,1952.0,1950,121.3229,30.72299,Shanghai,East
+http://www.wikidata.org/entity/Q2687517,Jinan University,Jinan University,暨南大学,1906.0,1900,113.348,23.128,Guangdong,South
+http://www.wikidata.org/entity/Q27895325,Mudanjiang University,Mudanjiang University,牡丹江大学,1983.0,1980,,,,
+http://www.wikidata.org/entity/Q27895354,Kaifeng University,Kaifeng University,开封大学,1980.0,1980,,,Henan,Central
+http://www.wikidata.org/entity/Q27897024,Guangzhou Open University,Guangzhou Open University,,1961.0,1960,,,,
+http://www.wikidata.org/entity/Q27963411,Henan University of Economics and Law,Henan University of Economics and Law,河南财经政法大学,1983.0,1980,,,Henan,Central
+http://www.wikidata.org/entity/Q27963770,Yulin University,Yulin University,榆林大学,,,109.723983,38.292639,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q27966797,Student Halls of Residence Hung Hom Bay,Student Halls of Residence Hung Hom Bay,,,,114.180389,22.304583,,
+http://www.wikidata.org/entity/Q2822274,Central Academy of Drama,Central Academy of Drama,中央戏剧学院,1950.0,1950,116.404397913,39.936204433,,
+http://www.wikidata.org/entity/Q28410086,Bengbu University,Bengbu University,蚌埠学院,1976.0,1970,117.416961111,32.891036111,Henan,Central
+http://www.wikidata.org/entity/Q28412971,Tianjin Vocational Institute,Tianjin Vocational Institute,天津职业大学,1978.0,1970,,,,
+http://www.wikidata.org/entity/Q28414122,Hangzhou Medical College,Hangzhou Medical College,杭州医学院,1974.0,1970,,,Zhejiang,East
+http://www.wikidata.org/entity/Q28414145,Zhengzhou Normal University,Zhengzhou Normal University,郑州师范学院,1949.0,1940,113.6389662,34.8632852,,
+http://www.wikidata.org/entity/Q28414979,PLA Institute of Chemical Defense,PLA Institute of Chemical Defense,中国人民解放军防化研究院,1954.0,1950,,,,
+http://www.wikidata.org/entity/Q28416699,Westlake University,Westlake University,西湖大学,2016.0,2010,120.075278,30.131667,Zhejiang,East
+http://www.wikidata.org/entity/Q2982986,Hong Kong Adventist College,Hong Kong Adventist College,香港三育書院,1903.0,1900,114.28583333,22.30722222,Hong Kong,South
+http://www.wikidata.org/entity/Q2994505,Central Conservatory of Music,Central Conservatory of Music,中央音乐学院,1950.0,1950,116.35417,39.9011,Beijing,North
+http://www.wikidata.org/entity/Q30254151,Yibin University,Yibin University,宜宾学院,1978.0,1970,104.61259,28.790851,Sichuan,Southwest
+http://www.wikidata.org/entity/Q30260661,Qiongtai Normal University,Qiongtai Normal University,琼台师范学院,,,110.515857,19.97381,Hainan,South
+http://www.wikidata.org/entity/Q30262628,Guangzhou Maritime University,Guangzhou Maritime University,广州航海高等专科学校,1964.0,1960,113.477901,23.094579,Guangdong,South
+http://www.wikidata.org/entity/Q302940,Shenyang Ligong University,Shenyang Ligong University,沈阳理工大学,1948.0,1940,123.487,41.726,Liaoning,Northeast
+http://www.wikidata.org/entity/Q30294466,Jilin International Studies University,Jilin International Studies University,吉林外国语大学,1995.0,1990,,,Jilin,Northeast
+http://www.wikidata.org/entity/Q30941599,Henan Institute of Technology,Henan Institute of Technology,河南工学院,,,,,Henan,Central
+http://www.wikidata.org/entity/Q30943883,Shandong Polytechnic,Shandong Polytechnic,山东职业学院,,,,,Shandong,East
+http://www.wikidata.org/entity/Q30944672,China Agricultural University (Yantai),China Agricultural University (Yantai),中国农业大学（烟台）,,,116.364177,40.011352,,
+http://www.wikidata.org/entity/Q30946111,University of Chinese Academy of Social Sciences,University of Chinese Academy of Social Sciences,中国社会科学院大学,1978.0,1970,116.174166666,39.738888888,,
+http://www.wikidata.org/entity/Q30950448,Xichang University,Xichang University,西昌学院,1939.0,1930,,,Sichuan,Southwest
+http://www.wikidata.org/entity/Q3133583,Civil Aviation University of China,Civil Aviation University of China,中国民航大学,1951.0,1950,117.346623,39.105388,Tianjin,North
+http://www.wikidata.org/entity/Q3152213,Shanghai University of International Business and Economics,Shanghai University of International Business and Economics,上海对外经贸大学,1960.0,1960,121.21751089,31.046547145,,
+http://www.wikidata.org/entity/Q3249121,Linyi University,Linyi University,临沂大学,1941.0,1940,118.28367,35.11758,Shandong,East
+http://www.wikidata.org/entity/Q3274786,China University of Petroleum (Beijing),China University of Petroleum (Beijing),中国石油大学（北京）,1953.0,1950,116.24146,40.21791,Beijing,North
+http://www.wikidata.org/entity/Q3332415,Qufu Normal University,Qufu Normal University,曲阜师范大学,1955.0,1950,116.959582,35.596505,Shandong,East
+http://www.wikidata.org/entity/Q3338511,Wenzhou Medical University,Wenzhou Medical University,温州医科大学,1958.0,1950,,,Zhejiang,East
+http://www.wikidata.org/entity/Q3372325,Peking Union Medical College,Peking Union Medical College,北京协和医学院,1917.0,1910,116.40887,39.90951,Beijing,North
+http://www.wikidata.org/entity/Q3429270,Huazhong Agricultural University,Huazhong Agricultural University,华中农业大学,1898.0,1890,114.353,30.476,Hubei,Central
+http://www.wikidata.org/entity/Q3429296,Henan Agricultural University,Henan Agricultural University,河南农业大学,1913.0,1910,116.305277777,39.989722222,Henan,Central
+http://www.wikidata.org/entity/Q3431706,China Three Gorges University,China Three Gorges University,三峡大学,1946.0,1940,,,Hubei,Central
+http://www.wikidata.org/entity/Q3467465,Dalian Maritime University,Dalian Maritime University,大连海事大学,1909.0,1900,121.52583333,38.87055556,Liaoning,Northeast
+http://www.wikidata.org/entity/Q3467518,Dalian Jiaotong University,Dalian Jiaotong University,大连交通大学,1956.0,1950,121.571056,38.912758,Liaoning,Northeast
+http://www.wikidata.org/entity/Q3467737,Zhejiang University of Finance and Economics,Zhejiang University of Finance and Economics,浙江财经大学,1974.0,1970,120.121,30.2636,Zhejiang,East
+http://www.wikidata.org/entity/Q3496652,Jiangxi University of Finance and Economics,Jiangxi University of Finance and Economics,江西财经大学,1923.0,1920,115.857155402,28.74100493,Jiangxi,East
+http://www.wikidata.org/entity/Q3497259,Nanchang University,Nanchang University,南昌大学,1921.0,1920,115.8,28.665,Jiangxi,East
+http://www.wikidata.org/entity/Q3551422,Southwest Jiaotong University,Southwest Jiaotong University,西南交通大学,,,103.9835,30.7676,Sichuan,Southwest
+http://www.wikidata.org/entity/Q3551564,Xi'an International Studies University,Xi'an International Studies University,西安外国语大学,1952.0,1950,108.876025347,34.138016874,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q3551745,Beijing Sport University,Beijing Sport University,北京体育大学,1953.0,1950,116.3192935,40.0299048,Beijing,North
+http://www.wikidata.org/entity/Q3551746,Sichuan International Studies University,Sichuan International Studies University,四川外国语大学,1950.0,1950,106.43222222,29.57444444,,
+http://www.wikidata.org/entity/Q3551770,Southeast University,Southeast University,东南大学,1902.0,1900,118.795212,32.054169,Jiangsu,East
+http://www.wikidata.org/entity/Q3551814,Capital Normal University,Capital Normal University,首都师范大学,1954.0,1950,116.30027778,39.92944444,,
+http://www.wikidata.org/entity/Q3551815,South China Normal University,South China Normal University,华南师范大学,1933.0,1930,113.35,23.1365,Guangdong,South
+http://www.wikidata.org/entity/Q3558408,Tianjin Chengjian University,Tianjin Chengjian University,天津城建大学,1978.0,1970,,,,
+http://www.wikidata.org/entity/Q3615960,Wuhan Polytechnic University,Wuhan Polytechnic University,武汉轻工大学,1951.0,1950,114.235062,30.636576,Hubei,Central
+http://www.wikidata.org/entity/Q3817847,ShanghaiTech University,ShanghaiTech University,上海科技大学,2013.0,2010,121.596,31.1857,,
+http://www.wikidata.org/entity/Q3896624,Xinyang Normal University,Xinyang Normal University,信阳师范大学,1975.0,1970,,,Henan,Central
+http://www.wikidata.org/entity/Q3896631,Xinyang Agricultural College,Xinyang Agricultural College,信阳农林学院,1901.0,1900,,,Henan,Central
+http://www.wikidata.org/entity/Q391150,Henan University,Henan University,河南大学,1912.0,1910,114.36369444,34.81272222,Henan,Central
+http://www.wikidata.org/entity/Q3953805,Nanjing University of Science and Technology,Nanjing University of Science and Technology,南京理工大学,1953.0,1950,118.851922222,32.0333,Jiangsu,East
+http://www.wikidata.org/entity/Q39650169,Shandong University of Science and Technology Taian Campus,Shandong University of Science and Technology Taian Campus,,,,,,,
+http://www.wikidata.org/entity/Q39944799,North China Electric Power University Baoding Campus,North China Electric Power University Baoding Campus,,,,,,Hebei,North
+http://www.wikidata.org/entity/Q4117334,Ningxia University,Ningxia University,宁夏大学,1958.0,1950,106.137,38.5364,Ningxia,Northwest
+http://www.wikidata.org/entity/Q4118964,Taizhou University,Taizhou University,台州学院,1907.0,1900,,,Zhejiang,East
+http://www.wikidata.org/entity/Q4222416,Criminal Investigation Police University of China,Criminal Investigation Police University of China,中国刑事警察学院,1948.0,1940,123.378918,41.842258,Liaoning,Northeast
+http://www.wikidata.org/entity/Q4251253,Guangzhou University of Chinese Medicine,Guangzhou University of Chinese Medicine,广州中医药大学,1956.0,1950,113.26111111,23.15916667,Guangdong,South
+http://www.wikidata.org/entity/Q4310105,Liaoning University of Technology,Liaoning University of Technology,辽宁工业大学,1951.0,1950,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q4356865,Beijing Technology and Business University,Beijing Technology and Business University,北京工商大学,1950.0,1950,116.30847,39.9238,Beijing,North
+http://www.wikidata.org/entity/Q43896046,Guangxi Minzu Normal University,Guangxi Minzu Normal University,广西民族师范学院,2009.0,2000,107.393871,22.382983,Shanxi,North
+http://www.wikidata.org/entity/Q4393424,Northeast Normal University,Northeast Normal University,东北师范大学,1946.0,1940,125.3269349,43.862026,Jilin,Northeast
+http://www.wikidata.org/entity/Q4418173,Xian Eurasia University,Xian Eurasia University,西安欧亚学院,1995.0,1990,108.9162,34.1792,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q4418179,Xi'an University of Architecture and Technology,Xi'an University of Architecture and Technology,西安建筑科技大学,1895.0,1890,108.9617,34.2402,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q4467975,Tianjin University of Science and Technology,Tianjin University of Science and Technology,天津科技大学,1958.0,1950,117.70754,39.0841,,
+http://www.wikidata.org/entity/Q4475799,Lanzhou University,Lanzhou University,兰州大学,1909.0,1900,103.858055555,36.046611111,Gansu,Northwest
+http://www.wikidata.org/entity/Q4475835,Jiamusi University,Jiamusi University,佳木斯大学,1947.0,1940,130.363501,46.786463,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q4495765,哈尔滨法学院,,哈尔滨法学院,1920.0,1920,126.6294111,45.74843611,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q4528225,Shenyang University,Shenyang University,沈阳大学,1906.0,1900,123.46,41.8256,Liaoning,Northeast
+http://www.wikidata.org/entity/Q4569544,China Women's University,China Women's University,中华女子学院,1949.0,1940,116.42905,39.99355,Beijing,North
+http://www.wikidata.org/entity/Q4570128,Shandong Normal University,Shandong Normal University,山东师范大学,1950.0,1950,,,Shandong,East
+http://www.wikidata.org/entity/Q4570168,Fujian Normal University,Fujian Normal University,福建师范大学,1907.0,1900,119.305513888,26.040030555,Fujian,East
+http://www.wikidata.org/entity/Q4570201,Ginling College,Ginling College,金陵女子大学,1913.0,1910,,,,
+http://www.wikidata.org/entity/Q4578297,St. John's University,St. John's University,聖約翰大學,1879.0,1870,121.41315,31.22786,Shanghai,East
+http://www.wikidata.org/entity/Q4587760,Beijing Jiaotong University,Beijing Jiaotong University,北京交通大学,1896.0,1890,116.33935,39.950945,,
+http://www.wikidata.org/entity/Q461033,Guizhou University,Guizhou University,贵州大学,1902.0,1900,106.66916667,26.4225,Guizhou,Southwest
+http://www.wikidata.org/entity/Q461322,Guilin University of Electronic Technology,Guilin University of Electronic Technology,桂林电子科技大学,1960.0,1960,110.332583333,25.286694444,Guangxi,South
+http://www.wikidata.org/entity/Q4671492,PLA Academy of Military Science,PLA Academy of Military Science,中国人民解放军军事科学院,1958.0,1950,116.255467,40.005858,Beijing,North
+http://www.wikidata.org/entity/Q4693944,Hebei Agricultural University,Hebei Agricultural University,河北农业大学,1902.0,1900,115.47600833,38.8466,Hebei,North
+http://www.wikidata.org/entity/Q470963,Fuzhou University,Fuzhou University,福州大学,1958.0,1950,119.193694444,26.059694444,Fujian,East
+http://www.wikidata.org/entity/Q47517291,Fujian Polytechnic of Information Technology,Fujian Polytechnic of Information Technology,福建信息职业技术学院,,,,,,
+http://www.wikidata.org/entity/Q4764372,Anhui Medical University,Anhui Medical University,安徽医科大学,1926.0,1920,117.263,31.8486,Anhui,East
+http://www.wikidata.org/entity/Q4764374,Anhui Agricultural University,Anhui Agricultural University,安徽农业大学,1928.0,1920,,,Anhui,East
+http://www.wikidata.org/entity/Q4764380,Anhui University of Finance and Economics,Anhui University of Finance and Economics,安徽财经大学,1959.0,1950,117.39,32.9255,Anhui,East
+http://www.wikidata.org/entity/Q4764381,Anhui Polytechnic University,Anhui Polytechnic University,安徽工程大学,1977.0,1970,,,Anhui,East
+http://www.wikidata.org/entity/Q4764383,Anhui University of Science and Technology,Anhui University of Science and Technology,安徽理工大学,1945.0,1940,,,Anhui,East
+http://www.wikidata.org/entity/Q4764385,Anhui University of Chinese Medicine,Anhui University of Chinese Medicine,安徽中医药大学,1959.0,1950,,,Anhui,East
+http://www.wikidata.org/entity/Q4770460,Anqing Normal University,Anqing Normal University,安庆师范大学,1898.0,1890,117.04805556,30.51416667,Anhui,East
+http://www.wikidata.org/entity/Q4770656,Anshan Normal University,Anshan Normal University,鞍山师范学院,1958.0,1950,122.99,41.08472222,Liaoning,Northeast
+http://www.wikidata.org/entity/Q4845661,Hengxian Middle School,Hengxian Middle School,横县中学,1923.0,1920,,,,
+http://www.wikidata.org/entity/Q4881127,Beijing Electronic Science and Technology Institute,Beijing Electronic Science and Technology Institute,北京电子科技学院,1947.0,1940,116.27373,39.83536,Beijing,North
+http://www.wikidata.org/entity/Q4881133,Beijing Forestry University,Beijing Forestry University,北京林业大学,1952.0,1950,116.34527778,40.00138889,Beijing,North
+http://www.wikidata.org/entity/Q4881135,Beijing Huajia University,Beijing Huajia University,,1985.0,1980,116.734196,39.935071,,
+http://www.wikidata.org/entity/Q4881146,Beijing Institute of Petrochemical Technology,Beijing Institute of Petrochemical Technology,北京石油化工学院,1978.0,1970,116.31959,39.74596,Beijing,North
+http://www.wikidata.org/entity/Q4881177,Beijing People's Police College,Beijing People's Police College,北京警察学院,1981.0,1980,116.172592,40.249649,,
+http://www.wikidata.org/entity/Q4881203,Beijing Union University,Beijing Union University,北京联合大学,1985.0,1980,116.42085,39.98903,,
+http://www.wikidata.org/entity/Q4881206,Beijing University of Civil Engineering and Architecture,Beijing University of Civil Engineering and Architecture,北京建筑大学,1936.0,1930,116.336,39.934,,
+http://www.wikidata.org/entity/Q4881210,Beijing University of Posts and Telecommunications,Beijing University of Posts and Telecommunications,北京邮电大学,1955.0,1950,116.352,39.9598,,
+http://www.wikidata.org/entity/Q4881219,Beijing Wuzi University,Beijing Wuzi University,北京物资学院,1980.0,1980,116.6388,39.929,,
+http://www.wikidata.org/entity/Q48880933,"China University of Geosciences, Wuhan","China University of Geosciences, Wuhan",中国地质大学（武汉）,1952.0,1950,114.39451,30.52337,Hubei,Central
+http://www.wikidata.org/entity/Q48880972,"China University of Geosciences, Beijing","China University of Geosciences, Beijing",中国地质大学（北京）,1952.0,1950,116.3455,39.9888,Beijing,North
+http://www.wikidata.org/entity/Q48900237,公安消防部队士官学校,,公安消防部队士官学校,,,,,,
+http://www.wikidata.org/entity/Q48900250,Fujian Business University,Fujian Business University,福建商学院,,,,,Fujian,East
+http://www.wikidata.org/entity/Q48936353,West Yunnan University,West Yunnan University,滇西科技师范学院,1978.0,1970,100.07577,23.88886,Yunnan,Southwest
+http://www.wikidata.org/entity/Q48936485,Tianshui Normal University,Tianshui Normal University,天水师范大学,,,,,Gansu,Northwest
+http://www.wikidata.org/entity/Q4937990,Bohai University,Bohai University,渤海大学,1950.0,1950,121.1199,41.0867,Liaoning,Northeast
+http://www.wikidata.org/entity/Q495015,Fudan University,Fudan University,复旦大学,1905.0,1900,121.499166666,31.298888888,Shanghai,East
+http://www.wikidata.org/entity/Q4950412,Tianjin University of Commerce Boustead College,Tianjin University of Commerce Boustead College,天津商业大学宝德学院,2004.0,2000,,,,
+http://www.wikidata.org/entity/Q5035687,Capital Medical University,Capital Medical University,首都医科大学,1960.0,1960,116.3529685,39.86671,Beijing,North
+http://www.wikidata.org/entity/Q5053324,Catholic university in Hong Kong,Catholic university in Hong Kong,,,,,,,
+http://www.wikidata.org/entity/Q5059608,Center for Electronic Governance at UNU-IIST,Center for Electronic Governance at UNU-IIST,,2007.0,2000,113.548819,22.195833,,
+http://www.wikidata.org/entity/Q5061828,Central South University,Central South University,中南大学,2000.0,2000,112.925,28.173,Hunan,Central
+http://www.wikidata.org/entity/Q5061957,Central University of Finance and Economics,Central University of Finance and Economics,中央财经大学,1949.0,1940,116.341,39.959,,
+http://www.wikidata.org/entity/Q5071561,Chang'an University,Chang'an University,长安大学,2000.0,2000,,,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q5071739,Changchun Normal University,Changchun Normal University,长春师范大学,1958.0,1950,125.398283,43.912782,Jilin,Northeast
+http://www.wikidata.org/entity/Q5071741,Jilin University of Finance and Economics,Jilin University of Finance and Economics,吉林财经大学,,,125.4423,43.8166,Jilin,Northeast
+http://www.wikidata.org/entity/Q5071743,Changchun University,Changchun University,长春大学,1946.0,1940,,,Jilin,Northeast
+http://www.wikidata.org/entity/Q5072115,Changsha University,Changsha University,长沙学院,1970.0,1970,,,Hunan,Central
+http://www.wikidata.org/entity/Q5072117,Changsha University of Science and Technology,Changsha University of Science and Technology,长沙理工大学,1956.0,1950,,,Hunan,Central
+http://www.wikidata.org/entity/Q5072128,Suzhou University of Technology,Suzhou University of Technology,苏州工学院,1958.0,1950,120.777948,31.588372,Jiangsu,East
+http://www.wikidata.org/entity/Q5072160,Changzhi Medical College,Changzhi Medical College,长治医学院,1946.0,1940,,,Shanxi,North
+http://www.wikidata.org/entity/Q5072766,Chaohu University,Chaohu University,巢湖学院,1977.0,1970,,,Anhui,East
+http://www.wikidata.org/entity/Q507690,Inner Mongolia University of Science and Technology,Inner Mongolia University of Science and Technology,内蒙古科技大学,,,,,Inner Mongolia,North
+http://www.wikidata.org/entity/Q5091323,Chengdu Sport University,Chengdu Sport University,成都体育学院,1942.0,1940,,,Sichuan,Southwest
+http://www.wikidata.org/entity/Q5091337,Chengdu University of Information Technology,Chengdu University of Information Technology,成都信息工程大学,1951.0,1950,103.98694444,30.58444444,Sichuan,Southwest
+http://www.wikidata.org/entity/Q5091338,Chengdu University of Technology,Chengdu University of Technology,成都理工大学,1956.0,1950,104.136944,30.665833,Sichuan,Southwest
+http://www.wikidata.org/entity/Q5097181,Chifeng University,Chifeng University,赤峰大学,2003.0,2000,,,Inner Mongolia,North
+http://www.wikidata.org/entity/Q5099732,China University of Labor Relations,China University of Labor Relations,中国劳动关系学院,1946.0,1940,116.31191,39.92854,Beijing,North
+http://www.wikidata.org/entity/Q5099749,China Jiliang University,China Jiliang University,中国计量大学,1978.0,1970,120.364320319,30.318976988,Zhejiang,East
+http://www.wikidata.org/entity/Q5099779,China Medical University,China Medical University,中国医科大学,1931.0,1930,123.3725,41.78916667,Liaoning,Northeast
+http://www.wikidata.org/entity/Q5099853,China Pharmaceutical University,China Pharmaceutical University,中国药科大学,1936.0,1930,118.77417778,32.07459444,Jiangsu,East
+http://www.wikidata.org/entity/Q5099970,China West Normal University,China West Normal University,西华师范大学,1946.0,1940,,,Sichuan,Southwest
+http://www.wikidata.org/entity/Q5099978,China Youth University of Political Studies,China Youth University of Political Studies,中国青年政治学院,1948.0,1940,116.30152,39.94955,Beijing,North
+http://www.wikidata.org/entity/Q5100405,Chinese Center for Disease Control and Prevention,Chinese Center for Disease Control and Prevention,中国疾病预防控制中心,,,116.45693264,39.874177351,,
+http://www.wikidata.org/entity/Q5100586,Chinese People's Police University,Chinese People's Police University,中国人民警察大学,1981.0,1980,,,Hebei,North
+http://www.wikidata.org/entity/Q5100590,People's Public Security University of China,People's Public Security University of China,中国人民公安大学,1948.0,1940,,,,
+http://www.wikidata.org/entity/Q5104658,Chongqing Jianzhu University,Chongqing Jianzhu University,重庆建筑大学,1952.0,1950,,,,
+http://www.wikidata.org/entity/Q5104660,Chongqing Jiaotong University,Chongqing Jiaotong University,重庆交通大学,1951.0,1950,106.401388888,19.503888888,,
+http://www.wikidata.org/entity/Q5104661,Chongqing Medical University,Chongqing Medical University,重庆医科大学,1956.0,1950,106.505,29.53583333,,
+http://www.wikidata.org/entity/Q5104666,Chongqing Normal University,Chongqing Normal University,重庆师范大学,1954.0,1950,106.29944444,29.615,,
+http://www.wikidata.org/entity/Q5104672,Chongqing Three Gorges University,Chongqing Three Gorges University,重庆三峡科技大学,1956.0,1950,108.37833333,30.79722222,Chongqing,Southwest
+http://www.wikidata.org/entity/Q5104676,Chongqing University of Posts and Telecommunications,Chongqing University of Posts and Telecommunications,重庆邮电大学,1950.0,1950,106.6016,29.5383,,
+http://www.wikidata.org/entity/Q5115144,"Chu Kochen Honors College, Zhejiang University","Chu Kochen Honors College, Zhejiang University",竺可桢学院,2000.0,2000,,,Zhejiang,East
+http://www.wikidata.org/entity/Q5123484,City University of Macau,City University of Macau,澳門城市大學,1981.0,1980,113.557409,22.164168,,
+http://www.wikidata.org/entity/Q51841,Shanghai Maritime University,Shanghai Maritime University,上海海事大学,1909.0,1900,121.902,30.8731,,
+http://www.wikidata.org/entity/Q519556,National Southwestern Associated University,National Southwestern Associated University,国立西南联合大学,1938.0,1930,102.69757,25.05577,Hunan,Central
+http://www.wikidata.org/entity/Q5206294,DUFE—Surrey International Institute,DUFE—Surrey International Institute,,2007.0,2000,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q52146304,Yango University,Yango University,阳光学院,,,,,Fujian,East
+http://www.wikidata.org/entity/Q525169,Shanghai Jiao Tong University,Shanghai Jiao Tong University,上海交通大学,1896.0,1890,121.436348,31.025393,,
+http://www.wikidata.org/entity/Q5328079,East China Jiaotong University,East China Jiaotong University,华东交通大学,1971.0,1970,,,Jiangxi,East
+http://www.wikidata.org/entity/Q5328082,East China University of Political Science and Law,East China University of Political Science and Law,华东政法大学,1952.0,1950,121.414,31.2256,,
+http://www.wikidata.org/entity/Q5330261,Liaodong University,Liaodong University,辽东学院,1912.0,1910,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q53577825,Shenzhen Technology University,Shenzhen Technology University,深圳技术大学,2018.0,2010,114.392727777,22.703027777,Guangdong,South
+http://www.wikidata.org/entity/Q5428985,Faculty of Humanities,Faculty of Humanities,,,,114.180389,22.304583,Hong Kong,South
+http://www.wikidata.org/entity/Q545540,Anhui University,Anhui University,安徽大学,1928.0,1920,117.251596,31.845516,Anhui,East
+http://www.wikidata.org/entity/Q5461484,Florida International University Tianjin Center,Florida International University Tianjin Center,,2003.0,2000,117.111694,39.178194,,
+http://www.wikidata.org/entity/Q5476138,Air Force Medical University,Air Force Medical University,中国人民解放军空军军医大学,1954.0,1950,,,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q54854439,Shantou Radio & TV University,Shantou Radio & TV University,汕头广播电视大学,,,,,Guangdong,South
+http://www.wikidata.org/entity/Q54914098,Guangdong Industry Polytechnic University,Guangdong Industry Polytechnic University,广东轻工职业技术大学,1999.0,1990,,,Guangdong,South
+http://www.wikidata.org/entity/Q549697,Beijing Language and Culture University,Beijing Language and Culture University,北京语言大学,1962.0,1960,116.337777777,39.993333333,Beijing,North
+http://www.wikidata.org/entity/Q5507366,Fujian Agriculture and Forestry University,Fujian Agriculture and Forestry University,福建农林大学,2000.0,2000,119.235,26.087777777,Fujian,East
+http://www.wikidata.org/entity/Q5507368,Fujian Medical University,Fujian Medical University,福建医科大学,1937.0,1930,119.299,26.0674,Fujian,East
+http://www.wikidata.org/entity/Q5507373,Fujian University of Technology,Fujian University of Technology,福建理工大学,2002.0,2000,119.37,26.0843,Fujian,East
+http://www.wikidata.org/entity/Q5507374,Fujian University of Traditional Chinese Medicine,Fujian University of Traditional Chinese Medicine,福建中医药大学,1958.0,1950,119.175213888,26.076408333,Fujian,East
+http://www.wikidata.org/entity/Q5521505,Gansu Agricultural University,Gansu Agricultural University,甘肃农业大学,,,,,Gansu,Northwest
+http://www.wikidata.org/entity/Q55697406,北海艺术设计学院,,北海艺术设计学院,,,,,,
+http://www.wikidata.org/entity/Q55708817,Hebei Normal University for Nationalities,Hebei Normal University for Nationalities,河北民族师范学院,,,,,Hebei,North
+http://www.wikidata.org/entity/Q5613641,Guangdong Ocean University,Guangdong Ocean University,广东海洋大学,1997.0,1990,110.302,21.1455,Guangdong,South
+http://www.wikidata.org/entity/Q5613642,Guangdong Pharmaceutical University,Guangdong Pharmaceutical University,广东药科大学,1958.0,1950,113.412,22.4767,Guangdong,South
+http://www.wikidata.org/entity/Q5613646,Guangdong University of Finance and Economics,Guangdong University of Finance and Economics,广东财经大学,1983.0,1980,113.355,23.0894,Guangdong,South
+http://www.wikidata.org/entity/Q5613648,Guangdong University of Foreign Studies,Guangdong University of Foreign Studies,广东外语外贸大学,1995.0,1990,113.289,23.2003,Guangdong,South
+http://www.wikidata.org/entity/Q5613690,Guangxi Medical University,Guangxi Medical University,广西医科大学,1934.0,1930,108.346888888,22.799916666,Guangxi,South
+http://www.wikidata.org/entity/Q5613695,Guangxi University of Science and Technology,Guangxi University of Science and Technology,广西科技大学,1958.0,1950,109.440111111,24.335472222,Guangxi,South
+http://www.wikidata.org/entity/Q5613699,Guangxi Minzu University,Guangxi Minzu University,广西民族大学,1952.0,1950,108.230961,22.842752,Guangxi,South
+http://www.wikidata.org/entity/Q5613717,Guangzhou Academy of Fine Arts,Guangzhou Academy of Fine Arts,广州美术学院,1953.0,1950,113.273027777,23.095444444,Guangdong,South
+http://www.wikidata.org/entity/Q5613743,Guangzhou Sport University,Guangzhou Sport University,广州体育学院,,,113.316,23.1431,Guangdong,South
+http://www.wikidata.org/entity/Q5613747,Guangzhou University,Guangzhou University,广州大学,2000.0,2000,113.364919,23.041055,Guangdong,South
+http://www.wikidata.org/entity/Q5615995,Guilin Medical University,Guilin Medical University,桂林医科大学,1935.0,1930,110.15775,25.225583333,Guangxi,South
+http://www.wikidata.org/entity/Q5615997,Guilin University of Technology,Guilin University of Technology,桂林理工大学,1956.0,1950,110.312138888,25.283722222,Guangxi,South
+http://www.wikidata.org/entity/Q5616925,Guizhou University of Traditional Chinese Medicine,Guizhou University of Traditional Chinese Medicine,贵阳中医药大学,1965.0,1960,,,Guizhou,Southwest
+http://www.wikidata.org/entity/Q5616929,Guizhou Medical University,Guizhou Medical University,贵州医科大学,1938.0,1930,,,Guizhou,Southwest
+http://www.wikidata.org/entity/Q5616948,Guizhou Normal University,Guizhou Normal University,贵州师范大学,1941.0,1940,106.722053,26.588956,Guizhou,Southwest
+http://www.wikidata.org/entity/Q5616949,Guizhou Minzu University,Guizhou Minzu University,贵州民族大学,1951.0,1950,106.66611111,26.46611111,Guizhou,Southwest
+http://www.wikidata.org/entity/Q5616954,Guizhou University of Finance and Economics,Guizhou University of Finance and Economics,贵州财经大学,1958.0,1950,106.635638,26.387976,Guizhou,Southwest
+http://www.wikidata.org/entity/Q56271948,Harbin Conservatory of Music,Harbin Conservatory of Music,哈尔滨音乐学院,2016.0,2010,126.564432,45.828187,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q56271960,Jilin Sport University,Jilin Sport University,吉林体育学院,,,,,Jilin,Northeast
+http://www.wikidata.org/entity/Q56272547,清华大学四川绵阳分校,,清华大学四川绵阳分校,1965.0,1960,,,,
+http://www.wikidata.org/entity/Q5639373,Hainan Normal University,Hainan Normal University,海南师范大学,1949.0,1940,110.336863,19.998919,Hainan,South
+http://www.wikidata.org/entity/Q5639382,Hainan University,Hainan University,海南大学,1983.0,1980,110.32138889,20.06055556,Hainan,South
+http://www.wikidata.org/entity/Q5647240,Handan University,Handan University,邯郸学院,1905.0,1900,,,Hebei,North
+http://www.wikidata.org/entity/Q5647847,Hang Seng University of Hong Kong,Hang Seng University of Hong Kong,香港恒生大學,1980.0,1980,114.212,22.3791,Hong Kong,South
+http://www.wikidata.org/entity/Q5648125,Hangzhou Normal University,Hangzhou Normal University,杭州师范大学,1978.0,1970,,,Zhejiang,East
+http://www.wikidata.org/entity/Q5648133,Hangzhou University,Hangzhou University,杭州大学,,,120.13576,30.27652,,
+http://www.wikidata.org/entity/Q5654434,Harbin Normal University,Harbin Normal University,哈尔滨师范大学,1951.0,1950,126.5603,45.8687,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q5654449,Harbin University of Commerce,Harbin University of Commerce,哈尔滨商业大学,1952.0,1950,118.09094444,24.58022222,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q5654457,Harbin University of Science and Technology,Harbin University of Science and Technology,哈尔滨理工大学,1950.0,1950,126.617,45.7141,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q5695492,Hebei University of Architecture,Hebei University of Architecture,河北建築工程學院,1950.0,1950,114.890957121,40.754326762,Hebei,North
+http://www.wikidata.org/entity/Q5695497,Hebei Normal University of Science and Technology,Hebei Normal University of Science and Technology,河北科技师范学院,,,,,Hebei,North
+http://www.wikidata.org/entity/Q5695499,Hebei Medical University,Hebei Medical University,河北医科大学,1894.0,1890,114.535302,38.045598,Hebei,North
+http://www.wikidata.org/entity/Q5695501,Hebei Polytechnic University,Hebei Polytechnic University,河北理工大学,,,,,Hebei,North
+http://www.wikidata.org/entity/Q5695508,Hebei University of Engineering,Hebei University of Engineering,河北工程大学,2003.0,2000,,,Hebei,North
+http://www.wikidata.org/entity/Q5695527,Hebei University of Technology,Hebei University of Technology,河北工业大学,1903.0,1900,117.065078607,39.240365875,,
+http://www.wikidata.org/entity/Q5698182,Hefei Normal University,Hefei Normal University,合肥师范学院,1955.0,1950,,,Anhui,East
+http://www.wikidata.org/entity/Q5698189,Hefei University,Hefei University,合肥大学,2002.0,2000,117.2583,31.7532,Anhui,East
+http://www.wikidata.org/entity/Q5698213,Hefei University of Technology,Hefei University of Technology,合肥工业大学,1945.0,1940,117.2901,31.8486,Anhui,East
+http://www.wikidata.org/entity/Q5699491,Heilongjiang University of Chinese Medicine,Heilongjiang University of Chinese Medicine,黑龙江中医药大学,1959.0,1950,126.64948,45.72508,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q5712991,Henan University of Technology,Henan University of Technology,河南工业大学,1956.0,1950,,,Henan,Central
+http://www.wikidata.org/entity/Q5712994,Henan University of Science and Technology,Henan University of Science and Technology,河南科技大学,1952.0,1950,112.36626,34.6649,Henan,Central
+http://www.wikidata.org/entity/Q5713005,Henan University of Chinese Medicine,Henan University of Chinese Medicine,河南中医药大学,1958.0,1950,113.8058,34.7795,Henan,Central
+http://www.wikidata.org/entity/Q5714356,Hengshui University,Hengshui University,衡水学院,2004.0,2000,,,Hebei,North
+http://www.wikidata.org/entity/Q58555,Holy Spirit Seminary,Holy Spirit Seminary,聖神修院,1964.0,1960,114.161746,22.246459,Hong Kong,South
+http://www.wikidata.org/entity/Q5894477,Hong Kong CyberU,Hong Kong CyberU,香港網上學府,2000.0,2000,,,,
+http://www.wikidata.org/entity/Q5895140,Hong Kong Virtual University,Hong Kong Virtual University,香港虛擬大學,2001.0,2000,,,Hong Kong,South
+http://www.wikidata.org/entity/Q5925123,Huaibei Normal University,Huaibei Normal University,淮北师范大学,1974.0,1970,116.81,33.982,Anhui,East
+http://www.wikidata.org/entity/Q5925144,Huainan United University,Huainan United University,淮南联合大学,1984.0,1980,117.01,32.6448,Anhui,East
+http://www.wikidata.org/entity/Q5926144,Open University of China,Open University of China,国家开放大学,1979.0,1970,116.2823311,39.85647,Beijing,North
+http://www.wikidata.org/entity/Q5927048,Hubei University of Technology,Hubei University of Technology,湖北工业大学,1952.0,1950,114.313717,30.486935,Hubei,Central
+http://www.wikidata.org/entity/Q5927051,Hubei University of Chinese Medicine,Hubei University of Chinese Medicine,湖北中医药大学,1958.0,1950,114.26435,30.45038,Hubei,Central
+http://www.wikidata.org/entity/Q5928582,Shanghai University of Engineering Science,Shanghai University of Engineering Science,上海工程技术大学,1978.0,1970,,,,
+http://www.wikidata.org/entity/Q5930913,Luxun Academy of Fine Arts,Luxun Academy of Fine Arts,鲁迅美术学院,1938.0,1930,123.4291,41.7762,Liaoning,Northeast
+http://www.wikidata.org/entity/Q5932856,Shaanxi Normal University,Shaanxi Normal University,陕西师范大学,1944.0,1940,108.90286111,34.15913889,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q5941995,Hunan Agricultural University,Hunan Agricultural University,湖南农业大学,1951.0,1950,113.085,28.18166667,Hunan,Central
+http://www.wikidata.org/entity/Q5942002,Hunan Polytechnic University,Hunan Polytechnic University,湖南理工大学,1903.0,1900,113.152566,29.346345,Hunan,Central
+http://www.wikidata.org/entity/Q5942010,Hunan Institute of Engineering,Hunan Institute of Engineering,湖南工程学院,1951.0,1950,112.929934,27.854037,Hunan,Central
+http://www.wikidata.org/entity/Q5942027,Hunan Normal University,Hunan Normal University,湖南师范大学,1938.0,1930,112.94722222,28.18638889,Hunan,Central
+http://www.wikidata.org/entity/Q5942041,Hunan University of Science and Technology,Hunan University of Science and Technology,湖南科技大学,2003.0,2000,112.92135,27.914982,Hunan,Central
+http://www.wikidata.org/entity/Q5942044,"Hunan University of Humanities, Science and Technology","Hunan University of Humanities, Science and Technology",湖南人文科技学院,1978.0,1970,112.006,27.7128,Hunan,Central
+http://www.wikidata.org/entity/Q5942046,Hunan University of Arts and Science,Hunan University of Arts and Science,湖南文理學院,1958.0,1950,111.66666667,29.05166667,Hunan,Central
+http://www.wikidata.org/entity/Q5942049,Hunan University of Chinese Medicine,Hunan University of Chinese Medicine,湖南中医药大学,1934.0,1930,112.894,28.1342,Hunan,Central
+http://www.wikidata.org/entity/Q5959259,Liaocheng University,Liaocheng University,聊城大学,1974.0,1970,116.00593,36.43147,Shandong,East
+http://www.wikidata.org/entity/Q5967499,Zhejiang Ocean University,Zhejiang Ocean University,浙江海洋学院,1988.0,1980,122.18669,29.96293,Zhejiang,East
+http://www.wikidata.org/entity/Q5968342,The Education University of Hong Kong,The Education University of Hong Kong,香港教育大學,1994.0,1990,114.194,22.4689,,
+http://www.wikidata.org/entity/Q5969811,Wuhan Institute of Technology,Wuhan Institute of Technology,武汉工程大学,1972.0,1970,114.387,30.501,Hubei,Central
+http://www.wikidata.org/entity/Q5971900,University of Electronic Science and Technology of China,University of Electronic Science and Technology of China,电子科技大学,1956.0,1950,103.927507,30.752011,Sichuan,Southwest
+http://www.wikidata.org/entity/Q6035477,Inner Mongolia Agricultural University,Inner Mongolia Agricultural University,内蒙古农业大学,1952.0,1950,,,Inner Mongolia,North
+http://www.wikidata.org/entity/Q6035479,Inner Mongolia Finance and Economics University,Inner Mongolia Finance and Economics University,内蒙古财经大学,1960.0,1960,,,Inner Mongolia,North
+http://www.wikidata.org/entity/Q6035481,Inner Mongolia Medical University,Inner Mongolia Medical University,内蒙古医科大学,1956.0,1950,,,Inner Mongolia,North
+http://www.wikidata.org/entity/Q6035514,Inner Mongolia University of Technology,Inner Mongolia University of Technology,内蒙古工业大学,1951.0,1950,,,Inner Mongolia,North
+http://www.wikidata.org/entity/Q603686,Hong Kong Baptist University,Hong Kong Baptist University,香港浸會大學,1956.0,1950,114.181666666,22.338888888,,
+http://www.wikidata.org/entity/Q604470,Shandong University,Shandong University,山东大学,1901.0,1900,117.053983333,36.671844444,Shandong,East
+http://www.wikidata.org/entity/Q6053036,"International School of Software, Wuhan University","International School of Software, Wuhan University",武汉大学国际软件学院,2002.0,2000,,,Hubei,Central
+http://www.wikidata.org/entity/Q60995464,Wushan Campus of South China University of Technology,Wushan Campus of South China University of Technology,华南理工大学五山校区,,,113.342261111,23.155,Guangdong,South
+http://www.wikidata.org/entity/Q6123855,Wuhan University of Science and Technology,Wuhan University of Science and Technology,武汉科技大学,1898.0,1890,114.3708,30.6218,Hubei,Central
+http://www.wikidata.org/entity/Q6124050,PLA Army Service Academy,PLA Army Service Academy,中国人民解放军陆军勤务学院,1961.0,1960,106.31444444,29.63166667,,
+http://www.wikidata.org/entity/Q6129947,Shanghai University of Finance and Economics,Shanghai University of Finance and Economics,上海财经大学,1917.0,1910,121.494864116,31.306731474,,
+http://www.wikidata.org/entity/Q6132057,Tianjin University of Traditional Chinese Medicine,Tianjin University of Traditional Chinese Medicine,天津中医药大学,1958.0,1950,,,,
+http://www.wikidata.org/entity/Q6132071,Jinzhou Medical University,Jinzhou Medical University,锦州医科大学,1946.0,1940,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q6132246,Liaoning University,Liaoning University,辽宁大学,1948.0,1940,123.4063888,41.8336674,Liaoning,Northeast
+http://www.wikidata.org/entity/Q614203,Anhui Normal University,Anhui Normal University,安徽师范大学,1972.0,1970,118.372994,31.2871219,Anhui,East
+http://www.wikidata.org/entity/Q6147859,PLA National Defence University,PLA National Defence University,中国人民解放军国防大学,1985.0,1980,116.259722222,40.015097222,Beijing,North
+http://www.wikidata.org/entity/Q6148696,Shanxi Datong University,Shanxi Datong University,山西大同大学,1958.0,1950,,,Shanxi,North
+http://www.wikidata.org/entity/Q6191643,Jianghan University,Jianghan University,江汉大学,1978.0,1970,,,Hubei,Central
+http://www.wikidata.org/entity/Q6191676,Jiangnan University,Jiangnan University,江南大学,1902.0,1900,120.26719,31.48488,Jiangsu,East
+http://www.wikidata.org/entity/Q6191720,Jiangsu Second Normal University,Jiangsu Second Normal University,江苏第二师范学院,1952.0,1950,118.748625,32.06086667,Jiangsu,East
+http://www.wikidata.org/entity/Q6191740,Jiangsu University,Jiangsu University,江苏大学,1902.0,1900,,,Jiangsu,East
+http://www.wikidata.org/entity/Q6191772,Jiangxi Normal University,Jiangxi Normal University,江西师范大学,1940.0,1940,116.026844444,28.683352777,Jiangxi,East
+http://www.wikidata.org/entity/Q6191778,Jiangxi Science and Technology Normal University,Jiangxi Science and Technology Normal University,江西科技师范大学,,,,,Jiangxi,East
+http://www.wikidata.org/entity/Q6191782,Jiangxi University of Science and Technology,Jiangxi University of Science and Technology,江西理工大学,1958.0,1950,114.935558,25.860808,Gansu,Northwest
+http://www.wikidata.org/entity/Q6191964,Jiaying University,Jiaying University,嘉应学院,1913.0,1910,116.129,24.3254,Guangdong,South
+http://www.wikidata.org/entity/Q6192694,Jilin Normal University,Jilin Normal University,吉林师范大学,,,,,Jilin,Northeast
+http://www.wikidata.org/entity/Q6199182,Jimei University,Jimei University,集美大学,1994.0,1990,118.09438,24.577646,Fujian,East
+http://www.wikidata.org/entity/Q6202313,Jinggangshan University,Jinggangshan University,井冈山大学,1958.0,1950,115.02145,27.11335,Jiangxi,East
+http://www.wikidata.org/entity/Q6202600,Jinling College,Jinling College,南京大学金陵学院,1998.0,1990,,,Jiangsu,East
+http://www.wikidata.org/entity/Q632558,Harbin Institute of Technology,Harbin Institute of Technology,哈尔滨工业大学,1920.0,1920,126.630692,45.746998,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q6382152,Wenzhou-Kean University,Wenzhou-Kean University,溫州肯恩大學,2011.0,2010,120.65477,27.91613,Zhejiang,East
+http://www.wikidata.org/entity/Q6444899,Kunming University,Kunming University,昆明学院,1984.0,1980,102.79444444,24.97722222,Yunnan,Southwest
+http://www.wikidata.org/entity/Q6444900,Kunming University of Science and Technology,Kunming University of Science and Technology,昆明理工大学,1954.0,1950,,,Yunnan,Southwest
+http://www.wikidata.org/entity/Q647594,Dalian Polytechnic University,Dalian Polytechnic University,大连工业大学,1958.0,1950,121.531,38.9711,Liaoning,Northeast
+http://www.wikidata.org/entity/Q6487721,Lanzhou University of Technology,Lanzhou University of Technology,兰州理工大学,1919.0,1910,,,Gansu,Northwest
+http://www.wikidata.org/entity/Q649868,Hunan University,Hunan University,湖南大学,,,112.952777777,28.180277777,Hunan,Central
+http://www.wikidata.org/entity/Q649882,Yunnan University,Yunnan University,雲南大學,1922.0,1920,102.709377,25.06064,Yunnan,Southwest
+http://www.wikidata.org/entity/Q649895,Zhengzhou University,Zhengzhou University,郑州大学,1956.0,1950,113.529166666,34.809444444,Henan,Central
+http://www.wikidata.org/entity/Q649906,Xidian University,Xidian University,西安电子科技大学,1931.0,1930,108.83588889,34.12338889,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q65058031,Xinjiang Institute of Technology,Xinjiang Institute of Technology,新疆理工学院,2002.0,2000,,,Xinjiang,Northwest
+http://www.wikidata.org/entity/Q6540150,Liaoning Technical University,Liaoning Technical University,辽宁工程技术大学,1949.0,1940,121.65919,42.02086,Liaoning,Northeast
+http://www.wikidata.org/entity/Q6540152,Liaoning University of International Business and Economics,Liaoning University of International Business and Economics,辽宁对外经贸学院,1998.0,1990,121.157869,38.817053,Liaoning,Northeast
+http://www.wikidata.org/entity/Q6540153,Liaoning Shihua University,Liaoning Shihua University,辽宁石油化工大学,1950.0,1950,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q6544465,University of Chinese Academy of Sciences,University of Chinese Academy of Sciences,中国科学院大学,1978.0,1970,116.244622222,39.907225,,
+http://www.wikidata.org/entity/Q65583468,陕西老年大学,,陕西老年大学,,,108.936910819,34.260281353,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q6579566,Suzhou University of Science and Technology,Suzhou University of Science and Technology,苏州科技大学,1932.0,1930,120.565,31.3059,Jiangsu,East
+http://www.wikidata.org/entity/Q662131,Hohai University,Hohai University,河海大学,1915.0,1910,118.75408056,32.05890556,Jiangsu,East
+http://www.wikidata.org/entity/Q6674566,Longyan University,Longyan University,龙岩学院,1958.0,1950,117.019522,25.032222,Fujian,East
+http://www.wikidata.org/entity/Q676139,Foshan University,Foshan University,佛山大学,1995.0,1990,113.09083333,23.02722222,Guangdong,South
+http://www.wikidata.org/entity/Q6764493,Henan Polytechnic University,Henan Polytechnic University,河南理工大学,1909.0,1900,113.25984,35.19024,Henan,Central
+http://www.wikidata.org/entity/Q6765953,Jiangxi University of Technology,Jiangxi University of Technology,江西科技学院,1994.0,1990,116.013333333,28.684166666,Jiangxi,East
+http://www.wikidata.org/entity/Q683580,Nanjing University,Nanjing University,南京大学,1915.0,1910,118.775,32.05611,Jiangsu,East
+http://www.wikidata.org/entity/Q6840044,Kashi University,Kashi University,喀什大学,1962.0,1960,,,Xinjiang,Northwest
+http://www.wikidata.org/entity/Q6867765,Minjiang University,Minjiang University,闽江大学,2002.0,2000,119.169,26.0647,Fujian,East
+http://www.wikidata.org/entity/Q6962480,Nanchang Hangkong University,Nanchang Hangkong University,南昌航空大学,1952.0,1950,,,Jiangxi,East
+http://www.wikidata.org/entity/Q6963657,Nanjing Forestry University,Nanjing Forestry University,南京林业大学,1902.0,1900,118.81140556,32.08073889,Jiangsu,East
+http://www.wikidata.org/entity/Q6963668,Nanjing Medical University,Nanjing Medical University,南京医科大学,1934.0,1930,118.76901389,32.04584167,Jiangsu,East
+http://www.wikidata.org/entity/Q6963672,Nanjing Ninghai Middle School,Nanjing Ninghai Middle School,南京市宁海中学,1911.0,1910,,,Jiangsu,East
+http://www.wikidata.org/entity/Q6963688,Nanjing University of Posts and Telecommunications,Nanjing University of Posts and Telecommunications,南京邮电大学,1942.0,1940,118.765,32.0805,Jiangsu,East
+http://www.wikidata.org/entity/Q6963692,Nanjing University of Information Science and Technology,Nanjing University of Information Science and Technology,南京信息工程大学,1960.0,1960,118.72166667,32.20722222,Jiangsu,East
+http://www.wikidata.org/entity/Q6963694,Nanjing University of the Arts,Nanjing University of the Arts,南京艺术学院,1952.0,1950,118.75027778,32.06694444,Jiangsu,East
+http://www.wikidata.org/entity/Q6964345,Nantong University,Nantong University,南通大学,1912.0,1910,,,Jiangsu,East
+http://www.wikidata.org/entity/Q6973890,National Judges College,National Judges College,国家法官学院,1997.0,1990,116.31232,39.83146,Beijing,North
+http://www.wikidata.org/entity/Q7038662,NingboTech University,NingboTech University,浙大宁波理工学院,2001.0,2000,,,Zhejiang,East
+http://www.wikidata.org/entity/Q7038668,Ningbo University of Technology,Ningbo University of Technology,宁波工程学院,1983.0,1980,121.5728,29.815,Zhejiang,East
+http://www.wikidata.org/entity/Q7050669,Nordic Centre in Shanghai,Nordic Centre in Shanghai,复旦大学北欧中心,1995.0,1990,,,,
+http://www.wikidata.org/entity/Q7054810,North China Electric Power University,North China Electric Power University,华北电力大学,1958.0,1950,116.3042,40.0887,Beijing,North
+http://www.wikidata.org/entity/Q7054811,North China University of Science and Technology,North China University of Science and Technology,华北理工大学,1895.0,1890,,,Hebei,North
+http://www.wikidata.org/entity/Q7054813,North China University of Technology,North China University of Technology,北方工业大学,1946.0,1940,116.20207,39.92773,Beijing,North
+http://www.wikidata.org/entity/Q7057807,Northeast Agricultural University,Northeast Agricultural University,东北农业大学,1948.0,1940,126.72576,45.73547,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q7057873,Northeast Electric Power University,Northeast Electric Power University,东北电力大学,1949.0,1940,126.49748,43.82098,Jilin,Northeast
+http://www.wikidata.org/entity/Q7060264,Northwest Minzu University,Northwest Minzu University,西北民族大学,1950.0,1950,103.816793055,36.044166111,Gansu,Northwest
+http://www.wikidata.org/entity/Q7060266,Northwest University of Politics and Law,Northwest University of Politics and Law,西北政法大学,1937.0,1930,,,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q70683263,Shandong Transport Vocational College,Shandong Transport Vocational College,山东交通职业学院,,,,,,
+http://www.wikidata.org/entity/Q7076042,Ocean Park Conservation Foundation Hong Kong,Ocean Park Conservation Foundation Hong Kong,香港海洋公園保育基金,2005.0,2000,114.176243,22.247257,,
+http://www.wikidata.org/entity/Q7161056,Peking University Founder Technology College,Peking University Founder Technology College,,2002.0,2000,,,,
+http://www.wikidata.org/entity/Q716822,Guangdong University of Technology,Guangdong University of Technology,广东工业大学,1958.0,1950,113.391671,23.035921,Guangdong,South
+http://www.wikidata.org/entity/Q7178850,Harbin Military Institute,Harbin Military Institute,中国人民解放军军事工程学院,1953.0,1950,,,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q718332,Yanbian University,Yanbian University,延边大学,1949.0,1940,129.485,42.9081,Jilin,Northeast
+http://www.wikidata.org/entity/Q7192377,Hong Kong College of Technology,Hong Kong College of Technology,香港專業進修學校,1957.0,1950,114.178976,22.319406,,
+http://www.wikidata.org/entity/Q7195772,Pingdingshan University,Pingdingshan University,平顶山学院,1977.0,1970,113.2098,33.7467,Henan,Central
+http://www.wikidata.org/entity/Q7262282,Putian University,Putian University,莆田学院,2002.0,2000,119.00584,25.44643,Fujian,East
+http://www.wikidata.org/entity/Q7267798,Qingdao Agricultural University,Qingdao Agricultural University,青岛农业大学,1951.0,1950,120.3913,36.3188,Shandong,East
+http://www.wikidata.org/entity/Q7267800,Qingdao Binhai University,Qingdao Binhai University,青岛滨海学院,1992.0,1990,,,Shandong,East
+http://www.wikidata.org/entity/Q7267825,Qinghai Normal University,Qinghai Normal University,青海师范大学,1956.0,1950,101.739811111,36.639319444,Qinghai,Northwest
+http://www.wikidata.org/entity/Q7267826,Qinghai University,Qinghai University,青海大学,1958.0,1950,,,Qinghai,Northwest
+http://www.wikidata.org/entity/Q7267828,Qinghai University for Nationalities,Qinghai University for Nationalities,青海民族大学,1949.0,1940,101.825516666,36.587802777,Qinghai,Northwest
+http://www.wikidata.org/entity/Q7267904,Hainan Tropical Ocean University,Hainan Tropical Ocean University,海南热带海洋学院,1977.0,1970,109.5354,18.3084,Hainan,South
+http://www.wikidata.org/entity/Q7267905,Qiqihar Medical University,Qiqihar Medical University,齐齐哈尔医学院,1946.0,1940,,,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q7267907,Qiqihar University,Qiqihar University,齐齐哈尔大学,1952.0,1950,,,Heilongjiang,Northeast
+http://www.wikidata.org/entity/Q7269117,Quanzhou Normal University,Quanzhou Normal University,泉州师范学院,1958.0,1950,118.667428,24.865656,Fujian,East
+http://www.wikidata.org/entity/Q7388289,S3 Asia MBA,S3 Asia MBA,,2006.0,2000,,,,
+http://www.wikidata.org/entity/Q7390268,Sias University,Sias University,郑州西亚斯学院,1998.0,1990,113.433333333,34.233333333,Henan,Central
+http://www.wikidata.org/entity/Q7415930,Sanda University,Sanda University,上海杉达学院,1992.0,1990,,,,
+http://www.wikidata.org/entity/Q7418549,Sanjiang University,Sanjiang University,三江学院,1992.0,1990,,,Jiangsu,East
+http://www.wikidata.org/entity/Q7443422,Naval Medical University,Naval Medical University,中国人民解放军海军军医大学,1949.0,1940,121.5212,31.308,,
+http://www.wikidata.org/entity/Q7459940,Shaanxi University of Chinese Medicine,Shaanxi University of Chinese Medicine,陕西中医药大学,1952.0,1950,108.741388888,34.318055555,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q7459941,Shaanxi University of Science and Technology,Shaanxi University of Science and Technology,陕西科技大学,1958.0,1950,108.978519,34.381158,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q7487918,Shandong Agricultural University,Shandong Agricultural University,山东农业大学,1906.0,1900,,,Shandong,East
+http://www.wikidata.org/entity/Q7487925,Shandong Vocational and Technical University of International Studies,Shandong Vocational and Technical University of International Studies,山东外国语职业技术大学,2005.0,2000,,,Shandong,East
+http://www.wikidata.org/entity/Q7487930,Shandong Jianzhu University,Shandong Jianzhu University,山东建筑大学,1956.0,1950,117.17916667,36.67666667,Shandong,East
+http://www.wikidata.org/entity/Q7487933,Shandong University of Finance and Economics,Shandong University of Finance and Economics,山东财经大学,1952.0,1950,117.077115516,36.643421559,Shandong,East
+http://www.wikidata.org/entity/Q7487936,Shandong University of Science and Technology,Shandong University of Science and Technology,山东科技大学,1951.0,1950,120.125,36.00083333,Shandong,East
+http://www.wikidata.org/entity/Q7487937,Shandong University of Technology,Shandong University of Technology,山东理工大学,1956.0,1950,117.995,36.81055556,Shandong,East
+http://www.wikidata.org/entity/Q7488406,Shanghai Business School,Shanghai Business School,上海商学院,1950.0,1950,,,,
+http://www.wikidata.org/entity/Q7488443,Shanghai Finance University,Shanghai Finance University,上海金融学院,1952.0,1950,,,Shanghai,East
+http://www.wikidata.org/entity/Q7488457,Shanghai Institute of Visual Art,Shanghai Institute of Visual Art,上海视觉艺术学院,2005.0,2000,121.202,31.048,,
+http://www.wikidata.org/entity/Q7488458,Shanghai University of Sport,Shanghai University of Sport,上海体育大学,1952.0,1950,,,,
+http://www.wikidata.org/entity/Q7488476,Shanghai Lixin University of Accounting and Finance,Shanghai Lixin University of Accounting and Finance,上海立信会计学院,1952.0,1950,,,Jilin,Northeast
+http://www.wikidata.org/entity/Q7488484,Shanghai Open University,Shanghai Open University,上海开放大学,1960.0,1960,,,,
+http://www.wikidata.org/entity/Q7488485,Shanghai Ocean University,Shanghai Ocean University,上海海洋大學,1912.0,1910,121.892777777,30.885833333,,
+http://www.wikidata.org/entity/Q7488523,Shanghai Theatre Academy,Shanghai Theatre Academy,上海戏剧学院,1945.0,1940,121.435,31.219,,
+http://www.wikidata.org/entity/Q7488528,Shanghai University of Electric Power,Shanghai University of Electric Power,上海电力大学,1951.0,1950,,,,
+http://www.wikidata.org/entity/Q7488529,Shanghai University of Political Science and Law,Shanghai University of Political Science and Law,上海政法学院,1984.0,1980,,,,
+http://www.wikidata.org/entity/Q7488530,Shanghai University of Science and Technology,Shanghai University of Science and Technology,上海科学技术大学,1958.0,1950,,,,
+http://www.wikidata.org/entity/Q7488534,Shanghai University of Technology,Shanghai University of Technology,上海工业大学,1960.0,1960,,,,
+http://www.wikidata.org/entity/Q7488566,Shangqiu Normal University,Shangqiu Normal University,商丘师范学院,2000.0,2000,,,Henan,Central
+http://www.wikidata.org/entity/Q7489115,Shanxi College of Traditional Chinese Medicine,Shanxi College of Traditional Chinese Medicine,山西中医学院,1952.0,1950,,,Shanxi,North
+http://www.wikidata.org/entity/Q7489125,Shanxi Normal University,Shanxi Normal University,山西师范大学,1958.0,1950,112.656988888,37.742927777,Shanxi,North
+http://www.wikidata.org/entity/Q7489128,Shanxi University,Shanxi University,山西大学,1902.0,1900,112.582102777,37.7968,Shanxi,North
+http://www.wikidata.org/entity/Q7489192,Shaoxing University,Shaoxing University,绍兴大学,1996.0,1990,,,Zhejiang,East
+http://www.wikidata.org/entity/Q7494261,"Shengda Economics, Trade and Management College of Zhengzhou","Shengda Economics, Trade and Management College of Zhengzhou",郑州升达经贸管理学院,1993.0,1990,,,Henan,Central
+http://www.wikidata.org/entity/Q7494336,Shenyang Aerospace University,Shenyang Aerospace University,沈阳航空航天大学,1952.0,1950,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q7494338,Shenyang Agricultural University,Shenyang Agricultural University,沈阳农业大学,,,123.560526,41.822313,Liaoning,Northeast
+http://www.wikidata.org/entity/Q7494347,Shenyang University of Chemical Technology,Shenyang University of Chemical Technology,沈阳化工大学,,,123.23304,41.743269,Liaoning,Northeast
+http://www.wikidata.org/entity/Q7494351,Shenyang Medical College,Shenyang Medical College,沈阳医学院,1949.0,1940,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q7494352,Shenyang Jianzhu University,Shenyang Jianzhu University,沈阳建筑大学,1948.0,1940,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q7494353,Shenyang Normal University,Shenyang Normal University,沈阳师范大学,1951.0,1950,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q7494354,Shenyang Pharmaceutical University,Shenyang Pharmaceutical University,沈阳药科大学,1931.0,1930,123.44611111,41.76944444,Liaoning,Northeast
+http://www.wikidata.org/entity/Q7494374,Shenzhen Institute of Information Technology,Shenzhen Institute of Information Technology,深圳信息职业技术大学,2002.0,2000,,,Guangdong,South
+http://www.wikidata.org/entity/Q7494379,Shenzhen Radio and TV University,Shenzhen Radio and TV University,深圳开放大学,,,,,Guangdong,South
+http://www.wikidata.org/entity/Q7494381,Shenzhen Polytechnic University,Shenzhen Polytechnic University,深圳职业技术大学,1993.0,1990,113.9465,22.5913,Guangdong,South
+http://www.wikidata.org/entity/Q7496504,Shijiazhuang Tiedao University,Shijiazhuang Tiedao University,石家庄铁道大学,1950.0,1950,114.501666666,38.082805555,Hebei,North
+http://www.wikidata.org/entity/Q7496506,Shijiazhuang University,Shijiazhuang University,石家庄学院,1956.0,1950,,,Hebei,North
+http://www.wikidata.org/entity/Q7507436,Sichuan University of Science and Engineering,Sichuan University of Science and Engineering,四川轻化工大学,1965.0,1960,,,Sichuan,Southwest
+http://www.wikidata.org/entity/Q7507438,Sichuan Normal University,Sichuan Normal University,四川师范大学,1946.0,1940,104.12063,30.6127,Sichuan,Southwest
+http://www.wikidata.org/entity/Q7566777,South Central Minzu University,South Central Minzu University,中南民族大学,1951.0,1950,,,Hubei,Central
+http://www.wikidata.org/entity/Q7566809,South China Agricultural University,South China Agricultural University,华南农业大学,1909.0,1900,113.348194444,23.158222222,Guangdong,South
+http://www.wikidata.org/entity/Q7568723,Southern University of Science and Technology,Southern University of Science and Technology,南方科技大学,2009.0,2000,113.994722222,22.600555555,Guangdong,South
+http://www.wikidata.org/entity/Q7569406,Southeast University School of Architecture,Southeast University School of Architecture,东南大学建筑学院,1927.0,1920,118.795357084,32.054387441,Jiangsu,East
+http://www.wikidata.org/entity/Q7571204,Southwest Agricultural University,Southwest Agricultural University,西南农业大学,1950.0,1950,106.278823,30.013536,,
+http://www.wikidata.org/entity/Q7571277,Southwest Forestry University,Southwest Forestry University,西南林业大学,,,,,Yunnan,Southwest
+http://www.wikidata.org/entity/Q7571336,Southwest Petroleum University,Southwest Petroleum University,西南石油大学,1958.0,1950,104.182121,30.828126,Sichuan,Southwest
+http://www.wikidata.org/entity/Q7651053,Suzhou Polytechnic Institute of Agriculture,Suzhou Polytechnic Institute of Agriculture,苏州农业职业技术学院,1907.0,1900,,,Jiangsu,East
+http://www.wikidata.org/entity/Q7676657,Taiyuan Normal University,Taiyuan Normal University,太原师范学院,1999.0,1990,112.7125,37.75,Shanxi,North
+http://www.wikidata.org/entity/Q7676659,Taiyuan University of Science and Technology,Taiyuan University of Science and Technology,太原科技大学,1952.0,1950,,,Shanxi,North
+http://www.wikidata.org/entity/Q7676661,Taiyuan University of Technology,Taiyuan University of Technology,太原理工大学,1902.0,1900,112.523,37.86,Shanxi,North
+http://www.wikidata.org/entity/Q777323,Aurora University,Aurora University,震旦大学,1903.0,1900,121.4433,31.1419,,
+http://www.wikidata.org/entity/Q7784898,Army Medical University,Army Medical University,中国人民解放军陆军军医大学,1954.0,1950,106.44666667,29.53722222,,
+http://www.wikidata.org/entity/Q7800186,Tianjin Agricultural University,Tianjin Agricultural University,天津农学院,1976.0,1970,,,,
+http://www.wikidata.org/entity/Q7800203,Tiangong University,Tiangong University,天津工业大学,1912.0,1910,117.105252,39.06215,,
+http://www.wikidata.org/entity/Q7800212,Tianjin University of Commerce,Tianjin University of Commerce,天津商业大学,1980.0,1980,,,,
+http://www.wikidata.org/entity/Q7800214,Tianjin University of Radio & TV,Tianjin University of Radio & TV,天津开放大学,1979.0,1970,,,Tianjin,North
+http://www.wikidata.org/entity/Q7800215,Tianjin University of Technology and Education,Tianjin University of Technology and Education,天津职业技术师范大学,1959.0,1950,,,,
+http://www.wikidata.org/entity/Q7800216,Tianjin University of Finance and Economics,Tianjin University of Finance and Economics,天津财经大学,1958.0,1950,117.274439878,39.062857259,,
+http://www.wikidata.org/entity/Q7800217,Tianjin University of Technology,Tianjin University of Technology,天津理工大学,1978.0,1970,117.135,39.059,,
+http://www.wikidata.org/entity/Q7853005,Tung Wah College,Tung Wah College,東華學院,2010.0,2010,114.175677,22.312678,Hong Kong,South
+http://www.wikidata.org/entity/Q787360,City University of Hong Kong,City University of Hong Kong,香港城市大學,1984.0,1980,114.172988888,22.336422222,,
+http://www.wikidata.org/entity/Q7888970,United Nations University International Institute for Software Technology,United Nations University International Institute for Software Technology,聯合國大學國際軟件技術研究所,1992.0,1990,113.549,22.1958,,
+http://www.wikidata.org/entity/Q7895880,University of Nanking,University of Nanking,金陵大学,1888.0,1880,,,Jiangsu,East
+http://www.wikidata.org/entity/Q7896293,University of Shanghai,University of Shanghai,沪江大学,1906.0,1900,121.55192,31.29554,Shanghai,East
+http://www.wikidata.org/entity/Q7896327,University of South China,University of South China,南华大学,2000.0,2000,112.595451,26.904607,Hunan,Central
+http://www.wikidata.org/entity/Q7983085,"Wenzhou Medical College, IMS","Wenzhou Medical College, IMS",,2006.0,2000,,,Zhejiang,East
+http://www.wikidata.org/entity/Q7983088,Wenzhou University,Wenzhou University,温州大学,1984.0,1980,,,Zhejiang,East
+http://www.wikidata.org/entity/Q7987712,Chongqing University of Arts and Sciences,Chongqing University of Arts and Sciences,重庆文理学院,1976.0,1970,105.93527778,29.35277778,,
+http://www.wikidata.org/entity/Q8039083,Wuhan Sports University,Wuhan Sports University,武汉体育学院,1953.0,1950,114.373,30.5214,Hubei,Central
+http://www.wikidata.org/entity/Q8039394,Wuxi University of Technology,Wuxi University of Technology,无锡职业技术大学,1959.0,1950,,,Jiangsu,East
+http://www.wikidata.org/entity/Q8039410,Wuyi University,Wuyi University,武夷学院,1958.0,1950,118.008,27.7276,Hebei,North
+http://www.wikidata.org/entity/Q8044029,Xi'an University of Science and Technology,Xi'an University of Science and Technology,西安科技大学,1958.0,1950,108.961991,34.234501,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q8044030,Xi'an Polytechnic University,Xi'an Polytechnic University,西安工程大学,1912.0,1910,108.99222222,32.25888889,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q8044031,Xi'an Shiyou University,Xi'an Shiyou University,西安石油大学,1951.0,1950,,,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q8044115,Xiamen University of Technology,Xiamen University of Technology,厦门理工学院,1981.0,1980,118.09,24.4399,Fujian,East
+http://www.wikidata.org/entity/Q8044168,Xiangnan University,Xiangnan University,湘南學院,1912.0,1910,113.02,25.46,Hunan,Central
+http://www.wikidata.org/entity/Q8044183,Xiangtan University,Xiangtan University,湘潭大学,1958.0,1950,112.8572,27.8863,Hunan,Central
+http://www.wikidata.org/entity/Q8044421,Xihua University,Xihua University,西华大学,1960.0,1960,103.9611,30.77848,Sichuan,Southwest
+http://www.wikidata.org/entity/Q8044567,Xingtai University,Xingtai University,邢台学院,,,,,Hebei,North
+http://www.wikidata.org/entity/Q8044607,Xinjiang Agricultural University,Xinjiang Agricultural University,新疆农业大学,1952.0,1950,87.566311,43.814043,Xinjiang,Northwest
+http://www.wikidata.org/entity/Q8044610,Xinjiang Arts Institute,Xinjiang Arts Institute,新疆艺术学院,1958.0,1950,,,Xinjiang,Northwest
+http://www.wikidata.org/entity/Q8044618,Xinjiang University of Finance and Economics,Xinjiang University of Finance and Economics,新疆财经大学,1950.0,1950,,,Xinjiang,Northwest
+http://www.wikidata.org/entity/Q8044666,Henan Medical University,Henan Medical University,河南医药大学,1922.0,1920,113.5,35.21,Henan,Central
+http://www.wikidata.org/entity/Q8044698,Xinzhou Teachers University,Xinzhou Teachers University,忻州师范学院,,,,,Shanxi,North
+http://www.wikidata.org/entity/Q8045301,Xuzhou University of Technology,Xuzhou University of Technology,徐州工程学院,2002.0,2000,117.21552,34.21377,Jiangsu,East
+http://www.wikidata.org/entity/Q8045309,Xuzhou Medical University,Xuzhou Medical University,徐州医科大学,1958.0,1950,,,Jiangsu,East
+http://www.wikidata.org/entity/Q8045313,Jiangsu Normal University,Jiangsu Normal University,江苏师范大学,1952.0,1950,,,Jiangsu,East
+http://www.wikidata.org/entity/Q8048276,Yanbian University of Science and Technology,Yanbian University of Science and Technology,延边大学科技学院,1992.0,1990,129.524957,42.926375,Jilin,Northeast
+http://www.wikidata.org/entity/Q8048351,Yang-En University,Yang-En University,仰恩大学,1987.0,1980,118.613,25.1115,Fujian,East
+http://www.wikidata.org/entity/Q8048658,Yangtze Normal University,Yangtze Normal University,长江师范学院,1901.0,1900,107.25833333,29.75333333,Chongqing,Southwest
+http://www.wikidata.org/entity/Q8048674,Yangzhou University,Yangzhou University,扬州大学,1902.0,1900,,,Jiangsu,East
+http://www.wikidata.org/entity/Q8048973,Yantai University,Yantai University,烟台大学,1984.0,1980,121.45484,37.47491,Shandong,East
+http://www.wikidata.org/entity/Q8053514,Yichun University,Yichun University,宜春学院,1958.0,1950,,,Jiangxi,East
+http://www.wikidata.org/entity/Q8060963,Yulin Normal University,Yulin Normal University,玉林师范学院,1945.0,1940,110.19894,22.67654,Guangxi,South
+http://www.wikidata.org/entity/Q8061222,Yuncheng University,Yuncheng University,运城学院,1978.0,1970,111.04606,35.03934,Hunan,Central
+http://www.wikidata.org/entity/Q8061321,Yunnan Agricultural University,Yunnan Agricultural University,云南农业大学,1938.0,1930,102.7422,25.129211111,Yunnan,Southwest
+http://www.wikidata.org/entity/Q8061322,Yunnan Arts University,Yunnan Arts University,云南艺术学院,1959.0,1950,102.8245,24.832,Yunnan,Southwest
+http://www.wikidata.org/entity/Q8061331,Yunnan Normal University Business School,Yunnan Normal University Business School,昆明城市学院,2000.0,2000,102.64678,25.08374,Yunnan,Southwest
+http://www.wikidata.org/entity/Q8061332,Yunnan Minzu University,Yunnan Minzu University,云南民族大学,1951.0,1950,102.84969,24.84003,Yunnan,Southwest
+http://www.wikidata.org/entity/Q8061337,Yunnan University of Chinese Medicine,Yunnan University of Chinese Medicine,云南中医药大学,1960.0,1960,,,Yunnan,Southwest
+http://www.wikidata.org/entity/Q8061339,Yunnan University of Finance and Economics,Yunnan University of Finance and Economics,云南财经大学,1951.0,1950,,,Yunnan,Southwest
+http://www.wikidata.org/entity/Q8070488,Minnan Normal University,Minnan Normal University,闽南师范大学,1958.0,1950,117.645,24.5075,Fujian,East
+http://www.wikidata.org/entity/Q8070611,Zhaoqing University,Zhaoqing University,肇庆学院,1970.0,1970,112.496,23.0805,Guangdong,South
+http://www.wikidata.org/entity/Q8070661,Zhejiang A & F University,Zhejiang A & F University,浙江农林大学,1958.0,1950,119.728361,30.256472,Zhejiang,East
+http://www.wikidata.org/entity/Q8070664,Zhejiang Gongshang University,Zhejiang Gongshang University,浙江工商大学,1911.0,1910,119.63798056,29.758075,Zhejiang,East
+http://www.wikidata.org/entity/Q8070667,Zhejiang Medical University,Zhejiang Medical University,浙江医科大学,1952.0,1950,,,Zhejiang,East
+http://www.wikidata.org/entity/Q8070672,Zhejiang Sci-Tech University,Zhejiang Sci-Tech University,浙江理工大学,1897.0,1890,120.35123,30.31819,Zhejiang,East
+http://www.wikidata.org/entity/Q8070785,Zhengzhou University of Light Industry,Zhengzhou University of Light Industry,郑州轻工业大学,1977.0,1970,113.5092,34.8139,Henan,Central
+http://www.wikidata.org/entity/Q8070947,Zhongnan University of Economics and Law,Zhongnan University of Economics and Law,中南财经政法大学,1948.0,1940,114.394,30.4752,Hubei,Central
+http://www.wikidata.org/entity/Q8070992,Zhongyuan University of Technology,Zhongyuan University of Technology,中原工学院,1955.0,1950,113.6884,34.5859,Henan,Central
+http://www.wikidata.org/entity/Q8075310,Zunyi Medical University,Zunyi Medical University,遵义医科大学,1947.0,1940,107.06604,27.72489,Guizhou,Southwest
+http://www.wikidata.org/entity/Q82267,Qingdao University,Qingdao University,青岛大学,1985.0,1980,120.428,36.072,Shandong,East
+http://www.wikidata.org/entity/Q831227,National University of Defense Technology,National University of Defense Technology,中国人民解放军国防科技大学,1978.0,1970,112.995,28.228333333,Hunan,Central
+http://www.wikidata.org/entity/Q832355,Wuhan University of Technology,Wuhan University of Technology,武汉理工大学,2000.0,2000,114.356945,30.609302,Hubei,Central
+http://www.wikidata.org/entity/Q832550,Northwestern Polytechnical University,Northwestern Polytechnical University,西北工业大学,1938.0,1930,108.911666666,34.244722222,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q832792,Yanshan University,Yanshan University,燕山大学,1920.0,1920,112.435833333,38.009444444,Hebei,North
+http://www.wikidata.org/entity/Q83369844,Dali Technical College,Dali Technical College,大理技师学院,,,,,Yunnan,Southwest
+http://www.wikidata.org/entity/Q833961,China University of Political Science and Law,China University of Political Science and Law,中国政法大学,1952.0,1950,116.34465027,39.96379852,,
+http://www.wikidata.org/entity/Q834082,Hong Kong Shue Yan University,Hong Kong Shue Yan University,香港樹仁大學,1971.0,1970,114.198,22.2862,Hong Kong,South
+http://www.wikidata.org/entity/Q834458,Inner Mongolia University,Inner Mongolia University,内蒙古大学,1957.0,1950,111.683386111,40.811216666,Inner Mongolia,North
+http://www.wikidata.org/entity/Q834827,Tianjin Medical University,Tianjin Medical University,天津医科大学,1951.0,1950,,,,
+http://www.wikidata.org/entity/Q834857,Chongqing University,Chongqing University,重庆大学,1929.0,1920,106.47481537,29.57035065,,
+http://www.wikidata.org/entity/Q835075,Shantou University,Shantou University,汕头大学,1981.0,1980,116.63,23.4156,Guangdong,South
+http://www.wikidata.org/entity/Q835185,Fudan University Shanghai Medical College,Fudan University Shanghai Medical College,复旦大学上海医学院,1927.0,1920,121.45194444,31.19777778,,
+http://www.wikidata.org/entity/Q835366,South China University of Technology,South China University of Technology,华南理工大学,1952.0,1950,113.34226,23.155,Guangdong,South
+http://www.wikidata.org/entity/Q835731,Hebei University,Hebei University,河北大学,1921.0,1920,115.5174,38.8714,Hebei,North
+http://www.wikidata.org/entity/Q835779,University of International Business and Economics,University of International Business and Economics,对外经济贸易大学,1951.0,1950,116.421,39.9792,Beijing,North
+http://www.wikidata.org/entity/Q836014,Dongbei University of Finance and Economics,Dongbei University of Finance and Economics,东北财经大学,1952.0,1950,,,Liaoning,Northeast
+http://www.wikidata.org/entity/Q837544,Donghua University,Donghua University,东华大学,1951.0,1950,121.414,31.2035,,
+http://www.wikidata.org/entity/Q837873,Central Academy of Fine Arts,Central Academy of Fine Arts,中央美术学院,1950.0,1950,116.463138184,39.984834741,,
+http://www.wikidata.org/entity/Q837969,Liaoning Normal University,Liaoning Normal University,辽宁师范大学,1951.0,1950,121.5652,38.9137,Liaoning,Northeast
+http://www.wikidata.org/entity/Q839020,Shanghai Normal University,Shanghai Normal University,上海师范大学,1954.0,1950,,,Shanghai,East
+http://www.wikidata.org/entity/Q840443,Southwest University,Southwest University,西南大学,1906.0,1900,106.412936,29.813903,Chongqing,Southwest
+http://www.wikidata.org/entity/Q847993,Macau University of Science and Technology,Macau University of Science and Technology,澳門科技大學,2000.0,2000,113.568,22.1534,,
+http://www.wikidata.org/entity/Q85877272,Jilin University,Jilin University,吉林大学,,,,,,
+http://www.wikidata.org/entity/Q85878318,Tianjin Institute of Technology,Tianjin Institute of Technology,天津工学院,,,,,,
+http://www.wikidata.org/entity/Q85879163,Shandong Huayu University of Technology,Shandong Huayu University of Technology,山东华宇工学院,,,,,Shandong,East
+http://www.wikidata.org/entity/Q864879,University of Shanghai for Science and Technology,University of Shanghai for Science and Technology,上海理工大学,1906.0,1900,121.552005,31.290603,,
+http://www.wikidata.org/entity/Q86729738,USC-SJTU Institute of Cultural and Creative Industry,USC-SJTU Institute of Cultural and Creative Industry,上海交通大学上海交大-南加州大学文化创意产业学院,2015.0,2010,,,,
+http://www.wikidata.org/entity/Q873230,Qingdao University of Science and Technology,Qingdao University of Science and Technology,青岛科技大学,1950.0,1950,120.479,36.119,Shandong,East
+http://www.wikidata.org/entity/Q87761108,Jiangxi University,Jiangxi University,江西大学,,,,,Jiangxi,East
+http://www.wikidata.org/entity/Q920505,Southwest Minzu University,Southwest Minzu University,西南民族大学,1951.0,1950,104.04675,30.641194,Sichuan,Southwest
+http://www.wikidata.org/entity/Q9289400,Macao University of Tourism,Macao University of Tourism,澳門旅遊大學,1995.0,1990,,,,
+http://www.wikidata.org/entity/Q957715,Beijing Information Science & Technology University,Beijing Information Science & Technology University,北京信息科技大学,1915.0,1910,116.34027778,40.03722222,,
+http://www.wikidata.org/entity/Q9665597,Yunnan Military Academy,Yunnan Military Academy,云南陆军讲武堂,,,102.69915,25.05085,Yunnan,Southwest
+http://www.wikidata.org/entity/Q97582092,Guangdong Mechanical and Electrical Vocational and Technical College,Guangdong Mechanical and Electrical Vocational and Technical College,广东机电职业技术学院,,,,,Guangdong,South
+http://www.wikidata.org/entity/Q981237,Xi'an Jiaotong University,Xi'an Jiaotong University,西安交通大学,,,108.983611111,34.244722222,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q985578,Xinjiang University,Xinjiang University,新疆大学,1924.0,1920,87.6172444,43.764929,Xinjiang,Northwest
+http://www.wikidata.org/entity/Q985755,Huaqiao University,Huaqiao University,华侨大学,1960.0,1960,118.644104,25.142798,Fujian,East
+http://www.wikidata.org/entity/Q985775,University of Jinan,University of Jinan,济南大学,1948.0,1940,116.968,36.6142,Shandong,East
+http://www.wikidata.org/entity/Q985808,Northwest A&F University,Northwest A&F University,西北农林科技大学,1934.0,1930,,,Shaanxi,Northwest
+http://www.wikidata.org/entity/Q986087,Zhejiang University of Technology,Zhejiang University of Technology,浙江工业大学,1953.0,1950,120.03916667,30.22577778,Zhejiang,East
+http://www.wikidata.org/entity/Q986430,University of Saint Joseph,University of Saint Joseph,聖若瑟大學,1996.0,1990,113.539361368,22.211905067,,
+http://www.wikidata.org/entity/Q987022,Dalian University,Dalian University,大连大学,1987.0,1980,121.817,39.0994,Liaoning,Northeast
+http://www.wikidata.org/entity/Q99229082,The Hong Kong University of Science and Technology (Guangzhou),The Hong Kong University of Science and Technology (Guangzhou),香港科技大学（广州）,2022.0,2020,113.47828,22.8942,Guangdong,South

@@ -1,0 +1,34 @@
+province,macro_region
+Beijing,North
+Tianjin,North
+Hebei,North
+Shanxi,North
+Inner Mongolia,North
+Liaoning,Northeast
+Jilin,Northeast
+Heilongjiang,Northeast
+Shanghai,East
+Jiangsu,East
+Zhejiang,East
+Anhui,East
+Fujian,East
+Jiangxi,East
+Shandong,East
+Henan,Central
+Hubei,Central
+Hunan,Central
+Guangdong,South
+Guangxi,South
+Hainan,South
+Hong Kong,South
+Macau,South
+Chongqing,Southwest
+Sichuan,Southwest
+Guizhou,Southwest
+Yunnan,Southwest
+Tibet Autonomous Region,Southwest
+Shaanxi,Northwest
+Gansu,Northwest
+Qinghai,Northwest
+Ningxia,Northwest
+Xinjiang,Northwest
