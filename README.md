@@ -4,7 +4,6 @@ An interactive data visualization of 849 Chinese universities retrieved from Wik
 
 **Course:** Information Visualization, University of Bologna (2025)
 **Author:** Zizhe
-**Live site:** https://<your-github-username>.github.io/<your-repo-name>/
 
 ## Research Questions
 
