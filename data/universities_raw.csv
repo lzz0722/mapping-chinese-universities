@@ -1,11 +1,11 @@
 univ,univLabel_en,univLabel_zh,inceptionYear,coord,cityLabel,provinceLabel
 http://www.wikidata.org/entity/Q4495765,,哈尔滨法学院,1920,Point(126.6294111 45.74843611),Harbin,Heilongjiang
+http://www.wikidata.org/entity/Q11074673,,四川传媒学院,1997,Point(103.98292 30.82609),Chengdu,Sichuan
+http://www.wikidata.org/entity/Q10567152,,黃埔海軍學校,1887,,Changzhou Island,Changzhou Subdistrict
+http://www.wikidata.org/entity/Q65583468,,陕西老年大学,,Point(108.936910819 34.260281353),Beilin District,Xi'an
 http://www.wikidata.org/entity/Q115203157,,中国人民解放军陆军边海防学院昆明校区,,Point(102.789698 24.997333),Kunming,Yunnan
 http://www.wikidata.org/entity/Q130640081,,,,Point(118.601084 35.738653),Yishui County,Linyi
 http://www.wikidata.org/entity/Q130640114,,,,Point(117.965191 35.276633),Fei County,Linyi
-http://www.wikidata.org/entity/Q65583468,,陕西老年大学,,Point(108.936910819 34.260281353),Beilin District,Xi'an
-http://www.wikidata.org/entity/Q11074673,,四川传媒学院,1997,Point(103.98292 30.82609),Chengdu,Sichuan
-http://www.wikidata.org/entity/Q10567152,,黃埔海軍學校,1887,,Changzhou Island,Changzhou Subdistrict
 http://www.wikidata.org/entity/Q10557501,,郑州工业大学,,,,
 http://www.wikidata.org/entity/Q10872983,,中国人民解放军成都军区昆明民族干部学院,1949,,,
 http://www.wikidata.org/entity/Q10872999,,中国人民解放军海军指挥学院,1952,,,
@@ -253,7 +253,7 @@ http://www.wikidata.org/entity/Q16866504,Guangxi University of Finance and Econo
 http://www.wikidata.org/entity/Q5613695,Guangxi University of Science and Technology,广西科技大学,1958,Point(109.440111111 24.335472222),Liuzhou,Guangxi
 http://www.wikidata.org/entity/Q5613717,Guangzhou Academy of Fine Arts,广州美术学院,1953,Point(113.273027777 23.095444444),Guangzhou,Guangdong
 http://www.wikidata.org/entity/Q112676960,Guangzhou Institute of Science and Technology,广州理工学院,,,Guangzhou,Guangdong
-http://www.wikidata.org/entity/Q30262628,Guangzhou Maritime University,广州航海高等专科学校,1964,Point(113.477901 23.094579),Guangzhou,Guangdong
+http://www.wikidata.org/entity/Q30262628,Guangzhou Maritime University,广州航海学院,1964,Point(113.477901 23.094579),Guangzhou,Guangdong
 http://www.wikidata.org/entity/Q11062018,Guangzhou Medical University,广州医科大学,1958,Point(130.363 46.7865),Guangzhou,Guangdong
 http://www.wikidata.org/entity/Q27897024,Guangzhou Open University,,1961,,,
 http://www.wikidata.org/entity/Q5613743,Guangzhou Sport University,广州体育学院,,Point(113.316 23.1431),Guangzhou,Guangdong
@@ -302,7 +302,7 @@ http://www.wikidata.org/entity/Q4693944,Hebei Agricultural University,河北农�
 http://www.wikidata.org/entity/Q16924579,Hebei Finance University,河北金融学院,1952,Point(115.500133 38.920005),Baoding,Hebei
 http://www.wikidata.org/entity/Q15904170,Hebei GEO University,河北地质大学,1953,Point(114.553814 38.025448),Shijiazhuang,Hebei
 http://www.wikidata.org/entity/Q5695499,Hebei Medical University,河北医科大学,1894,Point(114.535302 38.045598),Shijiazhuang,Hebei
-http://www.wikidata.org/entity/Q11141318,Hebei Normal University,河北师范大学,1902,Point(114.305277777 37.595277777),Shijiazhuang,Hebei
+http://www.wikidata.org/entity/Q11141318,Hebei Normal University,河北师范大学,1902,Point(114.514397222 37.996852777),Shijiazhuang,Hebei
 http://www.wikidata.org/entity/Q55708817,Hebei Normal University for Nationalities,河北民族师范学院,,,Chengde,Hebei
 http://www.wikidata.org/entity/Q5695497,Hebei Normal University of Science and Technology,河北科技师范学院,,,Qinhuangdao,Hebei
 http://www.wikidata.org/entity/Q1622134,Hebei North University,河北北方学院,2003,Point(114.872502744 40.769751449),Zhangjiakou,Hebei
