@@ -472,7 +472,7 @@
     </div>
     <div class="insight">
       <strong>Key finding — normalization reshuffles the story:</strong> By <strong>absolute count</strong>, Jiangsu (50), Guangdong (48), Beijing (40), and Liaoning (38) lead. But once population is factored in, the ranking changes dramatically: <strong>Beijing (1.83 per million)</strong> and <strong>Hong Kong (1.62)</strong> dominate by a wide margin, while <strong>Guangdong</strong> — second in absolute terms — drops to the <strong>17th</strong> position per capita (0.38). Perhaps most striking, <strong>Shaanxi</strong> climbs to 4th place per capita (0.78), challenging the simple "coastal vs. interior" narrative.
-      <div class="cause"><b>What this reveals:</b> The absolute view captures <i>where universities are</i>; the per-capita view captures <i>where higher education is accessible</i>. Guangdong and Shandong host many universities but also enormous populations (126M and 102M respectively), diluting density. Beijing and Hong Kong show the imprint of political and financial centrality — elite institutions deliberately concentrated in administrative hubs. Shaanxi's high density reflects Xi'an's historical role as a Cold War-era relocation destination for coastal universities (see RQ3). Chongqing's low ranking (0.09 per million) is an artifact of Wikidata coverage rather than reality — a reminder that data completeness varies by province.</div>
+      <div class="cause"><b>What this reveals:</b> The absolute view captures <i>where universities are</i>; the per-capita view captures <i>where higher education is accessible</i>. Guangdong and Shandong host many universities but also enormous populations (126M and 102M respectively), diluting density. Beijing and Hong Kong show the imprint of political and financial centrality — elite institutions deliberately concentrated in administrative hubs. Shaanxi's high density reflects Xi'an's historical role as a Cold War-era relocation destination for coastal universities (see RQ3). Chongqing's low ranking (0.09 per million) is an artifact of Wikidata coverage rather than reality — a reminder that data completeness varies by province. <em>The per-capita ranking inherits this uneven coverage: provinces with denser Wikidata records appear inflated relative to those without, so treat it as directional rather than precise.</em></div>
     </div>
   </div>
 </section>
@@ -521,10 +521,10 @@
     <div class="chart-wrap" style="padding:0; overflow:hidden;">
       <div id="rq4-map"></div>
     </div>
-    <p class="map-note">Circle size = universities with valid coordinates · Color gradient: blue (1870s) → red (2020s) · Dotted line = trajectory · Scroll to zoom</p>
+    <p class="map-note">Circle size = universities with valid coordinates · Color gradient: blue (1890s) → red (2020s) · Dotted line = trajectory · Scroll to zoom</p>
     <div class="insight">
-      <strong>Key finding:</strong> The mean center began near Shanghai in the 1870s (based on a single university with coordinates; the trajectory becomes more stable after 1900), drifted inland and northward through the Republican period (1900s–1940s), then moved <strong>steadily southward</strong> from the 1950s through the 2000s — a 50-year drift of roughly 5° latitude. From 2010 onward, the center shifts noticeably eastward, suggesting a partial reversal toward the Yangtze Delta.
-      <div class="cause"><b>Why these movements?</b> The northward drift in the 1940s reflects wartime relocation of coastal universities to inland Shaanxi and Sichuan. The sustained southward shift after 1950 was driven by forced inland redistribution of Shanghai and Nanjing institutions, new construction in Yunnan, Guizhou, and Guangxi, and the overall 1950s expansion into lower-latitude provinces. The post-2010 eastward rebound likely reflects newer private and applied universities in Zhejiang and Jiangsu. <em>Caution: this trajectory is based on the 63% of universities with valid GPS coordinates — see limitations below. The 1870s point is a single observation and should be interpreted with caution.</em></div>
+      <strong>Key finding:</strong> The mean center sits in the central plains throughout the 150-year span. It drifted modestly northward through the Republican period (1890s–1940s), then moved <strong>steadily southward</strong> from the 1950s through the 2000s — a 50-year drift of roughly 5° latitude. From 2010 onward, the center shifts noticeably eastward, suggesting a partial reversal toward the Yangtze Delta.
+      <div class="cause"><b>Why these movements?</b> The 1940s northward jump reflects a surge of foundings in occupied Northeast China (Liaoning, Jilin, Heilongjiang) and Beijing during this turbulent decade — wartime relocations of coastal universities to Sichuan and Yunnan went the <i>other</i> direction (south), but their effect is masked because the Northeast cluster dominates the mean. The sustained southward shift after 1950 was driven by forced inland redistribution of Shanghai and Nanjing institutions, new construction in Yunnan, Guizhou, and Guangxi, and the overall 1950s expansion into lower-latitude provinces. The post-2010 eastward rebound likely reflects newer private and applied universities in Zhejiang and Jiangsu. <em>Caution: this trajectory is based on the 63% of universities with valid GPS coordinates and under-weights provinces with poor coverage (notably Inner Mongolia, 11%) — the true center likely sits further north than shown.</em></div>
     </div>
   </div>
 </section>
@@ -634,7 +634,7 @@ const heatmapRaw = [
 ];
 
 const meanCenter = [
-  {decade:1870,lon:121.41315,lat:31.22786,n:1},
+  // 1870s excluded: n=1 (a single observation cannot define a "center")
   {decade:1890,lon:115.65,lat:34.36,n:14},
   {decade:1900,lon:115.53,lat:32.66,n:45},
   {decade:1910,lon:115.95,lat:33.56,n:18},
@@ -927,9 +927,9 @@ function switchRq2Metric(metric) {
 // RQ4 — Leaflet interactive map with mean-center trajectory
 // ══════════════════════════════════════════════════════════════
 (function() {
-  // Color interpolation: blue(1870) → purple(mid) → red(2020)
+  // Color interpolation: blue(1890) → purple(mid) → red(2020)
   function decadeColor(decade) {
-    const t = (decade-1870)/(2020-1870);
+    const t = (decade-1890)/(2020-1890);
     // blue → purple → red-orange
     const r = Math.round(44 + t*190);
     const g = Math.round(95 - t*60);
@@ -997,7 +997,7 @@ function switchRq2Metric(metric) {
   L.marker([meanCenter[0].lat, meanCenter[0].lon], {
     icon: L.divIcon({
       className:'',
-      html:'<div style="font-family:Space Mono,monospace;font-size:9px;color:#27ae60;font-weight:700;background:rgba(255,255,255,0.85);padding:1px 5px;border:1px solid #27ae60;border-radius:2px;white-space:nowrap">START (1870s)</div>',
+      html:'<div style="font-family:Space Mono,monospace;font-size:9px;color:#27ae60;font-weight:700;background:rgba(255,255,255,0.85);padding:1px 5px;border:1px solid #27ae60;border-radius:2px;white-space:nowrap">START (1890s)</div>',
       iconAnchor:[-10,24]
     })
   }).addTo(map);
