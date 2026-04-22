@@ -1,8 +1,8 @@
 univ,univLabel_en,univLabel_zh,inceptionYear,coord,cityLabel,provinceLabel
 http://www.wikidata.org/entity/Q4495765,,哈尔滨法学院,1920,Point(126.6294111 45.74843611),Harbin,Heilongjiang
-http://www.wikidata.org/entity/Q11074673,,四川传媒学院,1997,Point(103.98292 30.82609),Chengdu,Sichuan
 http://www.wikidata.org/entity/Q10567152,,黃埔海軍學校,1887,,Changzhou Island,Changzhou Subdistrict
 http://www.wikidata.org/entity/Q65583468,,陕西老年大学,,Point(108.936910819 34.260281353),Beilin District,Xi'an
+http://www.wikidata.org/entity/Q11074673,,四川传媒学院,1997,Point(103.98292 30.82609),Chengdu,Sichuan
 http://www.wikidata.org/entity/Q115203157,,中国人民解放军陆军边海防学院昆明校区,,Point(102.789698 24.997333),Kunming,Yunnan
 http://www.wikidata.org/entity/Q130640081,,,,Point(118.601084 35.738653),Yishui County,Linyi
 http://www.wikidata.org/entity/Q130640114,,,,Point(117.965191 35.276633),Fei County,Linyi
@@ -63,11 +63,11 @@ http://www.wikidata.org/entity/Q1604022,Beijing Normal University,北京师范�
 http://www.wikidata.org/entity/Q10902302,"Beijing Normal University,  Zhuhai",北京师范大学珠海分校,2002,,,
 http://www.wikidata.org/entity/Q4881177,Beijing People's Police College,北京警察学院,1981,Point(116.172592 40.249649),,
 http://www.wikidata.org/entity/Q3551745,Beijing Sport University,北京体育大学,1953,Point(116.3192935 40.0299048),Shangdi,Haidian District
-http://www.wikidata.org/entity/Q4356865,Beijing Technology and Business University,北京工商大学,1950,Point(116.30847 39.9238),Fangshan District,People's Republic of China
 http://www.wikidata.org/entity/Q4356865,Beijing Technology and Business University,北京工商大学,1950,Point(116.30847 39.9238),Haidian District,People's Republic of China
+http://www.wikidata.org/entity/Q4356865,Beijing Technology and Business University,北京工商大学,1950,Point(116.30847 39.9238),Fangshan District,People's Republic of China
 http://www.wikidata.org/entity/Q4356865,Beijing Technology and Business University,北京工商大学,1950,Point(116.30847 39.9238),Beijing,People's Republic of China
-http://www.wikidata.org/entity/Q4356865,Beijing Technology and Business University,北京工商大学,1950,Point(116.30847 39.9238),Fangshan District,Beijing
 http://www.wikidata.org/entity/Q4356865,Beijing Technology and Business University,北京工商大学,1950,Point(116.30847 39.9238),Haidian District,Beijing
+http://www.wikidata.org/entity/Q4356865,Beijing Technology and Business University,北京工商大学,1950,Point(116.30847 39.9238),Fangshan District,Beijing
 http://www.wikidata.org/entity/Q4356865,Beijing Technology and Business University,北京工商大学,1950,Point(116.30847 39.9238),Beijing,Beijing
 http://www.wikidata.org/entity/Q4881203,Beijing Union University,北京联合大学,1985,Point(116.42085 39.98903),Beijing,People's Republic of China
 http://www.wikidata.org/entity/Q2496210,Beijing University of Chemical Technology,北京化工大学,1958,Point(116.415277777 39.968888888),Beijing,People's Republic of China
@@ -197,12 +197,12 @@ http://www.wikidata.org/entity/Q1391751,Duke Kunshan University,昆山杜克大�
 http://www.wikidata.org/entity/Q5328079,East China Jiaotong University,华东交通大学,1971,,Nanchang,Jiangxi
 http://www.wikidata.org/entity/Q2034790,East China Normal University,华东师范大学,1951,Point(121.4 31.228055555),Shanghai,People's Republic of China
 http://www.wikidata.org/entity/Q5328082,East China University of Political Science and Law,华东政法大学,1952,Point(121.414 31.2256),Shanghai,People's Republic of China
-http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.3229 30.72299),Fengxian District,Shanghai
 http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.3229 30.72299),Jinshan District,Shanghai
-http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.5004 30.8364),Fengxian District,Shanghai
 http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.5004 30.8364),Jinshan District,Shanghai
-http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.425 31.143055555),Fengxian District,Shanghai
 http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.425 31.143055555),Jinshan District,Shanghai
+http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.3229 30.72299),Fengxian District,Shanghai
+http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.5004 30.8364),Fengxian District,Shanghai
+http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.425 31.143055555),Fengxian District,Shanghai
 http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.3229 30.72299),Xuhui District,Shanghai
 http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.5004 30.8364),Xuhui District,Shanghai
 http://www.wikidata.org/entity/Q2655352,East China University of Science and Technology,华东理工大学,1952,Point(121.425 31.143055555),Xuhui District,Shanghai
@@ -843,8 +843,8 @@ http://www.wikidata.org/entity/Q6123855,Wuhan University of Science and Technolo
 http://www.wikidata.org/entity/Q832355,Wuhan University of Technology,武汉理工大学,2000,Point(114.356945 30.609302),Wuhan,Hubei
 http://www.wikidata.org/entity/Q60995464,Wushan Campus of South China University of Technology,华南理工大学五山校区,,Point(113.342261111 23.155),Wushan Subdistrict,Tianhe District
 http://www.wikidata.org/entity/Q8039394,Wuxi University of Technology,无锡职业技术大学,1959,,Wuxi,Jiangsu
-http://www.wikidata.org/entity/Q8039410,Wuyi University,武夷学院,1958,Point(118.008 27.7276),Wuyishan,Yanshan County
 http://www.wikidata.org/entity/Q10882234,Wuyi University,五邑大学,1985,Point(113.081161111 22.601622222),Jiangmen,Guangdong
+http://www.wikidata.org/entity/Q8039410,Wuyi University,武夷学院,1958,Point(118.008 27.7276),Wuyishan,Yanshan County
 http://www.wikidata.org/entity/Q3551564,Xi'an International Studies University,西安外国语大学,1952,Point(108.876025347 34.138016874),Xi'an,Shaanxi
 http://www.wikidata.org/entity/Q981237,Xi'an Jiaotong University,西安交通大学,,Point(108.983611111 34.244722222),Xi'an,Shaanxi
 http://www.wikidata.org/entity/Q13562485,Xi'an Jiaotong-Liverpool University,西交利物浦大学,2006,Point(120.7381 31.2748),Suzhou,Jiangsu
